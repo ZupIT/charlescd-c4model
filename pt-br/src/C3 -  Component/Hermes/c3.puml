@@ -1,0 +1,62 @@
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(hermes_database, "Moove Database", "Postgres", "Armazena Informações sobre Subscrições e Mensagens de eventos.")
+Container(webhooks_service, "Webhook Service", "Rest API", "Serviço exposto para receber notificações de eventos do CharlesCD.")
+Container(rabbit_mq, "RabbitMQ", "Message Broker", "")
+
+Container_Boundary(charlescd_gate, "CharlesCD Hermes"){
+   
+
+    Component(suscription_api, "Subscription API", "HTTP Handler", "Solicita CRUD das subscrições e publicação eventos para as subscriçoes.")
+    Component(suscription_use_case, "Subscription Use Case", "Use Case", "Realiza CRUD das subscrições.")
+    Component(message_use_case, "Subscription Use Case", "Use Case", "Publica eventos para as subscrições.")
+    Component(message_execution_history_use_case, "Message Execution History Use Case", "Use Case", "Realiza CRUD das subscrições.")
+    
+    Component(subscription, "Subscription", "Service/Repository/GORM", "Realiza a criação, edição, deleção e busca de subscrições. Envia as mensagens de evento.")
+    Component(message, "Message", "Service/Repository/GORM", "Cadastra para as subscrições inscritas as mensagens de eventos.")
+    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Insere e busca os historico de mensagens de eventos publicadas e enviadas.")
+    
+    
+    Component(consumer, "Consumer", "RabbitMQ Listener", "Consome da fila as mensagens de eventos publicadas.")
+    Component(publisher, "Publisher", "RabbitMQ Sender", "Publica na fila as mensagens de eventos inseridas.")
+    Component(ampq_client, "RabbitMQ Client", "AMPQ Client", "Conecta e interage com o RabbitMQ.")
+
+   
+    Rel(suscription_api, suscription_use_case, "Usa")
+    Rel(suscription_api, message_use_case, "Usa")
+    Rel(suscription_api, message_execution_history_use_case, "Usa")
+
+    Rel(suscription_use_case, subscription, "Usa")
+    Rel(message_use_case, message, "Usa")
+    Rel(message_execution_history_use_case, message_execution_history, "Usa")
+    
+    Rel(subscription, webhooks_service, "Faz requisição [JSON/HTTPS]")
+    Rel(subscription, hermes_database, "Lê e escreve em")
+    Rel(message, hermes_database, "Lê e escreve em")
+    Rel(message_execution_history, hermes_database, "Lê e escreve em")
+
+     
+    Rel(consumer, ampq_client, "Usa")
+    Rel(publisher, ampq_client, "Usa")
+    Rel(publisher, message, "Usa")
+    Rel(publisher, message_execution_history, "Usa")
+    Rel(consumer, message, "Usa")
+    Rel(consumer, message_execution_history, "Usa")
+    Rel(consumer, subscription, "Usa")
+
+    Rel(ampq_client, rabbit_mq, "Usa")
+   
+}
+
+
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(moove, suscription_api, "Faz requisição", "JSON/HTTPS")
+
+
+@enduml

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="417px" preserveAspectRatio="none" style="width:981px;height:417px;" version="1.1" viewBox="0 0 981 417" width="981px" zoomAndPan="magnify"><defs/><g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="205.3594" style="stroke: #073B6F; stroke-width: 1.5;" width="220" x="7" y="92.8301"/><image height="48" width="48" x="93" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="102.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="18" y="165.6816">Desenvolvedor/QA/PM</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="174" x="30" y="184.3066">/Gestor/Supervisor/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="103" y="202.9316">Etc</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="219.7002"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="23" y="235.9971">Qualquer pessoa que  que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="17.5" y="252.2939">possui alguma aplicação que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="17" y="268.5908">tem os deploys gerenciados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="61.5" y="284.8877">pelo CharlesCD.</text><!--MD5=[bf6678ff9facc766c15a9aebfe51f766]
+entity charlescd_system--><rect fill="#1168BD" height="120.1094" style="stroke: #3C7FC0; stroke-width: 1.5;" width="197" x="438" y="135.3301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="167" x="453" y="160.1816">Sistema CharlesCD</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="538.5" y="176.9502"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="459" y="193.2471">Ferramenta de deploy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="452.5" y="209.5439">continuo para gerenciar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="448" y="225.8408">seus deploys orientada a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="500" y="242.1377">hipoteses.</text><!--MD5=[b5991c04719c7fdefa592c3a39d25aab]
+entity kubernetes--><rect fill="#999999" height="38.625" style="stroke: #8A8A8A; stroke-width: 1.5;" width="123" x="847" y="175.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="857" y="200.6816">Kubernetes</text><!--MD5=[26ca4b9e1ca1356f972eda9598dc6653]
+link user to charlescd_system--><path d="M227.3163,180.6724 C237.3388,179.7225 247.3464,178.9141 257,178.3301 C323.9887,174.2778 341.034,173.9197 408,178.3301 C415.0908,178.7971 422.3875,179.4076 429.7314,180.119 " fill="none" id="user-to-charlescd_system" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="437.7113,180.9286,430.055,177.1363,429.4493,183.1057,437.7113,180.9286" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="280" y="18.4688">Gerencia seus</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="268" y="32.4375">deploys (rollout e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="282.5" y="46.4063">rollback), cria</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="289" y="60.375">estratégias</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="269" y="74.3438">inteligentes para</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="286" y="88.3125">validação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="292.5" y="102.2813">hipóteses,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="259" y="116.25">acompanha métricas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="313" y="130.2188">e faz</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="258" y="144.1875">acompanhamento de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="268.5" y="158.1563">versões das suas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="292.5" y="172.125">aplicações.</text><!--MD5=[30dc0d6357626a6859eae4289db13dcd]
+link charlescd_system to user--><path d="M437.7814,248.2789 C427.9253,251.9378 417.9002,255.0666 408,257.3301 C342.5771,272.288 322.6584,271.2183 257,257.3301 C249.7424,255.795 242.4036,253.8578 235.0873,251.6244 " fill="none" id="charlescd_system-to-user" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="227.1622,249.0898,233.868,254.3843,235.6959,248.6695,227.1622,249.0898" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="268" y="198.4688">Envia retornos de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="302" y="212.4375">eventos</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="273" y="226.4063">configurados no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="258" y="240.375">webhook (inicio e fim</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="288.5" y="254.3438">de deploys).</text><!--MD5=[cb323e65e9259fc6f6ae35e8b9bea4bf]
+link charlescd_system to kubernetes--><path d="M635.2125,195.3301 C699.3244,195.3301 781.33,195.3301 838.7133,195.3301 " fill="none" id="charlescd_system-to-kubernetes" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="846.996,195.3301,838.996,192.3301,838.996,198.3301,846.996,195.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="708" y="80.4688">Implanta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="682.5" y="94.4375">atualizações no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="671" y="108.4063">cluster Kubernetes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="672.5" y="122.375">do usuário (deploy</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="674" y="136.3438">de nova versão de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="666" y="150.3125">aplicações, undeploy</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="675" y="164.2813">etc), baseado nas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="701" y="178.25">alterações</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="700" y="192.2188">solicitadas.</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="129" x="825" y="311.1895"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="831" y="331.1846">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="894" y="331.1846"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="831" y="334.4863"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="835" y="347.4814">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="831" y="350.7832"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="835" y="363.7783">system</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="831" y="367.0801"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="835" y="380.0752">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="831" y="383.377"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="835" y="396.3721">external system</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="318.1895" y2="318.1895"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="334.4863" y2="334.4863"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="350.7832" y2="350.7832"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="367.0801" y2="367.0801"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="383.377" y2="383.377"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="948" y1="399.6738" y2="399.6738"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="831" x2="831" y1="318.1895" y2="399.6738"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="948" x2="948" y1="318.1895" y2="399.6738"/><!--MD5=[67dce45e9b5a51583c7961299200d588]
+@startuml c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+
+System(charlescd_system, "Sistema CharlesCD", "Ferramenta de deploy continuo para gerenciar seus deploys orientada a hipoteses.")
+System_Ext(kubernetes, "Kubernetes")
+
+Rel(user, charlescd_system, "Gerencia seus deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, acompanha métricas e faz acompanhamento de versões das suas aplicações.")
+Rel(charlescd_system, kubernetes, "Implanta atualizações no cluster Kubernetes do usuário (deploy de nova versão de aplicações, undeploy etc), baseado nas alterações solicitadas.")
+Rel(charlescd_system, user, "Envia retornos de eventos configurados no webhook (inicio e fim de deploys).")
+
+
+@enduml
+
+@startuml c1
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+left to right direction
+
+rectangle "<$person>\n==Desenvolvedor/QA/PM/Gestor/Supervisor/Etc\n\n Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD." <<person>> as user
+
+rectangle "==Sistema CharlesCD\n\n Ferramenta de deploy continuo para gerenciar seus deploys orientada a hipoteses." <<system>> as charlescd_system
+rectangle "==Kubernetes" <<external_system>> as kubernetes
+
+user - ->> charlescd_system : **Gerencia seus deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, acompanha métricas e faz acompanhamento de versões das suas aplicações.**
+charlescd_system - ->> kubernetes : **Implanta atualizações no cluster Kubernetes do usuário (deploy de nova versão de aplicações, undeploy etc), baseado nas alterações solicitadas.**
+charlescd_system - ->> user : **Envia retornos de eventos configurados no webhook (inicio e fim de deploys).**
+
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

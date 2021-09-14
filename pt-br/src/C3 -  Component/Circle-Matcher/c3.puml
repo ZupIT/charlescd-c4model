@@ -1,0 +1,46 @@
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(circle_matcher_database, "Circle Matcher Database", "Redis", "Armazena os dados das segmentações dos círculos por workspace.")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+System_Ext(integrated_api, "Integrated API", "Any")
+
+
+Container_Boundary(charlescd_circle_matcher, "CharlesCD Circle Matcher"){
+   
+    Component(circle_matcher_repository, "Circle Matcher Repository", "Spring Repository", "Acesso ao banco de dados. Engloba os repositories KeyMetaData e Segmentation.")
+
+    Component(application_ready_listener, "Application Ready Listener", "ApplicationListener<ApplicationReadyEvent>", "Executado quando a aplicação inicializa para expurgar dados do redis. Funcional somente em caso de migração para manter a retrocompatibilidade com os circle matchers que já tinham dados.")
+
+    Component(segmentation_resource, "Segmentation Resource", "Spring Controller", "Permite criação/deleção/atualização de segmentação manual e por csv.")
+    Component(segmentation_service, "Segmentation Service", "Spring Service", "Salva, deleta e atualiza segmentações no banco de dados.")
+    
+    
+    Component(identification_resource, "Identification Resource", "Spring Controller", "Permite a identificação de quais círculos são correspondentes as características de segmentação enviadas.")
+    Component(identification_service, "Identification Service", "Spring Service", "Busca segmentações no banco de dados e as compara com os dados informados na requisição afim de retornar os círculos correspondentes.")
+    Component(script_manager_service, "Script Manager Service", " Spring Service/Polyglot Engine GraalVM", "Utiliza motor javascript para verificar compatibilidade entre diferentes dados (request x redis).")
+    Component(js_functions, "JS Functions", " Arquivos JS", "Provê as funções em JS para validação dos dados (getPath, toNumber, toStr)")
+    
+    
+    Rel(segmentation_resource, segmentation_service, "Usa")
+    Rel(segmentation_service, circle_matcher_repository, "Usa")
+    Rel(identification_resource, identification_service, "Usa")
+    Rel(identification_service, circle_matcher_repository, "Usa")
+    Rel(identification_service, script_manager_service, "Usa")
+    Rel(script_manager_service, js_functions, "Usa")
+    Rel(application_ready_listener, circle_matcher_repository, "Usa")
+    Rel(circle_matcher_repository, circle_matcher_database, "Usa")
+   
+}
+
+Rel(moove, segmentation_resource, "Faz requisição", "JSON/HTTPS")
+Rel(moove, identification_resource, "Faz requisição", "JSON/HTTPS")
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(integrated_api, identification_resource, "Faz requisição", "JSON/HTTPS")
+
+
+@enduml

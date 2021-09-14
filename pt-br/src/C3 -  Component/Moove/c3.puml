@@ -1,0 +1,78 @@
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(git_api, "Git API", "Rest API", "Busca recursos de repositórios.")
+Container(idm, "IDM", "Keycloack", "Gerencia e autentica os usuários.")
+Container(prometheus, "Prometheus", "System Monitoring", "Collects and stores Charles metrics.")
+Container(keycloack_api, "Keycloack API", "Rest API", "Gerencia e autentica os usuários no Keycloack.")
+Container(circle_matcher_api, "Circle Matcher API", "Rest API", "Gerencia e faz descoberta de círculos.")
+Container(butler_api, "Butler API", "Rest API", "Realiza os processos de deployment.")
+Container(hermes_api, "Hermes API", "Rest API", "Gerencia e notifica eventos de webhook.")
+Container(villager_api, "Villager API", "Rest API", "Valida o nome das tags das imagens informadas.")
+
+
+Container_Boundary(charlescd_moove, "CharlesCD Moove"){
+   
+    Component(module_web, "Web", "Component", "Possui o inicializador da aplicação e config de CORS.")
+    Component(module_api, "Api", "Component", "Camada de serviços.")
+    Component(module_application, "Application", "Component", "Camada de aplicação.")
+    Component(module_domain, "Domain", "Component", "Camada de domínio.")
+    Component(module_metrics, "Metrics", "Component", "Camada de métricas.")
+    Component(module_security, "Security", "Component", "Camada de segurança.")
+    Component(module_infrastructure, "Infrastructure", "Component", "Camada de infraestrutura.")
+    Component(module_legacy_moove, "<DEPRECATED> Legacy Moove", "Component", "Camada Legado de Aplicação e Serviços.")
+    Component(module_legacy_repository, "<DEPRECATED> Legacy Repository", "Component", "Camada Legado de Dominio.")
+
+    Component(controller, "Controller", "Spring Rest Controller", "Possui as Controllers de Build, Circle, ConfigurationV2, DeploymentV2, ModuleV2, RoleV2, UserGroupV2, UserV2, WorkspaceV2, Webhook.")
+    Component(respository_jpa, "Repository", "Repository, JPA", "")
+    Component(interactor, "Interactor", "Bean", "Implementação Use Cases")
+    Component(respository_jdbc, "Repository", "Repository, JDBC Template", "")
+    Component(service, "Service", "Bean", "")
+    Component(thirdy_service, "Thirdy Service", "Bean", "CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager.")
+    Component(legacy_controller, "Legacy Controller", "Spring Rest Controller", "Possui as Controllers V1")
+    Component(legacy_service, "Legacy Service", "Bean", "")
+    Component(metric_service_factory, "Metric Service Factory", "Bean", "")
+    Component(keycloack_service, "Keycloack Service", "Bean", "")
+    Component(api_client, "API Client", "Integração API", "CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager")
+
+    Rel(module_web, module_api, "Usa")
+    Rel(module_api, controller, "Possui")
+    Rel(controller, module_application, "Usa")
+    Rel(module_application, interactor, "Possui")
+    Rel(interactor, module_domain, "Usa")
+    Rel(module_domain, respository_jdbc, "Possui")
+    Rel(module_domain, thirdy_service, "Possui")
+    Rel(thirdy_service, module_infrastructure, "Usa")
+    Rel(module_infrastructure, api_client, "Possui")
+    Rel(api_client, circle_matcher_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, butler_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, hermes_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, villager_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_application, service, "Possui")
+    Rel(interactor, service, "Usa")
+    Rel(service, module_domain, "Usa")
+    Rel(service, module_security, "Usa")
+    Rel(service, git_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_security, keycloack_service, "Possui")
+    Rel(keycloack_service, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_metrics, metric_service_factory, "Possui")
+    Rel(metric_service_factory, prometheus, "Faz requisição via HTTPS/JSON")
+    Rel(module_web, module_legacy_moove, "Usa")
+    Rel(module_legacy_moove, legacy_controller, "Possui")
+    Rel(legacy_controller, legacy_service, "Usa")
+    Rel(legacy_service, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_legacy_moove, module_legacy_repository, "Usa")
+    Rel(module_legacy_repository, respository_jpa, "Possui")
+    Rel(respository_jpa, moove_database, "Lê e escreve")
+    Rel(respository_jdbc, moove_database, "Lê e escreve")
+}
+
+Rel(ui, module_api, "Faz requisição", "JSON/HTTPS")
+
+@enduml

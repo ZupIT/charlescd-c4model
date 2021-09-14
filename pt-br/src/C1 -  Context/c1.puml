@@ -1,0 +1,17 @@
+@startuml c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+
+System(charlescd_system, "Sistema CharlesCD", "Ferramenta de deploy continuo para gerenciar seus deploys orientada a hipoteses.")
+System_Ext(kubernetes, "Kubernetes")
+
+Rel(user, charlescd_system, "Gerencia seus deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, acompanha métricas e faz acompanhamento de versões das suas aplicações.")
+Rel(charlescd_system, kubernetes, "Implanta atualizações no cluster Kubernetes do usuário (deploy de nova versão de aplicações, undeploy etc), baseado nas alterações solicitadas.")
+Rel(charlescd_system, user, "Envia retornos de eventos configurados no webhook (inicio e fim de deploys).")
+
+
+@enduml

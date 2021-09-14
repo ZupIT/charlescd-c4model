@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2267px" preserveAspectRatio="none" style="width:2217px;height:2267px;" version="1.1" viewBox="0 0 2217 2267" width="2217px" zoomAndPan="magnify"><defs/><g><!--MD5=[b2e3bce3f5bdd2ba39cd5fc1afb184bd]
+cluster charlescd_compass--><rect fill="#FFFFFF" height="1459" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1829" x="377" y="214.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="1203" y="231.3516">CharlesCD Compass</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1251.5" y="246.2637">[Container]</text><!--MD5=[b1c5af98f3b6d9175a9c05a4105e8234]
+entity middleware--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="173" x="1366.5" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="1402.5" y="282.8516">Middleware</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1412.5" y="297.7637">[Middleware]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1455" y="313.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="1376.5" y="329.8857">Faz a autorização das</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="1420" y="346.1826">requests.</text><!--MD5=[a15c6a966f3bce700f95a323cab74539]
+entity casbin--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="191" x="1996" y="257.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="2062.5" y="282.3516">Casbin</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="123" x="2030" y="297.2637">[Access Control Lib]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2093.5" y="313.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="2006" y="329.3857">Realiza as validações de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="2014" y="345.6826">permissionamento de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="2014.5" y="361.9795">acordo com as regras</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="2058.5" y="378.2764">definidas.</text><!--MD5=[67ad46495c8e4df422a43e8a2f84a6cf]
+entity datasource_api--><rect fill="#85BBF0" height="182.9688" style="stroke: #78A8D8; stroke-width: 1.5;" width="219" x="385" y="1482"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="422" y="1506.8516">Data Source API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="1521.7637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="1537.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="406" y="1553.8857">Provê funcionalidades de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="395" y="1570.1826">manipulação de datasources</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="409" y="1586.4795">, como criação, deleção,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="427.5" y="1602.7764">buscar as métricas</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="396" y="1619.0732">associadas ao datasource e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="396" y="1635.3701">testar uma conexão com um</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="453.5" y="1651.667">datasource.</text><!--MD5=[6a4b8918012633f906cdc7a9f127a3f9]
+entity action_api--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="209" x="390" y="869.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="448.5" y="894.3516">Action API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="909.2637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="925.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="421" y="941.3857">Autoriza a requisição</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="400" y="957.6826">utilizando token ou header</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="441.5" y="973.9795">de autorização.</text><!--MD5=[1c32cbd69fa227841af90a6c7c12791d]
+entity metrics_group_api--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="200" x="394.5" y="563.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="163" x="413" y="588.3516">Metrics Group API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="603.2637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="619.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="406" y="635.3857">Provê funcionalidades de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="404.5" y="651.6826">manipulação de grupo de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="411" y="667.9795">métricas, como criação,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="435.5" y="684.2764">deleção e busca.</text><!--MD5=[a3f97678966643dde4daeb3f4edb048a]
+entity metrics_api--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="200" x="394.5" y="1312.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="443" y="1337.3516">Metrics API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="1352.2637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="1368.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="406" y="1384.3857">Provê funcionalidades de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="404.5" y="1400.6826">manipulação de métricas,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="404.5" y="1416.9795">ccomo criação, deleção e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="471.5" y="1433.2764">busca.</text><!--MD5=[00a798da8f8b75ff9e7db16336655418]
+entity group_actions_api--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="201" x="394" y="1022.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="162" x="413.5" y="1047.3516">Group Actions API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="1062.2637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="1078.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="406" y="1094.3857">Provê funcionalidades de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="404" y="1110.6826">manipulação de ações de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="420" y="1126.9795">grupo, como criação,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="435.5" y="1143.2764">deleção e busca.</text><!--MD5=[89358246872306ec52d6feab80679031]
+entity plugins_api--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="211" x="389" y="1192"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="450" y="1216.8516">Plugin API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="1231.7637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="1247.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="399" y="1263.8857">Lista os plugins disponíveis.</text><!--MD5=[3e755d46cf65e22a6eaf02d96f145267]
+entity circle_api--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="219" x="385" y="733"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="447" y="757.8516">Circles API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="417" y="772.7637">[Http Handler, Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="788.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="395" y="804.8857">List as métricas de grupo em</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="457" y="821.1826">um círculo.</text><!--MD5=[9520677fb738e298093e4373dee6f503]
+entity compass_repository--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="755" y="1167.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="773" y="1192.3516">Compass Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="183" x="772.5" y="1207.2637">[Database Repository, GORM]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="866" y="1223.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="780.5" y="1239.3857">Engloba os repositories</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="765" y="1255.6826">datasources, actions, group-</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="788" y="1271.9795">actions, metric-group-</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="837" y="1288.2764">actions.</text><!--MD5=[acdfeb36614e6c679d4ea7c6f3a1e220]
+entity moove_client--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="213" x="1985" y="427"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="2034" y="451.8516">Moove Client</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="2057.5" y="466.7637">[Client API]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2093.5" y="482.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="1995" y="498.8857">Busca o permissĩonamento</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="2005" y="515.1826">do usuario da requisição.</text><!--MD5=[23cdcde38d29f79f0c8a24a99c9b544d]
+entity action_plugin--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="217" x="755.5" y="394.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="806.5" y="419.3516">Action Plugin</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="840.5" y="434.2637">[Plugin]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="866" y="450.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="774.5" y="466.3857">Permite que ações sejam</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="765.5" y="482.6826">realizadas dentro do Charles</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="778.5" y="498.9795">de acordo com métricas.</text><!--MD5=[de70cbd1643a59658e97022ee57b5edc]
+entity action_deploy_plugin--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="189" x="1358.5" y="394.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="1392" y="419.3516">Deploy Action</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="1425.5" y="434.2637">[Service]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1455" y="450.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1369.5" y="466.3857">Solicita o deploy em um</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1368.5" y="482.6826">circulo de acordo com a</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1394.5" y="498.9795">ação cadastrada.</text><!--MD5=[12b722ff27bf7b6d87e61dd50df7508c]
+entity action_undeploy_plugin--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="205" x="1350.5" y="547.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="1381.5" y="572.3516">Undeploy Action</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="1425.5" y="587.2637">[Service]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1455" y="603.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="1360.5" y="619.3857">Solicita o undeploy em um</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1368.5" y="635.6826">circulo de acordo com a</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1394.5" y="651.9795">ação cadastrada.</text><!--MD5=[70ac6266431204bebfd23308a2c7a8ce]
+entity datasource_plugin--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="207" x="760.5" y="1014.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="161" x="783.5" y="1039.3516">Datasource Plugin</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="840.5" y="1054.2637">[Plugin]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="866" y="1070.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="784.5" y="1086.3857">Permite a integração e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="770.5" y="1102.6826">coleta informações em um</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="823" y="1118.9795">datasource.</text><!--MD5=[fda152918d9ba64836323d2aef32beda]
+entity datasource_prometheus_plugin--><rect fill="#85BBF0" height="120.1094" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1343" y="1249.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="1395.5" y="1274.3516">Prometheus</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="1402" y="1292.9766">Datasource</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="1425.5" y="1307.8887">[Service]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1455" y="1323.7139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1385" y="1340.0107">Integração e coleta</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="1353" y="1356.3076">informações no Prometheus.</text><!--MD5=[f0cfec62c7875a1051665e92bdb329dc]
+entity datasource_ga_plugin--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="209" x="1348.5" y="1499.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="1380" y="1524.3516">Google Analytics</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="189" x="1358.5" y="1539.2637">[Google Analytics Datasource]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1455" y="1555.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1385" y="1571.3857">Integração e coleta</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="1370.5" y="1587.6826">informações no Google</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="1421" y="1603.9795">Analytics.</text><!--MD5=[543d8e0845204de557092900e8c2bda9]
+entity metric_dispatcher--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="217" x="386" y="410.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="159" x="415" y="435.3516">Metric Dispatcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="458.5" y="450.2637">[Goroutine]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="466.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="409.5" y="482.3857">Sincroniza o valores das</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="396" y="498.6826">métricas no datasource com</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="419" y="514.9795">o do banco de dados.</text><!--MD5=[b1e83f04a12f6fdf4b7f76a347cc6e61]
+entity action_dispatcher--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="190" x="399.5" y="257.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="158" x="415.5" y="282.3516">Action Dispatcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="458.5" y="297.2637">[Goroutine]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="313.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="409.5" y="329.3857">Verifica as métricas para</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="419" y="345.6826">disparar uma ação se</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="454.5" y="361.9795">necessário.</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="12" y="806"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="55.5" y="830.8516">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="49.5" y="845.7637">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="115.5" y="861.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="22" y="877.8857">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="75" y="894.1826">do produto</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="389.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="416" y="31.8516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="433.5" y="46.7637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="496.5" y="62.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="399.5" y="78.8857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="413" y="95.1826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="401.5" y="111.4795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="416" y="127.7764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="409.5" y="144.0732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="416.5" y="160.3701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="401.5" y="176.667">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="456" y="192.9639">aplicações.</text><!--MD5=[76c72a0d0666ffe20c687699125b4b7c]
+entity prometheus--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="7" y="1329"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="59" y="1353.8516">Prometheus</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="125" x="51" y="1368.7637">[System Monitoring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="115.5" y="1384.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="17" y="1400.8857">Collects and stores Charles</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="86" y="1417.1826">metrics.</text><!--MD5=[3594654436c57735ca97732209f5fc1f]
+entity datasource--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="168" x="1756" y="1682"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="1789" y="1706.8516">Datasource</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="1766" y="1721.7637">[Prometheus or Google</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1810" y="1735.7324">Analytics]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1842" y="1751.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="1771.5" y="1767.8545">Collects and stores</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="1769.5" y="1784.1514">applications metrics.</text><!--MD5=[ce8c1f9e16bd6fd9376df95af0afd0d2]
+entity moove_database--><rect fill="#438DD5" height="231.8594" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="1062" y="1681.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="1098" y="1706.3516">Moove Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1140.5" y="1721.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1174" y="1737.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1091" y="1753.3857">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="1077.5" y="1769.6826">sobre Usuários, Grupos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="1072.5" y="1785.9795">Usuários, Token Sistêmicos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1104" y="1802.2764">Permissões, Roles,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1072" y="1818.5732">Workspaces, Componentes,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1111.5" y="1834.8701">Modules,  Builds,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1090.5" y="1851.167">Deployments, Círculos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1073.5" y="1867.4639">Configurações de Métricas e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1074" y="1883.7607">Configurações de Ambiente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="1136" y="1900.0576">de deploy.</text><!--MD5=[f112716b1f5f496a03e81d37124e807a]
+entity compass_database--><rect fill="#438DD5" height="134.0781" style="stroke: #3C7FC0; stroke-width: 1.5;" width="218" x="1063" y="1948.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="169" x="1087.5" y="1973.3516">Compass Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1140.5" y="1988.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1174" y="2004.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1091" y="2020.3857">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1074" y="2036.6826">sobre datasources, actions,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1073" y="2052.9795">group-actions, metric-group-</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1147" y="2069.2764">actions</text><!--MD5=[bae9b1a7175ce1369f9aaef9f0bc77bf]
+link middleware to casbin--><path d="M1539.7754,310.6745 C1656.3015,313.5945 1863.0764,318.776 1987.7078,321.8991 " fill="none" id="middleware-to-casbin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1995.7965,322.1018,1987.8742,318.9022,1987.7238,324.9003,1995.7965,322.1018" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1826.5" y="313.6387">Usa</text><!--MD5=[1ea443f7dfb7d746da7c235dc9698f61]
+link middleware to moove_client--><path d="M1539.7754,331.468 C1653.078,361.4572 1851.7053,414.0305 1977.1797,447.2414 " fill="none" id="middleware-to-moove_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1984.9633,449.3016,1977.9972,444.3545,1976.462,450.1547,1984.9633,449.3016" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1826.5" y="386.6387">Usa</text><!--MD5=[a5aa41b91c5c17689f7deea518222ca5]
+link datasource_api to compass_repository--><path d="M594.492,1481.7617 C654.2943,1426.8958 729.2234,1358.1516 784.8856,1307.0839 " fill="none" id="datasource_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="790.8918,1301.5736,782.9688,1304.7714,787.025,1309.1925,790.8918,1301.5736" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="1388.6387">Usa</text><!--MD5=[d8090e269242b6b851c5646294517d2e]
+link action_api to compass_repository--><path d="M582.3857,987.6403 C589.8087,993.1924 597.1058,998.857 604,1004.5 C675.9994,1063.4328 684.666,1088.5893 755,1149.5 C759.7831,1153.6423 764.7372,1157.8329 769.7764,1162.0181 " fill="none" id="action_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="776.1983,1167.3124,771.9338,1159.9088,768.1172,1164.5384,776.1983,1167.3124" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="1058.6387">Usa</text><!--MD5=[c0a160e59cdb22a684966a6cefbb7f7f]
+link metrics_group_api to compass_repository--><path d="M588.6629,697.7112 C594.1885,703.4012 599.3711,709.3453 604,715.5 C668.9855,801.9059 658.7485,839.2923 694,941.5 C709.7056,987.0366 727.926,1109.6597 755,1149.5 C757.7218,1153.5053 760.6918,1157.4073 763.854,1161.1974 " fill="none" id="metrics_group_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="769.3472,1167.4687,766.3327,1159.4741,761.8193,1163.4275,769.3472,1167.4687" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="837.6387">Usa</text><!--MD5=[bde7c9a6a8ad5e59b845e50c284721da]
+link metrics_api to compass_repository--><path d="M594.9794,1340.0696 C642.0362,1321.6035 698.3757,1299.4946 747.3099,1280.2918 " fill="none" id="metrics_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="754.7852,1277.3583,746.2422,1277.4882,748.4341,1283.0735,754.7852,1277.3583" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="1298.6387">Usa</text><!--MD5=[aa4d3951f79cc52f53c059811bff4fb9]
+link group_actions_api to compass_repository--><path d="M595.4675,1129.1219 C642.4165,1147.5457 698.5237,1169.5634 747.2824,1188.6974 " fill="none" id="group_actions_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="754.7311,1191.6205,748.38,1185.9053,746.1881,1191.4906,754.7311,1191.6205" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="1154.6387">Usa</text><!--MD5=[5037dd97b5abd7a32bcf3d2b02b4d936]
+link plugins_api to compass_repository--><path d="M600.3839,1234.5 C646.1454,1234.5 699.8541,1234.5 746.8102,1234.5 " fill="none" id="plugins_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="754.889,1234.5,746.889,1231.5,746.889,1237.5,754.889,1234.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="1231.6387">Usa</text><!--MD5=[cf0b41bf5fc100abf733164ea9ca9ce9]
+link circle_api to compass_repository--><path d="M585.2457,834.032 C591.9698,839.4821 598.329,845.3146 604,851.5 C654.1698,906.2206 707.8164,1092.1845 755,1149.5 C758.3816,1153.6078 761.9951,1157.6416 765.775,1161.5835 " fill="none" id="circle_api-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="771.4242,1167.2909,767.9285,1159.4947,763.6642,1163.7156,771.4242,1167.2909" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="961.6387">Usa</text><!--MD5=[4dcef3ce4254a1dc727c89d64ee59afd]
+link compass_repository to moove_database--><path d="M886.346,1301.7062 C917.3467,1390.0043 978.6345,1548.24 1060.2034,1674.642 " fill="none" id="compass_repository-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1064.6013,1681.3958,1062.7499,1673.0548,1057.7219,1676.3289,1064.6013,1681.3958" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1004" y="1583.6387">Usa</text><!--MD5=[be82db758a508a64d5feb77a2b7766fb]
+link compass_repository to compass_database--><path d="M869.0252,1301.5928 C881.7164,1433.1311 924.5779,1729.6378 1062,1931.5 C1064.4931,1935.1622 1067.1977,1938.7326 1070.0704,1942.2055 " fill="none" id="compass_repository-to-compass_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1075.4133,1948.3499,1072.4277,1940.3445,1067.9001,1944.2816,1075.4133,1948.3499" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1004" y="1826.6387">Usa</text><!--MD5=[bf229c80b30aaadca428dc65cfa70572]
+link action_plugin to action_deploy_plugin--><path d="M972.7181,453.5 C1080.4344,453.5 1244.1961,453.5 1349.9076,453.5 " fill="none" id="action_plugin-to-action_deploy_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1358.0495,453.5,1350.0495,450.5,1350.0495,456.5,1358.0495,453.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="1157.5" y="450.6387">Tem</text><!--MD5=[ecd7cee5c963e9e5a3d773d5cff17ae4]
+link action_plugin to action_undeploy_plugin--><path d="M972.7181,481.7409 C1077.9481,509.0757 1236.666,550.3046 1342.4961,577.7952 " fill="none" id="action_plugin-to-action_undeploy_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1350.3403,579.8329,1343.3516,574.9178,1341.843,580.7251,1350.3403,579.8329" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="1157.5" y="502.6387">Tem</text><!--MD5=[81781f5d6a12708195b9bd78f326aca7]
+link action_deploy_plugin to moove_client--><path d="M1547.5564,457.0542 C1661.747,461.3464 1853.7294,468.5627 1976.4132,473.1741 " fill="none" id="action_deploy_plugin-to-moove_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1984.7583,473.4878,1976.8767,470.1893,1976.6512,476.1851,1984.7583,473.4878" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1826.5" y="462.6387">Usa</text><!--MD5=[029a4880c2571b75aa1ef3d892749c46]
+link action_undeploy_plugin to moove_client--><path d="M1555.5861,585.7739 C1670.6825,562.5203 1856.9165,524.8943 1976.7565,500.6823 " fill="none" id="action_undeploy_plugin-to-moove_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1984.9103,499.035,1976.4746,497.6788,1977.6629,503.56,1984.9103,499.035" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1826.5" y="508.6387">Usa</text><!--MD5=[0bce0c42f8ff8dd023012884d2236793]
+link action_dispatcher to action_plugin--><path d="M589.6554,351.7809 C637.8583,369.6532 696.7976,391.5062 747.6748,410.37 " fill="none" id="action_dispatcher-to-action_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="755.4438,413.2505,748.9857,407.6565,746.8999,413.2822,755.4438,413.2505" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="377.6387">Usa</text><!--MD5=[a3a5752a16a71c2c06fe4af000a387ca]
+link action_dispatcher to compass_repository--><path d="M588.0424,375.5502 C593.7864,380.9154 599.1819,386.5754 604,392.5 C668.5841,471.9148 668.0346,505.4867 694,604.5 C724.9134,722.3814 695.51,1043.1393 755,1149.5 C757.1964,1153.427 759.6559,1157.2347 762.328,1160.9195 " fill="none" id="action_dispatcher-to-compass_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="767.3566,1167.4188,764.8339,1159.2557,760.0884,1162.9273,767.3566,1167.4188" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="494.6387">Usa</text><!--MD5=[6c9cf0b92d7de50cd5bc0fd2f4df64f5]
+link datasource_plugin to datasource_prometheus_plugin--><path d="M967.6076,1115.0134 C1070.4388,1156.2157 1227.8303,1219.2792 1335.3197,1262.348 " fill="none" id="datasource_plugin-to-datasource_prometheus_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1342.9713,1265.4138,1336.661,1259.6536,1334.4294,1265.2232,1342.9713,1265.4138" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="1157.5" y="1150.6387">Tem</text><!--MD5=[a929ff524b29970f3258445c59a242f8]
+link datasource_plugin to datasource_ga_plugin--><path d="M953.53,1132.5046 C960.3231,1138.0019 966.8997,1143.6959 973,1149.5 C1019.8227,1194.0491 1015.9834,1219.1187 1062,1264.5 C1152.579,1353.8283 1271.0219,1439.2755 1353.7112,1494.801 " fill="none" id="datasource_plugin-to-datasource_ga_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1360.5988,1499.4123,1355.6201,1492.4687,1352.2821,1497.4545,1360.5988,1499.4123" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="1157.5" y="1261.6387">Tem</text><!--MD5=[94d5d29f32a3acead703302f82565ab2]
+link datasource_prometheus_plugin to datasource--><path d="M1527.5421,1369.6534 C1588.4105,1422.2576 1672.7826,1503.6527 1726,1590.5 C1746.2402,1623.5307 1733.336,1642.7479 1754.0419,1675.2549 " fill="none" id="datasource_prometheus_plugin-to-datasource" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1758.651,1681.9416,1756.5806,1673.6522,1751.6406,1677.0576,1758.651,1681.9416" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1594" y="1418.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1618.5" y="1432.6074">HTTPS/JSON</text><!--MD5=[004de379a3cf65889dc6d6d13acb88df]
+link datasource_ga_plugin to datasource--><path d="M1557.7278,1607.4812 C1617.2986,1635.3425 1691.2007,1669.9065 1748.4431,1696.6788 " fill="none" id="datasource_ga_plugin-to-datasource" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1755.694,1700.0701,1749.7184,1693.9634,1747.1765,1699.3983,1755.694,1700.0701" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1594" y="1610.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1618.5" y="1624.6074">HTTPS/JSON</text><!--MD5=[c1422b21d52f9241cc7e4b0cc16b044e]
+link metric_dispatcher to datasource_plugin--><path d="M587.4032,528.6228 C593.3329,533.9865 598.9421,539.6252 604,545.5 C727.0856,688.4648 807.8674,899.85 843.3431,1006.6026 " fill="none" id="metric_dispatcher-to-datasource_plugin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="845.9213,1014.4178,846.2639,1005.8807,840.566,1007.7604,845.9213,1014.4178" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="666" y="624.6387">Usa</text><!--MD5=[f8f4c56c018aae1c5f088e9f718c30be]
+link moove_client to moove--><path d="M2004.7036,426.9031 C1997.6472,421.1482 1990.9538,414.997 1985,408.5 C1897.4381,312.9502 1969.6026,155.5 1840,155.5 C679.5,155.5 679.5,155.5 679.5,155.5 C655.9176,155.5 631.1911,151.7334 607.7675,146.2889 " fill="none" id="moove_client-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="599.8774,144.3811,606.9483,149.1772,608.3584,143.3453,599.8774,144.3811" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1106.5" y="138.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1131" y="152.6074">HTTPS/JSON</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M125.5,805.9573 C154.4008,691.5464 236.0985,407.3226 377,209.5 C379.2894,206.2858 381.698,203.1043 384.2048,199.9621 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="389.4818,193.5699,382.0752,197.8293,386.7021,201.6491,389.4818,193.5699" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="239.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="253.6074">[JSON/HTTPS]</text><!--MD5=[2f1fe391ac40a5e41effa93ae4ca9e61]
+link ui to action_api--><path d="M215.1005,875.7001 C266.4714,885.408 328.9603,897.2169 381.8043,907.2032 " fill="none" id="ui-to-action_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="389.8635,908.7262,382.5597,904.2928,381.4456,910.1885,389.8635,908.7262" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="867.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="881.6074">[JSON/HTTPS]</text><!--MD5=[c8043d0e0810772c51967a8725b4dbcb]
+link ui to metrics_group_api--><path d="M197.5326,805.8626 C214.8653,795.462 233.0119,784.605 250,774.5 C294.9188,747.781 344.5995,718.476 387.3803,693.3176 " fill="none" id="ui-to-metrics_group_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="394.4589,689.1556,386.0421,690.6243,389.0832,695.7965,394.4589,689.1556" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="698.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="712.6074">[JSON/HTTPS]</text><!--MD5=[c391b717b536e759608e00c21709e3ab]
+link ui to group_actions_api--><path d="M196.1713,907.0575 C252.0164,941.2095 326.2953,986.6347 386.7639,1023.6141 " fill="none" id="ui-to-group_actions_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="393.6918,1027.8509,388.4321,1021.1178,385.3017,1026.2364,393.6918,1027.8509" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="928.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="942.6074">[JSON/HTTPS]</text><!--MD5=[81ea47a381bd6852c3e5b32369c46e54]
+link ui to plugins_api--><path d="M122.2265,907.2619 C136.6531,975.6558 172.0237,1096.6274 250,1164.5 C286.209,1196.0172 335.762,1213.3896 380.7938,1222.9471 " fill="none" id="ui-to-plugins_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="388.8524,1224.5855,381.6106,1220.0517,380.4151,1225.9313,388.8524,1224.5855" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="1147.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="1161.6074">[JSON/HTTPS]</text><!--MD5=[481c0fd6ed29c286eb80e06ab5b93127]
+link ui to circle_api--><path d="M215.1005,837.0332 C264.8988,827.4918 325.1448,815.9486 376.9248,806.0275 " fill="none" id="ui-to-circle_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="384.8296,804.513,376.408,803.0722,377.5371,808.965,384.8296,804.513" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="794.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="808.6074">[JSON/HTTPS]</text><!--MD5=[7a62ac7858ae2a6de1739046aa85f748]
+link moove to datasource_api--><path d="M389.4734,189.6919 C384.7794,196.0235 380.5576,202.6359 377,209.5 C282.5857,391.6638 255.0625,924.7337 283,1128 C304.0853,1281.4109 296.6202,1331.1422 377,1463.5 C379.4159,1467.4782 382.0149,1471.4044 384.7628,1475.2685 " fill="none" id="moove-to-datasource_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="389.5221,1481.7111,387.1817,1473.4939,382.3557,1477.0589,389.5221,1481.7111" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="1111.1387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="1125.1074">[JSON/HTTPS]</text><!--MD5=[722ebfa6edede2111ed3dbb0cd630dc7]
+link prometheus to metrics_api--><path d="M220.1364,1379.5 C271.9594,1379.5 334.1276,1379.5 386.1728,1379.5 " fill="none" id="prometheus-to-metrics_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="394.4356,1379.5,386.4356,1376.5,386.4356,1382.5,394.4356,1379.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="1362.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="262" y="1376.6074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="2031" y="2095.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="2037" y="2115.5732">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2100" y="2115.5732"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2118.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="2041" y="2131.8701">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2135.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="2041" y="2148.167">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2151.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="2041" y="2164.4639">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2167.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="2041" y="2180.7607">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2184.0625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="2041" y="2197.0576">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2200.3594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="2041" y="2213.3545">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2216.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="2041" y="2229.6514">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2037" y="2232.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="2041" y="2245.9482">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2102.5781" y2="2102.5781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2118.875" y2="2118.875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2135.1719" y2="2135.1719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2151.4688" y2="2151.4688"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2167.7656" y2="2167.7656"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2184.0625" y2="2184.0625"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2200.3594" y2="2200.3594"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2216.6563" y2="2216.6563"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2232.9531" y2="2232.9531"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2184" y1="2249.25" y2="2249.25"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2037" x2="2037" y1="2102.5781" y2="2249.25"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2184" x2="2184" y1="2102.5781" y2="2249.25"/><!--MD5=[3fd9f195029396df9366c179b810ca9a]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(prometheus, "Prometheus", "System Monitoring", "Collects and stores Charles metrics.")
+Container(datasource, "Datasource", "Prometheus or Google Analytics", "Collects and stores applications metrics.")
+Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(compass_database, "Compass Database", "Postgres", "Armazena Informações sobre datasources, actions, group-actions, metric-group-actions")
+
+Container_Boundary(charlescd_compass, "CharlesCD Compass"){
+   
+    Component(middleware, "Middleware", "Middleware", "Faz a autorização das requests.")
+    Component(casbin, "Casbin", "Access Control Lib", "Realiza as validações de permissionamento de acordo com as regras definidas.")
+
+    Component(datasource_api, "Data Source API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de datasources, como criação, deleção, buscar as métricas associadas ao datasource e testar uma conexão com um datasource.")
+    Component(action_api, "Action API", "Http Handler, Use Case", "Autoriza a requisição utilizando token ou header de autorização.")
+    Component(metrics_group_api, "Metrics Group API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de grupo de métricas, como criação, deleção e busca.")
+    Component(metrics_api, "Metrics API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de métricas, ccomo criação, deleção e busca.")
+    Component(group_actions_api, "Group Actions API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de ações de grupo, como criação, deleção e busca.")
+    Component(plugins_api, "Plugin API", "Http Handler, Use Case", "Lista os plugins disponíveis.")
+    Component(circle_api, "Circles API", "Http Handler, Use Case", "List as métricas de grupo em um círculo.")
+
+    Component(compass_repository, "Compass Repository", "Database Repository, GORM", "Engloba os repositories datasources, actions, group-actions, metric-group-actions.")
+
+    Component(moove_client, "Moove Client", "Client API", "Busca o permissĩonamento do usuario da requisição.")
+
+    Component(action_plugin, "Action Plugin", "Plugin", "Permite que ações sejam realizadas dentro do Charles de acordo com métricas.")
+    Component(action_deploy_plugin, "Deploy Action", "Service", "Solicita o deploy em um circulo de acordo com a ação cadastrada.")
+    Component(action_undeploy_plugin, "Undeploy Action", "Service", "Solicita o undeploy em um circulo de acordo com a ação cadastrada.")
+
+    Component(datasource_plugin, "Datasource Plugin", "Plugin", "Permite a integração e coleta informações em um datasource.")
+    Component(datasource_prometheus_plugin, "Prometheus Datasource", "Service", "Integração e coleta informações no Prometheus.")
+    Component(datasource_ga_plugin, "Google Analytics", "Google Analytics Datasource", "Integração e coleta informações no Google Analytics.")
+
+    Component(metric_dispatcher, "Metric Dispatcher", "Goroutine", "Sincroniza o valores das métricas no datasource com o do banco de dados.")
+    Component(action_dispatcher, "Action Dispatcher", "Goroutine", "Verifica as métricas para disparar uma ação se necessário.")
+
+    Rel(middleware, casbin, "Usa")
+    Rel(middleware, moove_client, "Usa")
+
+    Rel(datasource_api, compass_repository, "Usa")
+    Rel(action_api, compass_repository, "Usa")
+    Rel(metrics_group_api, compass_repository, "Usa")
+    Rel(metrics_api, compass_repository, "Usa")
+    Rel(group_actions_api, compass_repository, "Usa")
+    Rel(plugins_api, compass_repository, "Usa")
+    Rel(circle_api, compass_repository, "Usa")
+
+    Rel(compass_repository, moove_database, "Usa")
+    Rel(compass_repository, compass_database, "Usa")
+
+    Rel(action_plugin, action_deploy_plugin, "Tem")
+    Rel(action_plugin, action_undeploy_plugin, "Tem")
+    Rel(action_deploy_plugin, moove_client, "Usa")
+    Rel(action_undeploy_plugin, moove_client, "Usa")
+
+    Rel(action_dispatcher, action_plugin, "Usa")
+    Rel(action_dispatcher, compass_repository, "Usa")
+    
+    Rel(datasource_plugin, datasource_prometheus_plugin, "Tem")
+    Rel(datasource_plugin, datasource_ga_plugin, "Tem")
+    Rel(datasource_prometheus_plugin, datasource, "Faz requisição via HTTPS/JSON")
+    Rel(datasource_ga_plugin, datasource, "Faz requisição via HTTPS/JSON")
+    Rel(metric_dispatcher, datasource_plugin, "Usa")
+
+    Rel(moove_client, moove, "Faz requisição via HTTPS/JSON")
+   
+}
+
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(ui, action_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, metrics_group_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, group_actions_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, plugins_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, circle_api, "Faz requisição", "JSON/HTTPS")
+Rel(moove, datasource_api, "Faz requisição", "JSON/HTTPS")
+Rel(prometheus, metrics_api, "Faz requisição", "JSON/HTTPS")
+
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==Prometheus\n//<size:12>[System Monitoring]</size>//\n\n Collects and stores Charles metrics." <<container>> as prometheus
+rectangle "==Datasource\n//<size:12>[Prometheus or Google Analytics]</size>//\n\n Collects and stores applications metrics." <<container>> as datasource
+rectangle "==Moove Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy." <<container>> as moove_database
+rectangle "==Compass Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre datasources, actions, group-actions, metric-group-actions" <<container>> as compass_database
+
+rectangle "==CharlesCD Compass\n<size:12>[Container]</size>" <<boundary>> as charlescd_compass{
+   
+    rectangle "==Middleware\n//<size:12>[Middleware]</size>//\n\n Faz a autorização das requests." <<component>> as middleware
+    rectangle "==Casbin\n//<size:12>[Access Control Lib]</size>//\n\n Realiza as validações de permissionamento de acordo com as regras definidas." <<component>> as casbin
+
+    rectangle "==Data Source API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Provê funcionalidades de manipulação de datasources, como criação, deleção, buscar as métricas associadas ao datasource e testar uma conexão com um datasource." <<component>> as datasource_api
+    rectangle "==Action API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Autoriza a requisição utilizando token ou header de autorização." <<component>> as action_api
+    rectangle "==Metrics Group API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Provê funcionalidades de manipulação de grupo de métricas, como criação, deleção e busca." <<component>> as metrics_group_api
+    rectangle "==Metrics API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Provê funcionalidades de manipulação de métricas, ccomo criação, deleção e busca." <<component>> as metrics_api
+    rectangle "==Group Actions API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Provê funcionalidades de manipulação de ações de grupo, como criação, deleção e busca." <<component>> as group_actions_api
+    rectangle "==Plugin API\n//<size:12>[Http Handler, Use Case]</size>//\n\n Lista os plugins disponíveis." <<component>> as plugins_api
+    rectangle "==Circles API\n//<size:12>[Http Handler, Use Case]</size>//\n\n List as métricas de grupo em um círculo." <<component>> as circle_api
+
+    rectangle "==Compass Repository\n//<size:12>[Database Repository, GORM]</size>//\n\n Engloba os repositories datasources, actions, group-actions, metric-group-actions." <<component>> as compass_repository
+
+    rectangle "==Moove Client\n//<size:12>[Client API]</size>//\n\n Busca o permissĩonamento do usuario da requisição." <<component>> as moove_client
+
+    rectangle "==Action Plugin\n//<size:12>[Plugin]</size>//\n\n Permite que ações sejam realizadas dentro do Charles de acordo com métricas." <<component>> as action_plugin
+    rectangle "==Deploy Action\n//<size:12>[Service]</size>//\n\n Solicita o deploy em um circulo de acordo com a ação cadastrada." <<component>> as action_deploy_plugin
+    rectangle "==Undeploy Action\n//<size:12>[Service]</size>//\n\n Solicita o undeploy em um circulo de acordo com a ação cadastrada." <<component>> as action_undeploy_plugin
+
+    rectangle "==Datasource Plugin\n//<size:12>[Plugin]</size>//\n\n Permite a integração e coleta informações em um datasource." <<component>> as datasource_plugin
+    rectangle "==Prometheus Datasource\n//<size:12>[Service]</size>//\n\n Integração e coleta informações no Prometheus." <<component>> as datasource_prometheus_plugin
+    rectangle "==Google Analytics\n//<size:12>[Google Analytics Datasource]</size>//\n\n Integração e coleta informações no Google Analytics." <<component>> as datasource_ga_plugin
+
+    rectangle "==Metric Dispatcher\n//<size:12>[Goroutine]</size>//\n\n Sincroniza o valores das métricas no datasource com o do banco de dados." <<component>> as metric_dispatcher
+    rectangle "==Action Dispatcher\n//<size:12>[Goroutine]</size>//\n\n Verifica as métricas para disparar uma ação se necessário." <<component>> as action_dispatcher
+
+middleware - ->> casbin : **Usa**
+middleware - ->> moove_client : **Usa**
+
+datasource_api - ->> compass_repository : **Usa**
+action_api - ->> compass_repository : **Usa**
+metrics_group_api - ->> compass_repository : **Usa**
+metrics_api - ->> compass_repository : **Usa**
+group_actions_api - ->> compass_repository : **Usa**
+plugins_api - ->> compass_repository : **Usa**
+circle_api - ->> compass_repository : **Usa**
+
+compass_repository - ->> moove_database : **Usa**
+compass_repository - ->> compass_database : **Usa**
+
+action_plugin - ->> action_deploy_plugin : **Tem**
+action_plugin - ->> action_undeploy_plugin : **Tem**
+action_deploy_plugin - ->> moove_client : **Usa**
+action_undeploy_plugin - ->> moove_client : **Usa**
+
+action_dispatcher - ->> action_plugin : **Usa**
+action_dispatcher - ->> compass_repository : **Usa**
+    
+datasource_plugin - ->> datasource_prometheus_plugin : **Tem**
+datasource_plugin - ->> datasource_ga_plugin : **Tem**
+datasource_prometheus_plugin - ->> datasource : **Faz requisição via HTTPS/JSON**
+datasource_ga_plugin - ->> datasource : **Faz requisição via HTTPS/JSON**
+metric_dispatcher - ->> datasource_plugin : **Usa**
+
+moove_client - ->> moove : **Faz requisição via HTTPS/JSON**
+   
+}
+
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> action_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> metrics_group_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> group_actions_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> plugins_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> circle_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> datasource_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+prometheus - ->> metrics_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

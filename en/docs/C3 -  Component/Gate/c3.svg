@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1165px" preserveAspectRatio="none" style="width:2271px;height:1165px;" version="1.1" viewBox="0 0 2271 1165" width="2271px" zoomAndPan="magnify"><defs/><g><!--MD5=[8230f2297e090094d74a044492a56a02]
+cluster charlescd_gate--><rect fill="#FFFFFF" height="508" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1870" x="390" y="233.3301"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="1255.5" y="250.1816">CharlesCD Gate</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1285" y="265.0938">[Container]</text><!--MD5=[8e856e675043b69e55c3c5e05574d55c]
+entity gate_repository--><rect fill="#85BBF0" height="166.6719" style="stroke: #78A8D8; stroke-width: 1.5;" width="207" x="1391" y="429.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="1422.5" y="454.6816">Gate Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115" x="1437" y="469.5938">[Repository/GORM]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1496.5" y="485.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1413" y="501.7158">Acessa as informações</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="1405.5" y="518.0127">necessárias no banco de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="1429" y="534.3096">dados. Engloba as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="1431.5" y="550.6064">repositories User,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="1401" y="566.9033">SystemToken, Permission,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="1454" y="583.2002">Workspace.</text><!--MD5=[0fb506b45c97aea4142d5313ef575ee5]
+entity auth_controller--><rect fill="#85BBF0" height="136.4063" style="stroke: #78A8D8; stroke-width: 1.5;" width="209" x="398" y="288.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="440.5" y="313.1816">Authorization</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="458.5" y="331.8066">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="456" y="346.7188">[HTTP Handler]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="504.5" y="362.5439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="418" y="378.8408">Solicita a autorização da</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="408" y="395.1377">requisição utilizando token</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="412" y="411.4346">ou header de autorização.</text><!--MD5=[8746e451b315ef44a5db7e65fc654ccb]
+entity auth_use_case--><rect fill="#85BBF0" height="185.2969" style="stroke: #78A8D8; stroke-width: 1.5;" width="193" x="1043" y="276.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="1058" y="301.6816">Authorization Use</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="1118" y="320.3066">Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1106" y="335.2188">[Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1141.5" y="351.0439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="1066" y="367.3408">Autoriza a requisição</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="1063" y="383.6377">realizada via token ou</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1058" y="399.9346">header de autorização.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="1061" y="416.2314">Engloba os usecases:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1056" y="432.5283">Authorize User Token e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="1053" y="448.8252">Authorize System Token.</text><!--MD5=[769f16a182ef6026719566f5e55764e2]
+entity security_filter_service--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="215" x="1387" y="276.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="195" x="1397" y="301.1816">Security Filter Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="1467" y="316.0938">[Service]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1496.5" y="331.9189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1410" y="348.2158">Solicita a autorização da</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="1400" y="364.5127">requisição utilizando token</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="1404" y="380.8096">ou header de autorização.</text><!--MD5=[a15c6a966f3bce700f95a323cab74539]
+entity casbin--><rect fill="#85BBF0" height="166.6719" style="stroke: #78A8D8; stroke-width: 1.5;" width="193" x="2059" y="275.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="2126.5" y="300.6816">Casbin</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="123" x="2094" y="315.5938">[Access Control Lib]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2157.5" y="331.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="2082" y="347.7158">Autoriza a requisição</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="2079" y="364.0127">realizada via token ou</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="2074" y="380.3096">header de autorização.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="2077" y="396.6064">Engloba os usecases:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="2072" y="412.9033">Authorize User Token e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="2069" y="429.2002">Authorize System Token.</text><!--MD5=[6113c3d351cca48106911a495b382e12]
+entity system_token_controller--><rect fill="#85BBF0" height="136.4063" style="stroke: #78A8D8; stroke-width: 1.5;" width="178" x="413.5" y="547.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="440.5" y="572.1816">Authorization</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="458.5" y="590.8066">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="456" y="605.7188">[HTTP Handler]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="504.5" y="621.5439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="424" y="637.8408">Realiza o processo de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="434" y="654.1377">controle de acesso</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="423.5" y="670.4346">utilizando a lib de auth.</text><!--MD5=[a73016ecbf33b01957a9b1f1bb1fbe6d]
+entity system_token_use_case--><rect fill="#85BBF0" height="169" style="stroke: #78A8D8; stroke-width: 1.5;" width="191" x="1044" y="530.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="1058" y="555.6816">Authorization Use</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="1118" y="574.3066">Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1106" y="589.2188">[Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1141.5" y="605.0439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1054" y="621.3408">Realiza as validações de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="1062" y="637.6377">permissionamento de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="1062.5" y="653.9346">acordo com as regras</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="157" x="1059" y="670.2314">definidas na politica de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="1073" y="686.5283">permissionamento.</text><!--MD5=[17178f37f4ed30cfc8f8209f451d27c2]
+entity auth_token_service--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="194" x="1397.5" y="631.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="174" x="1407.5" y="656.6816">Auth Token Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="1467" y="671.5938">[Service]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1496.5" y="687.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="1408.5" y="703.7158">Faz o parse do token do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1420.5" y="720.0127">header Authorization.</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="205.3594" style="stroke: #073B6F; stroke-width: 1.5;" width="220" x="7" y="30.8301"/><image height="48" width="48" x="93" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="40.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="18" y="103.6816">Desenvolvedor/QA/PM</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="174" x="30" y="122.3066">/Gestor/Supervisor/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="103" y="140.9316">Etc</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="157.7002"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="23" y="173.9971">Qualquer pessoa que  que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="17.5" y="190.2939">possui alguma aplicação que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="17" y="206.5908">tem os deploys gerenciados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="61.5" y="222.8877">pelo CharlesCD.</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="401" y="82.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="444.5" y="107.6816">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="438.5" y="122.5938">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="504.5" y="138.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="411" y="154.7158">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="464" y="171.0127">do produto</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="772" y="25.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="798.5" y="50.6816">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="816" y="65.5938">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="879" y="81.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="782" y="97.7158">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="795.5" y="114.0127">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="784" y="130.3096">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="798.5" y="146.6064">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="792" y="162.9033">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="799" y="179.2002">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="784" y="195.4971">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="838.5" y="211.7939">aplicações.</text><!--MD5=[ce8c1f9e16bd6fd9376df95af0afd0d2]
+entity moove_database--><rect fill="#438DD5" height="231.8594" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="1778" y="749.3301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="1814" y="774.1816">Moove Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1856.5" y="789.0938">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1890" y="804.9189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1807" y="821.2158">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="1793.5" y="837.5127">sobre Usuários, Grupos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="1788.5" y="853.8096">Usuários, Token Sistêmicos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1820" y="870.1064">Permissões, Roles,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1788" y="886.4033">Workspaces, Componentes,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1827.5" y="902.7002">Modules,  Builds,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1806.5" y="918.9971">Deployments, Círculos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1789.5" y="935.2939">Configurações de Métricas e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1790" y="951.5908">Configurações de Ambiente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="1852" y="967.8877">de deploy.</text><!--MD5=[af1c298bb04aacc9d15065cc96d77f3a]
+entity envoy--><rect fill="#B3B3B3" height="52.5938" style="stroke: #A6A6A6; stroke-width: 1.5;" width="72" x="81" y="287.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="91" y="312.6816">Envoy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="44" x="95" y="327.5938">[Proxy]</text><!--MD5=[ea52addd404dfd4dcf54bc1313006865]
+link auth_controller to auth_use_case--><path d="M607.3307,358.4695 C725.5732,360.8826 916.7351,364.7839 1034.8877,367.1952 " fill="none" id="auth_controller-to-auth_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1042.9146,367.359,1034.9776,364.1962,1034.855,370.1949,1042.9146,367.359" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="863.5" y="359.4688">Usa</text><!--MD5=[6e3ffaf925fcb22f738caaa24ff540b9]
+link auth_use_case to security_filter_service--><path d="M1236.0364,360.0844 C1280.0036,355.8734 1332.4057,350.8546 1378.4958,346.4404 " fill="none" id="auth_use_case-to-security_filter_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1386.7262,345.6521,1378.4766,343.4285,1379.0487,349.4011,1386.7262,345.6521" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1298" y="349.4688">Usa</text><!--MD5=[617094cd78c2fb04989463d9cde1cfd2]
+link auth_use_case to gate_repository--><path d="M1236.0364,408.4885 C1281.5435,426.9477 1336.0866,449.0723 1383.3146,468.2295 " fill="none" id="auth_use_case-to-gate_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1390.8291,471.2777,1384.5434,465.4906,1382.2881,471.0506,1390.8291,471.2777" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1298" y="430.4688">Usa</text><!--MD5=[d673164fdbdf58e9815446aefc93c418]
+link security_filter_service to casbin--><path d="M1602.1722,339.2395 C1725.9939,343.7353 1927.9225,351.0671 2050.5748,355.5204 " fill="none" id="security_filter_service-to-casbin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2058.9019,355.8228,2051.016,352.5345,2050.7983,358.5305,2058.9019,355.8228" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1874.5" y="343.4688">Usa</text><!--MD5=[2888f090b47a6e98c3bd0b6307e24af3]
+link system_token_controller to system_token_use_case--><path d="M591.7428,615.3301 C708.4236,615.3301 912.4296,615.3301 1035.8335,615.3301 " fill="none" id="system_token_controller-to-system_token_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1043.8436,615.3301,1035.8436,612.3301,1035.8436,618.3301,1043.8436,615.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="863.5" y="612.4688">Usa</text><!--MD5=[8fbf5d5d5984d900e99a224bc3938ff6]
+link system_token_use_case to auth_token_service--><path d="M1235.1005,633.373 C1282.7611,642.3681 1340.5116,653.2675 1389.4124,662.4967 " fill="none" id="system_token_use_case-to-auth_token_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1397.4938,664.0219,1390.1891,659.5901,1389.0762,665.486,1397.4938,664.0219" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1298" y="642.4688">Usa</text><!--MD5=[51073929419936fca2ac91de04687ac5]
+link system_token_use_case to gate_repository--><path d="M1235.1005,587.8618 C1280.7185,574.7547 1335.5801,558.9916 1383.0779,545.3443 " fill="none" id="system_token_use_case-to-gate_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1390.9392,543.0856,1382.4218,542.4115,1384.0788,548.1782,1390.9392,543.0856" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1298" y="559.4688">Usa</text><!--MD5=[764804d295ed6b11dc84984a53f6f2e1]
+link gate_repository to moove_database--><path d="M1588.2531,597.1957 C1643.3067,646.4431 1713.3439,709.0939 1771.8721,761.4495 " fill="none" id="gate_repository-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1777.8605,766.8063,1773.8981,759.2366,1769.8978,763.7085,1777.8605,766.8063" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1633" y="634.4688">Lê e escreve em</text><!--MD5=[1a009621445494d43847b83a8c0876e4]
+link user to ui--><path d="M227.2108,133.3301 C279.0648,133.3301 340.7444,133.3301 392.5637,133.3301 " fill="none" id="user-to-ui" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="400.7927,133.3301,392.7927,130.3301,392.7927,136.3301,400.7927,133.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="267" y="18.4688">Acessa para</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="276.5" y="32.4375">gerenciar</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="265.5" y="46.4063">workspaces,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="270.5" y="60.375">aplicações,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="258" y="74.3438">configurações,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="277" y="88.3125">usuários,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="262" y="102.2813">deployments,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="273.5" y="116.25">métricas e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="273.5" y="130.2188">webhooks.</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M604.3391,131.1546 C653.6822,130.1006 713.0959,128.8314 763.8496,127.7472 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="771.9181,127.5748,763.8559,124.7463,763.984,130.7449,771.9181,127.5748" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="638" y="112.4688">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="649" y="126.4375">[JSON/HTTPS]</text><!--MD5=[d63e87acfc462e7277d22e60e8f1349c]
+link envoy to ui--><path d="M153.2669,297.3021 C207.758,271.7174 312.9674,222.3195 393.7278,184.4008 " fill="none" id="envoy-to-ui" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="400.9712,180.9999,392.4547,181.6844,395.0047,187.1155,400.9712,180.9999" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="273.5" y="166.4688">Intercepta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="271.5" y="180.4375">requisições</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="275" y="194.4063">[HTTP Filter]</text><!--MD5=[9ef16bbb55a006d963cb62c5596e290f]
+link envoy to auth_controller--><path d="M153.2669,318.2814 C206.8139,324.1153 309.3369,335.2851 389.5084,344.0197 " fill="none" id="envoy-to-auth_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="397.6865,344.9107,390.0585,341.0618,389.4086,347.0264,397.6865,344.9107" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="261" y="314.4688">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="272" y="328.4375">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="2085" y="994.1895"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="2091" y="1014.1846">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2154" y="1014.1846"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1017.4863"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="2095" y="1030.4814">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1033.7832"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="2095" y="1046.7783">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1050.0801"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="2095" y="1063.0752">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1066.377"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="2095" y="1079.3721">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1082.6738"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="2095" y="1095.6689">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1098.9707"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="2095" y="1111.9658">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1115.2676"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="2095" y="1128.2627">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2091" y="1131.5645"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="2095" y="1144.5596">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1001.1895" y2="1001.1895"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1017.4863" y2="1017.4863"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1033.7832" y2="1033.7832"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1050.0801" y2="1050.0801"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1066.377" y2="1066.377"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1082.6738" y2="1082.6738"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1098.9707" y2="1098.9707"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1115.2676" y2="1115.2676"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1131.5645" y2="1131.5645"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2238" y1="1147.8613" y2="1147.8613"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2091" x2="2091" y1="1001.1895" y2="1147.8613"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2238" x2="2238" y1="1001.1895" y2="1147.8613"/><!--MD5=[c531a3f9933ea680e20b22c6015fe17d]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container_Ext(envoy, "Envoy", "Proxy")
+
+Container_Boundary(charlescd_gate, "CharlesCD Gate"){
+   
+    Component(gate_repository, "Gate Repository", "Repository/GORM", "Acessa as informações necessárias no banco de dados. Engloba as repositories User, SystemToken, Permission, Workspace.")
+
+
+    Component(auth_controller, "Authorization Controller", "HTTP Handler", "Solicita a autorização da requisição utilizando token ou header de autorização.")
+    Component(auth_use_case, "Authorization Use Case", "Use Case", "Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token.")
+    Component(security_filter_service, "Security Filter Service", "Service", "Solicita a autorização da requisição utilizando token ou header de autorização.")
+    Component(casbin, "Casbin", "Access Control Lib", "Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token.")
+
+    
+    Component(system_token_controller, "Authorization Controller", "HTTP Handler", "Realiza o processo de controle de acesso utilizando a lib de auth.")
+    Component(system_token_use_case, "Authorization Use Case", "Use Case", "Realiza as validações de permissionamento de acordo com as regras definidas na politica de permissionamento.")
+    Component(auth_token_service, "Auth Token Service", "Service", "Faz o parse do token do header Authorization.")
+   
+   
+    Rel(auth_controller, auth_use_case, "Usa")
+    Rel(auth_use_case, security_filter_service, "Usa")
+    Rel(auth_use_case, gate_repository, "Usa")
+    Rel(security_filter_service, casbin, "Usa")
+    Rel(system_token_controller, system_token_use_case, "Usa")
+    Rel(system_token_use_case, auth_token_service, "Usa")
+    Rel(system_token_use_case, gate_repository, "Usa")
+    Rel(gate_repository, moove_database, "Lê e escreve em")
+   
+}
+
+
+Rel(user, ui, "Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.")
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(envoy, ui, "Intercepta requisições", "HTTP Filter")
+Rel(envoy, auth_controller, "Faz requisição", "JSON/HTTPS")
+
+
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "<$person>\n==Desenvolvedor/QA/PM/Gestor/Supervisor/Etc\n\n Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD." <<person>> as user
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==Moove Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy." <<container>> as moove_database
+rectangle "==Envoy\n//<size:12>[Proxy]</size>//" <<external_container>> as envoy
+
+rectangle "==CharlesCD Gate\n<size:12>[Container]</size>" <<boundary>> as charlescd_gate{
+   
+    rectangle "==Gate Repository\n//<size:12>[Repository/GORM]</size>//\n\n Acessa as informações necessárias no banco de dados. Engloba as repositories User, SystemToken, Permission, Workspace." <<component>> as gate_repository
+
+
+    rectangle "==Authorization Controller\n//<size:12>[HTTP Handler]</size>//\n\n Solicita a autorização da requisição utilizando token ou header de autorização." <<component>> as auth_controller
+    rectangle "==Authorization Use Case\n//<size:12>[Use Case]</size>//\n\n Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token." <<component>> as auth_use_case
+    rectangle "==Security Filter Service\n//<size:12>[Service]</size>//\n\n Solicita a autorização da requisição utilizando token ou header de autorização." <<component>> as security_filter_service
+    rectangle "==Casbin\n//<size:12>[Access Control Lib]</size>//\n\n Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token." <<component>> as casbin
+
+    
+    rectangle "==Authorization Controller\n//<size:12>[HTTP Handler]</size>//\n\n Realiza o processo de controle de acesso utilizando a lib de auth." <<component>> as system_token_controller
+    rectangle "==Authorization Use Case\n//<size:12>[Use Case]</size>//\n\n Realiza as validações de permissionamento de acordo com as regras definidas na politica de permissionamento." <<component>> as system_token_use_case
+    rectangle "==Auth Token Service\n//<size:12>[Service]</size>//\n\n Faz o parse do token do header Authorization." <<component>> as auth_token_service
+   
+   
+auth_controller - ->> auth_use_case : **Usa**
+auth_use_case - ->> security_filter_service : **Usa**
+auth_use_case - ->> gate_repository : **Usa**
+security_filter_service - ->> casbin : **Usa**
+system_token_controller - ->> system_token_use_case : **Usa**
+system_token_use_case - ->> auth_token_service : **Usa**
+system_token_use_case - ->> gate_repository : **Usa**
+gate_repository - ->> moove_database : **Lê e escreve em**
+   
+}
+
+
+user - ->> ui : **Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.**
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+envoy - ->> ui : **Intercepta requisições**\n//<size:12>[HTTP Filter]</size>//
+envoy - ->> auth_controller : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

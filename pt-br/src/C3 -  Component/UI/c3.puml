@@ -1,0 +1,28 @@
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(browser, "Browser", "Chrome, Firefox, IE, etc", "Navegador de Internet, usado para acessar a interface do CharlesCD")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(compass, "CharlesCD-Compass", "Golang", "Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API.")
+
+Container_Boundary(charlescd_ui, "CharlesCD UI"){
+   
+    Component(routes, "Router", "React-Router-Dom, Typescript", "Atraves do sistema de rotas, sabe qual módulo deve ser renderizado.")
+    Component(module, "Module", "ReactJS, typeScript", "O módulo usa uma implementação nossa do fetch para fazer requsições HTTP e apartir da resposta da requisição ele popula a tela.")
+    Component(component, "Component", "ReactJS, TypeScript, react-hook-form", "Para melhor view dos compontents acessar storybook")
+    Component(provider, "Provider", "URL Request, Typescript", "Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile.")
+   
+    
+    Rel(routes, module, "Usa")
+    Rel(module, component, "Usa")
+    Rel(module, provider, "Fetch")
+    Rel(provider, moove, "Faz requisição via HTTPS/JSON")
+    Rel(provider, compass, "Faz requisição via HTTPS/JSON")
+   
+}
+
+Rel(browser, routes, "Faz requisição", "JSON/HTTPS")
+@enduml

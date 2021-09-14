@@ -1,0 +1,60 @@
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(git_api, "Git API", "Rest API", "Busca recursos de repositórios.")
+Container(kubernetes_api, "Kubernetes API", "Rest API", "Acessa informações e solicita alterações nos cluster Kubernetes.")
+Container(moove_api, "Moove API", "Rest API", "Realiza atualizações dos status dos deployments.")
+Container(butler_database, "Butler Database", "Postgres", "Armazena Informações sobre Deployments, Execuções e Logs.")
+
+Container_Boundary(charlescd_butler, "CharlesCD Butler"){
+   
+    Component(deployment_pipes, "Deployment Pipes", "Nest Pipe", "Realiza validações antes da requisição. Engloba os pipes GitTokenDecryption, DeploymentUniqueness, DefaultCircleUniqueness, NamespaceValidaiton, JoiValidation.")
+    Component(deployment_controller, "Deployment Controller", "Nest Controller", "Permite que usuários façam deploy, undeploy e vejam logs de cada uma dessas operação.")
+    Component(deployment_use_case, "Deployment Use Case", "Nest Provider", "Provê funcionalidades como salvar deployment, compilar manifestos helm, aplicar/atualizar/deletar custom resource no cluster, logs, enviar callback. Engloba os UseCases: FindDeployment, CreateDeploy, CreateUndeploy.")
+
+    Component(deployment_hook_controller, "Deployment Hook Controller", "Nest Controller", "Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile.")
+    Component(reconcile_deployment_use_case, "Reconciale Deployment Use Case", "Nest Provider", "Provê funcionalidades como verificar se deployment esta saudavel, enviar callback de deploy de sucesso e retornar para operator manifestos que devem estar aplicados no cluster.")
+
+    Component(route_hooks_controller, "Route Hooks Controller", "Nest Controller", "Recebe informações do estado atual das rotas dos componentes e envia estado desejado para que operator sincronize e faça o reconcile")
+    Component(routes_hook_deployment_use_case, "Routes Hook Deployment Use Case", "Nest Provider", "Provê funcionalidades como verificar status das rotas e enviar para operator estado desejado delas através de manifestos que devem estar aplicados no cluster")
+    
+    Component(time_scheduler, "Time Scheduler", "Cron", "Verifica periodicamente se deployment ultrapassou  o limite de tempo estabelecido e notifica o Moove.")
+
+    Component(helm_binary, "Helm Binary", "Kubernates Package Management", "Chama api do git para buscar templates no repositório, compila e transforma em manifestos yaml.")
+    Component(kubernetes_client, "Kubernetes Client", "Client API", "Integração com api do kubernetes para aplicar/deletar/buscar recursos.")
+    Component(butler_repository, "Moove Repository", "Database Repository", "Acessa as informações necessárias no banco de dados.")
+    
+    
+    Rel(deployment_pipes, deployment_controller, "Usa")
+    Rel(deployment_controller, deployment_use_case, "Usa")
+    Rel(deployment_use_case, helm_binary, "Usa (somenta na criação)")
+    Rel(deployment_use_case, kubernetes_client, "Usa")
+    Rel(deployment_use_case, butler_repository, "Usa")
+    Rel(deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON (somente no undeploy)")
+    Rel(helm_binary, git_api, "Faz requisição via HTTPS/JSON")
+    Rel(kubernetes_client, kubernetes_api, "Faz requisição via HTTPS/JSON")
+
+    Rel(deployment_hook_controller, reconcile_deployment_use_case, "Usa")
+    Rel(reconcile_deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON")
+    Rel(reconcile_deployment_use_case, butler_repository, "Usa")
+    
+    Rel(route_hooks_controller, routes_hook_deployment_use_case, "Usa")
+    Rel(routes_hook_deployment_use_case, butler_repository, "Usa")
+
+    Rel(time_scheduler, moove_api, "Faz requisição via HTTPS/JSON")
+   
+    Rel(butler_repository, butler_database, "Lê e escreve em (TypeORM)")
+   
+}
+
+Rel(moove, deployment_controller, "Faz requisição", "JSON/HTTPS")
+Rel(moove, deployment_hook_controller, "Faz requisição", "JSON/HTTPS")
+Rel(moove, route_hooks_controller, "Faz requisição", "JSON/HTTPS")
+
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+@enduml
