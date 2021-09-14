@@ -33,14 +33,14 @@ jobs:
 #           AWS_REGION: ${{ secrets.AWS_REGION }}
 #           PATH_TO_DELETE: /
 
-      - name: Markdown-HTML
-      # You may pin to the exact commit or the version.
-      # uses: ZacJW/markdown-html-action@3865edcff67a98f3984bd6312111f0d4deec57d4
-        uses: ZacJW/markdown-html-action@1.1.1
-        with:
-          input_files: '["pt-br/docs/*.md", "en/docs/*.md"]]'
-          output_files: '["pt-br/docs/html", "en/docs/html"]'
-          builtin_stylesheet: 'style.css'
+      # - name: Markdown-HTML
+      # # You may pin to the exact commit or the version.
+      # # uses: ZacJW/markdown-html-action@3865edcff67a98f3984bd6312111f0d4deec57d4
+      #   uses: ZacJW/markdown-html-action@1.1.1
+      #   with:
+      #     input_files: '["pt-br/docs/*.md", "en/docs/*.md"]]'
+      #     output_files: '["pt-br/docs/html", "en/docs/html"]'
+      #     builtin_stylesheet: 'style.css'
 
       - name: Upload PT-BR
         run: aws s3 sync --follow-symlinks pt-br/docs s3://$AWS_S3_BUCKET/c4model/pt-br/ --delete
