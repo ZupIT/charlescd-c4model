@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://unpkg.com/docsify/lib/themes/vue.css');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 *, h2 *, h3 *, h4 *, h5 * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+  padding: 40px 20px 0;
+  background-color: #F5F5F5;
+}
+
+.sidebar > h1 {
+  text-align: left;
+} 
+
+.sidebar ul {
+  margin: 0;
+}
+
+.sidebar ul li a {
+  font-weight: 500;
+  color: #404659;
+}
+
+.sidebar ul li.active > a {
+  color: #FF6D00;
+}
+
+.sidebar-nav {
+  margin-top: 40px;
+}
+
+.markdown-section a {
+  color: #FF6D00;
+}
+
+.anchor span {
+  color: #404659;
+}
+
+.sidebar-toggle {
+  background-color: #F5F5F5;
+}
+
+.sidebar-toggle span {
+  background-color: #FF6D00;
+}

@@ -11,7 +11,7 @@
 	"generateWEB": true,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"webTheme": "//unpkg.com/docsify/lib/themes/vue.css",
+	"webTheme": "http://127.0.0.1:8080/theme.css",
 	"repoUrl": "",
 	"docsifyTemplate": "",
 	"webPort": "3000",
