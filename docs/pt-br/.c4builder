@@ -11,7 +11,7 @@
 	"generateWEB": true,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"webTheme": "http://127.0.0.1:8080/theme.css",
+	"webTheme": "http://127.0.0.1:8080/css/theme.css",
 	"repoUrl": "",
 	"docsifyTemplate": "",
 	"webPort": "3000",
@@ -23,5 +23,6 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true
+	"hasRun": true,
+  "docsifyTemplate": "../../docsify.template.js"
 }

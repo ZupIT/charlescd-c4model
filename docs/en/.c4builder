@@ -11,9 +11,8 @@
 	"generateWEB": true,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"webTheme": "//unpkg.com/docsify/lib/themes/vue.css",
+	"webTheme": "http://127.0.0.1:8080/css/theme.css",
 	"repoUrl": "",
-	"docsifyTemplate": "",
 	"webPort": "3000",
 	"includeBreadcrumbs": true,
 	"includeLinkToDiagram": false,
@@ -23,5 +22,6 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true
+	"hasRun": true,
+	"docsifyTemplate": "../../docsify.template.js"
 }
