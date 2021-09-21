@@ -2,7 +2,7 @@ const languageNav = document.querySelector('.language-nav');
 const languageNavTrigger = languageNav.querySelector('.language-nav-head');
 const languageNavList = languageNav.querySelector('.language-nav-main');
 
-const handleLanguageNavHandle = () => {  
+const handleLanguageNavPopup = () => {  
   if (languageNav) {
     if (languageNavTrigger) {
       languageNavTrigger.addEventListener('click', () => {
@@ -27,10 +27,13 @@ const handleLanguageItemPick = (item) => {
   })
 }
 
-const languageNavListTargets = languageNavList.querySelectorAll('.language-nav-main-list-item');
+const handleLanguageItemTargets = () => {
+  const languageNavListTargets = languageNavList.querySelectorAll('.language-nav-main-list-item');
 
-if (languageNavListTargets) {
-  languageNavListTargets.forEach((item) => handleLanguageItemPick(item));
+  if (languageNavListTargets) {
+    languageNavListTargets.forEach((item) => handleLanguageItemPick(item));
+  }
 }
 
-handleLanguageNavHandle();
+handleLanguageNavPopup();
+handleLanguageItemTargets();
