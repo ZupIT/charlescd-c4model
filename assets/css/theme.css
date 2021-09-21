@@ -51,3 +51,71 @@ h1 *, h2 *, h3 *, h4 *, h5 * {
 .sidebar-toggle span {
   background-color: #FF6D00;
 }
+
+.language-nav {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 1000;
+  min-width: 130px;
+
+  border: 1px solid #404659;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.language-nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.language-nav-head-text {
+  font-size: 14px;
+  text-transform: uppercase;
+} 
+
+.language-nav-head-icon {
+  border: solid #404659;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.language-nav-main {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  display: none;
+}
+
+.language-nav-main.is-open {
+  display: block;
+}
+
+.language-nav-main-list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #404659;
+  background: #fff;
+  text-align: left;
+}
+
+.language-nav-main-list-item {
+  border-top: 1px solid #404659;
+  padding: 5px 10px !important;
+  margin: 0 !important;  
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.language-nav-main-list-item:hover {
+  background-color: #404659;
+  color: #fff;
+}
