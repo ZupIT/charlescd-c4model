@@ -71,7 +71,7 @@ O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação d
 - **Kubernetes:** Orquestra os containers das aplicações.
 
 
-![diagram](c1.png)
+![diagram](c1.svg)
 
 ## C2 - Container
 
@@ -97,7 +97,7 @@ O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os
 
 - **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
 
-![diagram](c2.png)
+![diagram](c2.svg)
 
 ## C3 -  Component
 
@@ -129,7 +129,7 @@ Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases 
 
 
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Circle-Matcher
 
@@ -141,7 +141,7 @@ Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases 
 Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
 
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Compass
 
@@ -151,7 +151,7 @@ Serviço backend em Java, que gerencia todos os círculos criados, além de indi
 
 Serviço backend em Golang, que realiza a integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Gate
 
@@ -161,7 +161,7 @@ Serviço backend em Golang, que realiza a integração do provedor de dados, faz
 
 Serviço backend em Golang, que controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Hermes
 
@@ -171,7 +171,7 @@ Serviço backend em Golang, que controla as permissões dos usuários em relaç�
 
 Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as mensagens de eventos para as subscrições cadastradas.
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Moove
 
@@ -181,7 +181,7 @@ Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as 
 
 Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos.
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## UI
 
@@ -191,7 +191,7 @@ Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produt
 
 Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
 
-![diagram](c3.png)
+![diagram](c3.svg)
 
 ## Villager
 
@@ -203,4 +203,4 @@ Serviço backend em Java, responsável por acessar as imagens docker. Possui int
 
 
 
-![diagram](c3.png)
+![diagram](c3.svg)

@@ -25,4 +25,4 @@ Serviço backend em Java, responsável por acessar as imagens docker. Possui int
 
 
 
-![diagram](c3.png)
+![diagram](c3.svg)

@@ -26,4 +26,4 @@ Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases 
 
 
 
-![diagram](c3.png)
+![diagram](c3.svg)
