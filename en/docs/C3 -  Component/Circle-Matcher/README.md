@@ -10,6 +10,7 @@
     * [**Circle-Matcher**](/docs/C3%20-%20%20Component/Circle-Matcher/README.md)
     * [Compass](/docs/C3%20-%20%20Component/Compass/README.md)
     * [Gate](/docs/C3%20-%20%20Component/Gate/README.md)
+    * [Hermes](/docs/C3%20-%20%20Component/Hermes/README.md)
     * [Moove](/docs/C3%20-%20%20Component/Moove/README.md)
     * [UI](/docs/C3%20-%20%20Component/UI/README.md)
     * [Villager](/docs/C3%20-%20%20Component/Villager/README.md)
@@ -20,7 +21,8 @@
 
 ---
 
-Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
 
 
 ![diagram](c3.svg)

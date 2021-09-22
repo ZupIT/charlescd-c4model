@@ -6,6 +6,7 @@
     * [Circle-Matcher](C3%20-%20%20Component/Circle-Matcher/HOME)
     * [Compass](C3%20-%20%20Component/Compass/HOME)
     * [Gate](C3%20-%20%20Component/Gate/HOME)
+    * [Hermes](C3%20-%20%20Component/Hermes/HOME)
     * [Moove](C3%20-%20%20Component/Moove/HOME)
     * [UI](C3%20-%20%20Component/UI/HOME)
     * [Villager](C3%20-%20%20Component/Villager/HOME)

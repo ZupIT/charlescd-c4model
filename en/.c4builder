@@ -11,8 +11,9 @@
 	"generateWEB": true,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"webTheme": "http://127.0.0.1:8080/css/theme.css",
+	"webTheme": "https://docs.charlescd.io/c4model/theme/theme.css",
 	"repoUrl": "",
+	"docsifyTemplate": "../docsify.template.js",
 	"webPort": "3000",
 	"includeBreadcrumbs": true,
 	"includeLinkToDiagram": false,
@@ -22,6 +23,5 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true,
-	"docsifyTemplate": "../docsify.template.js"
+	"hasRun": true
 }

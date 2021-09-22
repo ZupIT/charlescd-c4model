@@ -9,7 +9,7 @@ Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Proc
 Container(git_api, "Git API", "Rest API", "Busca recursos de repositórios.")
 Container(kubernetes_api, "Kubernetes API", "Rest API", "Acessa informações e solicita alterações nos cluster Kubernetes.")
 Container(moove_api, "Moove API", "Rest API", "Realiza atualizações dos status dos deployments.")
-Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(butler_database, "Butler Database", "Postgres", "Armazena Informações sobre Deployments, Execuções e Logs.")
 
 Container_Boundary(charlescd_butler, "CharlesCD Butler"){
    
@@ -27,28 +27,28 @@ Container_Boundary(charlescd_butler, "CharlesCD Butler"){
 
     Component(helm_binary, "Helm Binary", "Kubernates Package Management", "Chama api do git para buscar templates no repositório, compila e transforma em manifestos yaml.")
     Component(kubernetes_client, "Kubernetes Client", "Client API", "Integração com api do kubernetes para aplicar/deletar/buscar recursos.")
-    Component(moove_repository, "Moove Repository", "Database Repository", "Acessa as informações necessárias no banco de dados.")
+    Component(butler_repository, "Moove Repository", "Database Repository", "Acessa as informações necessárias no banco de dados.")
     
     
     Rel(deployment_pipes, deployment_controller, "Usa")
     Rel(deployment_controller, deployment_use_case, "Usa")
     Rel(deployment_use_case, helm_binary, "Usa (somenta na criação)")
     Rel(deployment_use_case, kubernetes_client, "Usa")
-    Rel(deployment_use_case, moove_repository, "Usa")
+    Rel(deployment_use_case, butler_repository, "Usa")
     Rel(deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON (somente no undeploy)")
     Rel(helm_binary, git_api, "Faz requisição via HTTPS/JSON")
     Rel(kubernetes_client, kubernetes_api, "Faz requisição via HTTPS/JSON")
 
     Rel(deployment_hook_controller, reconcile_deployment_use_case, "Usa")
     Rel(reconcile_deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON")
-    Rel(reconcile_deployment_use_case, moove_repository, "Usa")
+    Rel(reconcile_deployment_use_case, butler_repository, "Usa")
     
     Rel(route_hooks_controller, routes_hook_deployment_use_case, "Usa")
-    Rel(routes_hook_deployment_use_case, moove_repository, "Usa")
+    Rel(routes_hook_deployment_use_case, butler_repository, "Usa")
 
     Rel(time_scheduler, moove_api, "Faz requisição via HTTPS/JSON")
    
-    Rel(moove_repository, moove_database, "Lê e escreve em (TypeORM)")
+    Rel(butler_repository, butler_database, "Lê e escreve em (TypeORM)")
    
 }
 

@@ -10,6 +10,7 @@
     * [Circle-Matcher](/docs/C3%20-%20%20Component/Circle-Matcher/README.md)
     * [Compass](/docs/C3%20-%20%20Component/Compass/README.md)
     * [Gate](/docs/C3%20-%20%20Component/Gate/README.md)
+    * [Hermes](/docs/C3%20-%20%20Component/Hermes/README.md)
     * [Moove](/docs/C3%20-%20%20Component/Moove/README.md)
     * [UI](/docs/C3%20-%20%20Component/UI/README.md)
     * [Villager](/docs/C3%20-%20%20Component/Villager/README.md)
@@ -21,7 +22,7 @@
 ---
 
 
-Responsável por orquestrar e gerenciar as releases e deploys realizados.
+Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases e deploys realizados.
 
 
 
