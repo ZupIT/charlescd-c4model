@@ -8,6 +8,7 @@
     * [Circle-Matcher](#Circle-Matcher)
     * [Compass](#Compass)
     * [Gate](#Gate)
+    * [Hermes](#Hermes)
     * [Moove](#Moove)
     * [UI](#UI)
     * [Villager](#Villager)
@@ -60,9 +61,17 @@ Neste modelo de deploy, é possível segmentar seus clientes através de caracte
 
 É o primeiro nível do nosso desenho. A ideia é mostrar as interações de forma macro, sem muitos detalhes, dando enfoque às comunicações e dependências entre sistemas e usuários que compõem e interagem com o software.
 
+Nesse nível contextualizamos  de forma macro como o CharlesCD interage com o Kubernetes e permite que o usuário possa gerenciar seus deploys utilizando uma série de recursos como métricas, hipoteses e webhooks. Onde:
+
+- **Usuário:** Qualquer pessoa que possui uma aplicação que tem os deploys gerenciados pelo CharlesCD. Seja ela um desenvolvedor, gestor, QA, PM, etc.
+
+- **Sistema CharlesCD**: O CharlesCD é uma ferramenta de deploy continuo orientada a hipoteses que permite o gerenciamento dos deploys de aplições web e backend. Ele permite o gerenciamento dos deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, colhe e observa métricas e faz acompanhamento de versões das suas aplicações. Além disse ele envia informações de eventos (previamente configurados) via webhooks. 
+O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação de atualizações no cluster do usuário.
+
+- **Kubernetes:** Orquestra os containers das aplicações.
 
 
-![diagram](c1.svg)
+![diagram](c1.png)
 
 ## C2 - Container
 
@@ -72,8 +81,23 @@ Neste modelo de deploy, é possível segmentar seus clientes através de caracte
 
 Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers (Não confundir com o Docker) e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
 
+O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os seguintes módulos (onde cada módulo, é um container):
 
-![diagram](c2.svg)
+- **UI:**  Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD.
+
+- **Moove:**  Serviço backend que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, realizando a ponte entre os demais microserviços.
+
+- **Butler:**  Responsável por orquestrar e gerenciar as releases e deploys realizados.
+
+- **Circle Matcher:** Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+- **Compass:** Integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+
+- **Hermes:**  Responsável por gerenciar e notificar eventos de webhook.
+
+- **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+
+![diagram](c2.png)
 
 ## C3 -  Component
 
@@ -81,19 +105,17 @@ Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus c
 
 [C4Model](#CharlesCD)
 
-**Nivel 3: Componente**
-
 Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os compõe. Nesse nível damos enfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores. 
 
-O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentro do C4Model.
+O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentro do C4Model:
 
-- Butler
-- Circle Matcher
-- Compass
-- Gate
-- Moove
-- UI
-- Villager
+- Butler: Orquestra e gerencia as releases e deploys realizados
+- Circle Matcher: Gerencia e identifica os círculos
+- Compass: Realiza ntegração do provedor de dados, faz análise de métricas e executa ações configuráveis
+- Gate: Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles
+- Moove:  Orquestra os testes de hipóteses e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos
+- UI: Prove uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD
+- Villager: Responsável por acessar as imagens docker
 
 
 ## Butler
@@ -103,11 +125,11 @@ O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentr
 [C4Model](#CharlesCD)
 
 
-Responsável por orquestrar e gerenciar as releases e deploys realizados.
+Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases e deploys realizados.
 
 
 
-![diagram](c3.svg)
+![diagram](c3.png)
 
 ## Circle-Matcher
 
@@ -115,10 +137,11 @@ Responsável por orquestrar e gerenciar as releases e deploys realizados.
 
 [C4Model](#CharlesCD)
 
-Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
 
 
-![diagram](c3.svg)
+![diagram](c3.png)
 
 ## Compass
 
@@ -126,9 +149,9 @@ Gerencia todos os círculos criados, além de indicar a qual círculo um usuári
 
 [C4Model](#CharlesCD)
 
-Integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+Serviço backend em Golang, que realiza a integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
 
-![diagram](c3.svg)
+![diagram](c3.png)
 
 ## Gate
 
@@ -136,9 +159,19 @@ Integração do provedor de dados, faz análise de métricas e executa ações c
 
 [C4Model](#CharlesCD)
 
-Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+Serviço backend em Golang, que controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
 
-![diagram](c3.svg)
+![diagram](c3.png)
+
+## Hermes
+
+`/C3 -  Component/Hermes`
+
+[C4Model](#CharlesCD)
+
+Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as mensagens de eventos para as subscrições cadastradas.
+
+![diagram](c3.png)
 
 ## Moove
 
@@ -146,9 +179,9 @@ Controla as permissões dos usuários em relação aos recursos existentes nas A
 
 [C4Model](#CharlesCD)
 
-É um serviço backend que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos.
+Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos.
 
-![diagram](c3.svg)
+![diagram](c3.png)
 
 ## UI
 
@@ -156,9 +189,9 @@ Controla as permissões dos usuários em relação aos recursos existentes nas A
 
 [C4Model](#CharlesCD)
 
-Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
+Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
 
-![diagram](c3.svg)
+![diagram](c3.png)
 
 ## Villager
 
@@ -166,8 +199,8 @@ Responsável por prover uma interface de fácil usabilidade para todas as featur
 
 [C4Model](#CharlesCD)
 
-**Villager**
+Serviço backend em Java, responsável por acessar as imagens docker. Possui integração com DockerHub, AWS ECR, Azure Container Registry, GCR e Harbor.
 
 
 
-![diagram](c3.svg)
+![diagram](c3.png)

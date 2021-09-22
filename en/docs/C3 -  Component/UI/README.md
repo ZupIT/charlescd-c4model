@@ -10,6 +10,7 @@
     * [Circle-Matcher](/docs/C3%20-%20%20Component/Circle-Matcher/README.md)
     * [Compass](/docs/C3%20-%20%20Component/Compass/README.md)
     * [Gate](/docs/C3%20-%20%20Component/Gate/README.md)
+    * [Hermes](/docs/C3%20-%20%20Component/Hermes/README.md)
     * [Moove](/docs/C3%20-%20%20Component/Moove/README.md)
     * [**UI**](/docs/C3%20-%20%20Component/UI/README.md)
     * [Villager](/docs/C3%20-%20%20Component/Villager/README.md)
@@ -20,6 +21,6 @@
 
 ---
 
-Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
+Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
 
-![diagram](c3.svg)
+![diagram](c3.png)

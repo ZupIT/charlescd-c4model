@@ -13,10 +13,7 @@
 	"includeTableOfContents": true,
 	"webTheme": "https://docs.charlescd.io/c4model/theme/theme.css",
 	"repoUrl": "",
-<<<<<<< HEAD
 	"docsifyTemplate": "../docsify.template.js",
-=======
->>>>>>> 8cbdc5201782e53b788fcb621bd05fd8595368a3
 	"webPort": "3000",
 	"includeBreadcrumbs": true,
 	"includeLinkToDiagram": false,
