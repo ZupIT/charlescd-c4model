@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:2551px;height:1234px;" version="1.1" viewBox="0 0 2551 1234" width="2551px" zoomAndPan="magnify"><defs/><g><!--MD5=[a7701a7b0c8d7164c055dbd46e5075e9]
+cluster charlescd_butler--><rect fill="#FFFFFF" height="725" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="2166" x="7" y="214.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="1014.5" y="231.3516">CharlesCD Butler</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1050" y="246.2637">[Container]</text><!--MD5=[bcbe92bbe972ab976bdf42864f4fa324]
+entity deployment_pipes--><rect fill="#85BBF0" height="182.9688" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="16" y="474"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="45" y="498.8516">Deployment Pipes</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="91" y="513.7637">[Nest Pipe]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="127" y="529.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="28.5" y="545.8857">Realiza validações antes da</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="26" y="562.1826">requisição. Engloba os pipes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="52" y="578.4795">GitTokenDecryption,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="37.5" y="594.7764">DeploymentUniqueness,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="36" y="611.0732">DefaultCircleUniqueness,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="47" y="627.3701">NamespaceValidaiton,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="82.5" y="643.667">JoiValidation.</text><!--MD5=[7146351e2b4da979f309fc0e54861cca]
+entity deployment_controller--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="775" y="498.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="200" x="785" y="523.3516">Deployment Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="833.5" y="538.2637">[Nest Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="887" y="554.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="787" y="570.3857">Permite que usuários façam</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="795.5" y="586.6826">deploy, undeploy e vejam</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="795" y="602.9795">logs de cada uma dessas</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="850.5" y="619.2764">operação.</text><!--MD5=[0d8fa0290085f31e0a09f04d393b3060]
+entity deployment_use_case--><rect fill="#85BBF0" height="215.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1278" y="478.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="1291" y="503.3516">Deployment Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="1342" y="518.2637">[Nest Provider]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1390" y="534.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="1289" y="550.3857">Provê funcionalidades como</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="1290.5" y="566.6826">salvar deployment, compilar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="1302.5" y="582.9795">manifestos helm, aplicar/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="1303" y="599.2764">atualizar/deletar custom</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="1298" y="615.5732">resource no cluster, logs,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="1293.5" y="631.8701">enviar callback. Engloba os</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1288" y="648.167">UseCases: FindDeployment,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="1337" y="664.4639">CreateDeploy,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1330.5" y="680.7607">CreateUndeploy.</text><!--MD5=[5292cbf4034cfe7212ce3ec96473b6a5]
+entity deployment_hook_controller--><rect fill="#85BBF0" height="169" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="775" y="707"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="803.5" y="731.8516">Deployment Hook</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="841" y="750.4766">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="833.5" y="765.3887">[Nest Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="887" y="781.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="800.5" y="797.5107">Recebe informações do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="785" y="813.8076">estado atual de um deploy e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="788" y="830.1045">envia estado desejado para</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="794" y="846.4014">que operator sincronize e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="829" y="862.6982">faça o reconcile.</text><!--MD5=[947fb2afea955483d0c61d468d672e4a]
+entity reconcile_deployment_use_case--><rect fill="#85BBF0" height="201.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1279" y="729.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="1338" y="754.3516">Reconciale</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="1291" y="772.9766">Deployment Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="1342" y="787.8887">[Nest Provider]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1390" y="803.7139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="1289" y="820.0107">Provê funcionalidades como</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="1289.5" y="836.3076">verificar se deployment esta</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="1290.5" y="852.6045">saudavel, enviar callback de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="1314" y="868.9014">deploy de sucesso e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="1310" y="885.1982">retornar para operator</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1289.5" y="901.4951">manifestos que devem estar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="1317" y="917.792">aplicados no cluster.</text><!--MD5=[5d47b1229bc01c7d4d353d617fff8cf6]
+entity route_hooks_controller--><rect fill="#85BBF0" height="185.2969" style="stroke: #78A8D8; stroke-width: 1.5;" width="216" x="777" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="825" y="282.8516">Route Hooks</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="841" y="301.4766">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="833.5" y="316.3887">[Nest Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="887" y="332.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="800.5" y="348.5107">Recebe informações do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="791.5" y="364.8076">estado atual das rotas dos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="808" y="381.1045">componentes e envia</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="792.5" y="397.4014">estado desejado para que</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="787" y="413.6982">operator sincronize e faça o</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="853.5" y="429.9951">reconcile</text><!--MD5=[acf4351e75f731927df111516c4630a7]
+entity routes_hook_deployment_use_case--><rect fill="#85BBF0" height="185.2969" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1279" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1328" y="282.8516">Routes Hook</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="1291" y="301.4766">Deployment Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="1342" y="316.3887">[Nest Provider]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1390" y="332.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="1289" y="348.5107">Provê funcionalidades como</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="1296" y="364.8076">verificar status das rotas e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1291" y="381.1045">enviar para operator estado</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="1295.5" y="397.4014">desejado delas através de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1289.5" y="413.6982">manifestos que devem estar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="1319" y="429.9951">aplicados no cluster</text><!--MD5=[17aab313160a5447b40448114f7d3848]
+entity time_scheduler--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="15" y="797.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="57" y="822.3516">Time Scheduler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="105.5" y="837.2637">[Cron]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="127" y="853.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="32" y="869.3857">Verifica periodicamente se</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="31" y="885.6826">deployment ultrapassou  o</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="25" y="901.9795">limite de tempo estabelecido</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="129" x="60.5" y="918.2764">e notifica o Moove.</text><!--MD5=[ba2b5b6bf0bfdd0e16979f9efbdac5fd]
+entity helm_binary--><rect fill="#85BBF0" height="148.0469" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1945" y="680.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="2003" y="705.3516">Helm Binary</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="1986" y="720.2637">[Kubernates Package</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="2011.5" y="734.2324">Management]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2057" y="750.0576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="1955" y="766.3545">Chama api do git para buscar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="1966.5" y="782.6514">templates no repositório,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="1968" y="798.9482">compila e transforma em</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1997.5" y="815.2451">manifestos yaml.</text><!--MD5=[279b65da080461ab593ee8226e732e8a]
+entity kubernetes_client--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="189" x="1960.5" y="374.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="159" x="1975.5" y="399.3516">Kubernetes Client</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="2021" y="414.2637">[Client API]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2057" y="430.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="1976.5" y="446.3857">Integração com api do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1971.5" y="462.6826">kubernetes para aplicar/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1970.5" y="478.9795">deletar/buscar recursos.</text><!--MD5=[fc5b7e674257a6bdd4435f6bf611517d]
+entity butler_repository--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="198" x="1956" y="527.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="161" x="1974.5" y="552.3516">Moove Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="140" x="1985" y="567.2637">[Database Repository]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2057" y="583.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1973.5" y="599.3857">Acessa as informações</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="1966" y="615.6826">necessárias no banco de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="2031.5" y="631.9795">dados.</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="23.5" y="56"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="67" y="80.8516">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="61" y="95.7637">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="127" y="111.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="33.5" y="127.8857">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="86.5" y="144.1826">do produto</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="400" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="426.5" y="31.8516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="444" y="46.7637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="507" y="62.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="410" y="78.8857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="423.5" y="95.1826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="412" y="111.4795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="426.5" y="127.7764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="420" y="144.0732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="427" y="160.3701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="412" y="176.667">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="466.5" y="192.9639">aplicações.</text><!--MD5=[654cfe29856ac6bf71695e0ba3be24ed]
+entity git_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="154" x="2372" y="704"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="2418.5" y="728.8516">Git API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="2419" y="743.7637">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2451" y="759.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="2382" y="775.8857">Busca recursos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="2406" y="792.1826">repositórios.</text><!--MD5=[5bd80a26ec93a92f87cc9f0038135d10]
+entity kubernetes_api--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="177" x="2360.5" y="374.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="2379.5" y="399.3516">Kubernetes API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="2419" y="414.2637">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2451" y="430.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="2371" y="446.3857">Acessa informações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="2370.5" y="462.6826">solicita alterações nos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="2381" y="478.9795">cluster Kubernetes.</text><!--MD5=[7ee4f9179e05926e0c6a477cc4888d46]
+entity moove_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="193" x="1691" y="948"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="1740" y="972.8516">Moove API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1757.5" y="987.7637">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1789.5" y="1003.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1701" y="1019.8857">Realiza atualizações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="1702" y="1036.1826">status dos deployments.</text><!--MD5=[c71883367c3db9857ebdf1902de59177]
+entity butler_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="182" x="2358" y="527.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="2377.5" y="552.3516">Butler Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="2417.5" y="567.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2451" y="583.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="2368" y="599.3857">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="2377" y="615.6826">sobre Deployments,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="2384" y="631.9795">Execuções e Logs.</text><!--MD5=[7ce6e2f2aa4bf05a0be5c34427de0cf0]
+link deployment_pipes to deployment_controller--><path d="M234.2939,565.5 C375.6936,565.5 621.1063,565.5 766.7463,565.5 " fill="none" id="deployment_pipes-to-deployment_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="774.8982,565.5,766.8982,562.5,766.8982,568.5,774.8982,565.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="491.5" y="562.6387">Usa</text><!--MD5=[13e0ce6ccbb3f6f0586861a7abcbaca9]
+link deployment_controller to deployment_use_case--><path d="M995.0746,570.0956 C1076.2202,573.4833 1186.4683,578.0862 1269.5318,581.554 " fill="none" id="deployment_controller-to-deployment_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1277.7372,581.8966,1269.8693,578.5655,1269.619,584.5603,1277.7372,581.8966" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1189" y="575.6387">Usa</text><!--MD5=[6c5fd6e40f5fc34579aa0d7451e5f5fb]
+link deployment_use_case to helm_binary--><path d="M1498.1415,614.2418 C1619.1612,644.7235 1812.8039,693.4971 1936.9005,724.7538 " fill="none" id="deployment_use_case-to-helm_binary" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1944.9724,726.7869,1937.9474,721.9238,1936.482,727.742,1944.9724,726.7869" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="1725.5" y="646.6387">Usa (somenta na</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56" x="1759.5" y="660.6074">criação)</text><!--MD5=[e7164d5ff8852e660c562136aad2d3b4]
+link deployment_use_case to kubernetes_client--><path d="M1498.1415,561.2352 C1624.3207,532.2915 1829.4469,485.2386 1952.382,457.0391 " fill="none" id="deployment_use_case-to-kubernetes_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1960.3589,455.2093,1951.8907,454.074,1953.2322,459.9221,1960.3589,455.2093" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1774" y="470.6387">Usa</text><!--MD5=[6cd3ce5eced801dda5d292ed9ca30b62]
+link deployment_use_case to butler_repository--><path d="M1498.1415,586.5 C1622.7819,586.5 1824.4555,586.5 1947.848,586.5 " fill="none" id="deployment_use_case-to-butler_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1955.8608,586.5,1947.8608,583.5,1947.8608,589.5,1955.8608,586.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1774" y="583.6387">Usa</text><!--MD5=[250891b0c3fdc660c9d3bb3e2afd8ea2]
+link deployment_use_case to moove_api--><path d="M1484.3678,694.6759 C1489.0286,700.3226 1493.5967,705.9529 1498,711.5 C1512.2622,729.4669 1513.1725,735.9967 1528,753.5 C1582.0342,817.2852 1611.4171,819.1964 1661,886.5 C1676.5871,907.6578 1672.0677,920.6614 1690.151,942.0416 " fill="none" id="deployment_use_case-to-moove_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1695.5708,947.9858,1692.3976,940.0529,1687.9639,944.0955,1695.5708,947.9858" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1529" y="708.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="91" x="1549" y="722.6074">HTTPS/JSON (</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="1550.5" y="736.5762">somente no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="1559" y="750.5449">undeploy)</text><!--MD5=[58ccee28281861645256f92b3fd880ed]
+link helm_binary to git_api--><path d="M2165.0128,754.5 C2227.8556,754.5 2305.4756,754.5 2363.6764,754.5 " fill="none" id="helm_binary-to-git_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2371.7563,754.5,2363.7563,751.5,2363.7563,757.5,2371.7563,754.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="2196" y="737.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="2220.5" y="751.6074">HTTPS/JSON</text><!--MD5=[ec268a6bc738acb57b5bdb4427470880]
+link kubernetes_client to kubernetes_api--><path d="M2149.6234,433.5 C2210.8529,433.5 2290.3542,433.5 2352.0408,433.5 " fill="none" id="kubernetes_client-to-kubernetes_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2360.2387,433.5,2352.2387,430.5,2352.2387,436.5,2360.2387,433.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="2196" y="416.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="2220.5" y="430.6074">HTTPS/JSON</text><!--MD5=[8053f7fbca8c7a2ffe7af315b6bd5ea2]
+link deployment_hook_controller to reconcile_deployment_use_case--><path d="M995.0746,800.0346 C1076.5,806.3479 1187.229,814.9333 1270.3901,821.3811 " fill="none" id="deployment_hook_controller-to-reconcile_deployment_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1278.604,822.018,1270.8599,818.4084,1270.396,824.3904,1278.604,822.018" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1189" y="812.6387">Usa</text><!--MD5=[56e8113421df9ce45a159e5ec15fdd37]
+link reconcile_deployment_use_case to moove_api--><path d="M1497.2433,903.8196 C1507.4489,909.4807 1517.7943,914.8084 1528,919.5 C1577.2469,942.1389 1634.6638,960.3894 1682.9506,973.6217 " fill="none" id="reconcile_deployment_use_case-to-moove_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1690.9271,975.7848,1683.9913,970.7954,1682.4208,976.5862,1690.9271,975.7848" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1529" y="902.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1553.5" y="916.6074">HTTPS/JSON</text><!--MD5=[07a12626a4e119ae1deea2e26646da98]
+link reconcile_deployment_use_case to butler_repository--><path d="M1497.0297,789.9313 C1507.4158,786.7972 1517.8549,783.9179 1528,781.5 C1683.2468,744.4994 1743.9107,810.9566 1884,734.5 C1920.8146,714.4077 1913.9226,690.6639 1945,662.5 C1949.3752,658.535 1953.967,654.6075 1958.6891,650.7494 " fill="none" id="reconcile_deployment_use_case-to-butler_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1965.2011,645.5341,1957.0814,648.1933,1960.832,652.8765,1965.2011,645.5341" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1774" y="731.6387">Usa</text><!--MD5=[136dd735c5ae7f2be4606d16f0179b39]
+link route_hooks_controller to routes_hook_deployment_use_case--><path d="M993.215,350.5 C1074.8915,350.5 1186.8234,350.5 1270.6477,350.5 " fill="none" id="route_hooks_controller-to-routes_hook_deployment_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1278.67,350.5,1270.67,347.5,1270.67,353.5,1278.67,350.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1189" y="347.6387">Usa</text><!--MD5=[c535037b160c85791e46c16a367549d3]
+link routes_hook_deployment_use_case to butler_repository--><path d="M1497.3892,354.9366 C1602.0105,363.1219 1761.5269,386.1403 1884,450.5 C1917.3882,468.0455 1915.904,485.4992 1945,509.5 C1950.2346,513.818 1955.7011,518.1495 1961.2789,522.4357 " fill="none" id="routes_hook_deployment_use_case-to-butler_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1967.8708,527.4431,1963.315,520.2151,1959.6856,524.9929,1967.8708,527.4431" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1774" y="381.6387">Usa</text><!--MD5=[fa983fc46a0db75ab8a02aec511dd26a]
+link time_scheduler to moove_api--><path d="M235.2615,922.24 C309.4385,955.7889 410.5735,991.5 505,991.5 C505,991.5 505,991.5 1388,991.5 C1487.9269,991.5 1601.8918,993.7165 1682.4554,995.655 " fill="none" id="time_scheduler-to-moove_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1690.6358,995.8536,1682.711,992.6602,1682.5653,998.6584,1690.6358,995.8536" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1026" y="974.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1050.5" y="988.6074">HTTPS/JSON</text><!--MD5=[42c16f2a36397904220296efda4ce0d1]
+link butler_repository to butler_database--><path d="M2154.1685,586.5 C2213.9322,586.5 2289.7951,586.5 2349.6003,586.5 " fill="none" id="butler_repository-to-butler_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2357.9292,586.5,2349.9292,583.5,2349.9292,589.5,2357.9292,586.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="2200" y="569.6387">Lê e escreve em (</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="2226" y="583.6074">TypeORM)</text><!--MD5=[8ef1a9709cb3c12621f9d5b35deb9b8b]
+link moove to deployment_controller--><path d="M607.9089,206.2744 C608.6187,207.3466 609.316,208.4219 610,209.5 C631.6853,243.6828 620.2139,260.1839 640,295.5 C686.3119,378.1619 710.609,390.9904 775,460.5 C784.8398,471.122 795.5121,482.0119 806.2087,492.5674 " fill="none" id="moove-to-deployment_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="812.1485,498.3933,808.5378,490.6497,804.3364,494.9333,812.1485,498.3933" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="641" y="278.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="652" y="292.6074">[JSON/HTTPS]</text><!--MD5=[e3350b103004043f4d6c1afee985361f]
+link moove to deployment_hook_controller--><path d="M608.2605,206.0775 C608.8578,207.2127 609.4379,208.3536 610,209.5 C660.429,312.3595 598.0603,358.8969 640,465.5 C674.8322,554.0372 740.6075,639.4542 795.241,700.6294 " fill="none" id="moove-to-deployment_hook_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="800.8287,706.8457,797.7117,698.8905,793.2495,702.9016,800.8287,706.8457" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="641" y="448.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="652" y="462.6074">[JSON/HTTPS]</text><!--MD5=[79233afd82fab9c89c52c65763e58084]
+link moove to route_hooks_controller--><path d="M610.0945,173.9817 C659.813,205.9063 719.2965,244.1009 770.1953,276.7833 " fill="none" id="moove-to-route_hooks_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="776.9975,281.151,771.8868,274.3041,768.6449,279.3528,776.9975,281.151" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="641" y="182.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="652" y="196.6074">[JSON/HTTPS]</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M226.833,106.5 C277.6468,106.5 339.271,106.5 391.5897,106.5 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="399.9035,106.5,391.9035,103.5,391.9035,109.5,399.9035,106.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="266" y="89.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="277" y="103.6074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="2365" y="1062.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="2371" y="1082.4795">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2434" y="1082.4795"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1085.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="2375" y="1098.7764">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1102.0781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="2375" y="1115.0732">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1118.375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="2375" y="1131.3701">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1134.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="2375" y="1147.667">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1150.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="2375" y="1163.9639">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1167.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="2375" y="1180.2607">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1183.5625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="2375" y="1196.5576">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="2371" y="1199.8594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="2375" y="1212.8545">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1069.4844" y2="1069.4844"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1085.7813" y2="1085.7813"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1102.0781" y2="1102.0781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1118.375" y2="1118.375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1134.6719" y2="1134.6719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1150.9688" y2="1150.9688"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1167.2656" y2="1167.2656"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1183.5625" y2="1183.5625"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1199.8594" y2="1199.8594"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2518" y1="1216.1563" y2="1216.1563"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2371" x2="2371" y1="1069.4844" y2="1216.1563"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2518" x2="2518" y1="1069.4844" y2="1216.1563"/><!--MD5=[ea6dae0e9bbf01038d8f796dee879eea]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(git_api, "Git API", "Rest API", "Busca recursos de repositórios.")
+Container(kubernetes_api, "Kubernetes API", "Rest API", "Acessa informações e solicita alterações nos cluster Kubernetes.")
+Container(moove_api, "Moove API", "Rest API", "Realiza atualizações dos status dos deployments.")
+Container(butler_database, "Butler Database", "Postgres", "Armazena Informações sobre Deployments, Execuções e Logs.")
+
+Container_Boundary(charlescd_butler, "CharlesCD Butler"){
+   
+    Component(deployment_pipes, "Deployment Pipes", "Nest Pipe", "Realiza validações antes da requisição. Engloba os pipes GitTokenDecryption, DeploymentUniqueness, DefaultCircleUniqueness, NamespaceValidaiton, JoiValidation.")
+    Component(deployment_controller, "Deployment Controller", "Nest Controller", "Permite que usuários façam deploy, undeploy e vejam logs de cada uma dessas operação.")
+    Component(deployment_use_case, "Deployment Use Case", "Nest Provider", "Provê funcionalidades como salvar deployment, compilar manifestos helm, aplicar/atualizar/deletar custom resource no cluster, logs, enviar callback. Engloba os UseCases: FindDeployment, CreateDeploy, CreateUndeploy.")
+
+    Component(deployment_hook_controller, "Deployment Hook Controller", "Nest Controller", "Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile.")
+    Component(reconcile_deployment_use_case, "Reconciale Deployment Use Case", "Nest Provider", "Provê funcionalidades como verificar se deployment esta saudavel, enviar callback de deploy de sucesso e retornar para operator manifestos que devem estar aplicados no cluster.")
+
+    Component(route_hooks_controller, "Route Hooks Controller", "Nest Controller", "Recebe informações do estado atual das rotas dos componentes e envia estado desejado para que operator sincronize e faça o reconcile")
+    Component(routes_hook_deployment_use_case, "Routes Hook Deployment Use Case", "Nest Provider", "Provê funcionalidades como verificar status das rotas e enviar para operator estado desejado delas através de manifestos que devem estar aplicados no cluster")
+    
+    Component(time_scheduler, "Time Scheduler", "Cron", "Verifica periodicamente se deployment ultrapassou  o limite de tempo estabelecido e notifica o Moove.")
+
+    Component(helm_binary, "Helm Binary", "Kubernates Package Management", "Chama api do git para buscar templates no repositório, compila e transforma em manifestos yaml.")
+    Component(kubernetes_client, "Kubernetes Client", "Client API", "Integração com api do kubernetes para aplicar/deletar/buscar recursos.")
+    Component(butler_repository, "Moove Repository", "Database Repository", "Acessa as informações necessárias no banco de dados.")
+    
+    
+    Rel(deployment_pipes, deployment_controller, "Usa")
+    Rel(deployment_controller, deployment_use_case, "Usa")
+    Rel(deployment_use_case, helm_binary, "Usa (somenta na criação)")
+    Rel(deployment_use_case, kubernetes_client, "Usa")
+    Rel(deployment_use_case, butler_repository, "Usa")
+    Rel(deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON (somente no undeploy)")
+    Rel(helm_binary, git_api, "Faz requisição via HTTPS/JSON")
+    Rel(kubernetes_client, kubernetes_api, "Faz requisição via HTTPS/JSON")
+
+    Rel(deployment_hook_controller, reconcile_deployment_use_case, "Usa")
+    Rel(reconcile_deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON")
+    Rel(reconcile_deployment_use_case, butler_repository, "Usa")
+    
+    Rel(route_hooks_controller, routes_hook_deployment_use_case, "Usa")
+    Rel(routes_hook_deployment_use_case, butler_repository, "Usa")
+
+    Rel(time_scheduler, moove_api, "Faz requisição via HTTPS/JSON")
+   
+    Rel(butler_repository, butler_database, "Lê e escreve em (TypeORM)")
+   
+}
+
+Rel(moove, deployment_controller, "Faz requisição", "JSON/HTTPS")
+Rel(moove, deployment_hook_controller, "Faz requisição", "JSON/HTTPS")
+Rel(moove, route_hooks_controller, "Faz requisição", "JSON/HTTPS")
+
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==Git API\n//<size:12>[Rest API]</size>//\n\n Busca recursos de repositórios." <<container>> as git_api
+rectangle "==Kubernetes API\n//<size:12>[Rest API]</size>//\n\n Acessa informações e solicita alterações nos cluster Kubernetes." <<container>> as kubernetes_api
+rectangle "==Moove API\n//<size:12>[Rest API]</size>//\n\n Realiza atualizações dos status dos deployments." <<container>> as moove_api
+rectangle "==Butler Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Deployments, Execuções e Logs." <<container>> as butler_database
+
+rectangle "==CharlesCD Butler\n<size:12>[Container]</size>" <<boundary>> as charlescd_butler{
+   
+    rectangle "==Deployment Pipes\n//<size:12>[Nest Pipe]</size>//\n\n Realiza validações antes da requisição. Engloba os pipes GitTokenDecryption, DeploymentUniqueness, DefaultCircleUniqueness, NamespaceValidaiton, JoiValidation." <<component>> as deployment_pipes
+    rectangle "==Deployment Controller\n//<size:12>[Nest Controller]</size>//\n\n Permite que usuários façam deploy, undeploy e vejam logs de cada uma dessas operação." <<component>> as deployment_controller
+    rectangle "==Deployment Use Case\n//<size:12>[Nest Provider]</size>//\n\n Provê funcionalidades como salvar deployment, compilar manifestos helm, aplicar/atualizar/deletar custom resource no cluster, logs, enviar callback. Engloba os UseCases: FindDeployment, CreateDeploy, CreateUndeploy." <<component>> as deployment_use_case
+
+    rectangle "==Deployment Hook Controller\n//<size:12>[Nest Controller]</size>//\n\n Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile." <<component>> as deployment_hook_controller
+    rectangle "==Reconciale Deployment Use Case\n//<size:12>[Nest Provider]</size>//\n\n Provê funcionalidades como verificar se deployment esta saudavel, enviar callback de deploy de sucesso e retornar para operator manifestos que devem estar aplicados no cluster." <<component>> as reconcile_deployment_use_case
+
+    rectangle "==Route Hooks Controller\n//<size:12>[Nest Controller]</size>//\n\n Recebe informações do estado atual das rotas dos componentes e envia estado desejado para que operator sincronize e faça o reconcile" <<component>> as route_hooks_controller
+    rectangle "==Routes Hook Deployment Use Case\n//<size:12>[Nest Provider]</size>//\n\n Provê funcionalidades como verificar status das rotas e enviar para operator estado desejado delas através de manifestos que devem estar aplicados no cluster" <<component>> as routes_hook_deployment_use_case
+    
+    rectangle "==Time Scheduler\n//<size:12>[Cron]</size>//\n\n Verifica periodicamente se deployment ultrapassou  o limite de tempo estabelecido e notifica o Moove." <<component>> as time_scheduler
+
+    rectangle "==Helm Binary\n//<size:12>[Kubernates Package Management]</size>//\n\n Chama api do git para buscar templates no repositório, compila e transforma em manifestos yaml." <<component>> as helm_binary
+    rectangle "==Kubernetes Client\n//<size:12>[Client API]</size>//\n\n Integração com api do kubernetes para aplicar/deletar/buscar recursos." <<component>> as kubernetes_client
+    rectangle "==Moove Repository\n//<size:12>[Database Repository]</size>//\n\n Acessa as informações necessárias no banco de dados." <<component>> as butler_repository
+    
+    
+deployment_pipes - ->> deployment_controller : **Usa**
+deployment_controller - ->> deployment_use_case : **Usa**
+deployment_use_case - ->> helm_binary : **Usa (somenta na criação)**
+deployment_use_case - ->> kubernetes_client : **Usa**
+deployment_use_case - ->> butler_repository : **Usa**
+deployment_use_case - ->> moove_api : **Faz requisição via HTTPS/JSON (somente no undeploy)**
+helm_binary - ->> git_api : **Faz requisição via HTTPS/JSON**
+kubernetes_client - ->> kubernetes_api : **Faz requisição via HTTPS/JSON**
+
+deployment_hook_controller - ->> reconcile_deployment_use_case : **Usa**
+reconcile_deployment_use_case - ->> moove_api : **Faz requisição via HTTPS/JSON**
+reconcile_deployment_use_case - ->> butler_repository : **Usa**
+    
+route_hooks_controller - ->> routes_hook_deployment_use_case : **Usa**
+routes_hook_deployment_use_case - ->> butler_repository : **Usa**
+
+time_scheduler - ->> moove_api : **Faz requisição via HTTPS/JSON**
+   
+butler_repository - ->> butler_database : **Lê e escreve em (TypeORM)**
+   
+}
+
+moove - ->> deployment_controller : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> deployment_hook_controller : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> route_hooks_controller : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -33,4 +33,4 @@ O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação d
 - **Kubernetes:** Orquestra os containers das aplicações.
 
 
-![diagram](c1.png)
+![diagram](c1.svg)

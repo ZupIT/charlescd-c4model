@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1057px" preserveAspectRatio="none" style="width:2108px;height:1057px;" version="1.1" viewBox="0 0 2108 1057" width="2108px" zoomAndPan="magnify"><defs/><g><!--MD5=[8230f2297e090094d74a044492a56a02]
+cluster charlescd_gate--><rect fill="#FFFFFF" height="866" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="964" x="742" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="165" x="1141.5" y="23.8516">CharlesCD Hermes</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1184" y="38.7637">[Container]</text><!--MD5=[a65ed1b382ffc76c1866b865f7f4c338]
+entity suscription_api--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="750" y="170"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="786" y="194.8516">Subscription API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="812.5" y="209.7637">[HTTP Handler]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="861" y="225.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="796" y="241.8857">Solicita CRUD das</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="769.5" y="258.1826">subscrições e publicação</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="760" y="274.4795">eventos para as subscriçoes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="4" x="857" y="290.7764">.</text><!--MD5=[f31e5f479f6ace4e260778fb35056710]
+entity suscription_use_case--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1119" y="50.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="1129" y="75.3516">Subscription Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1194.5" y="90.2637">[Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1230" y="106.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="1164.5" y="122.3857">Realiza CRUD das</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="1184" y="138.6826">subscrições.</text><!--MD5=[cffc8f3ea8fa3f5367038839391903e9]
+entity message_use_case--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1119" y="186.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="1129" y="211.3516">Subscription Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1194.5" y="226.2637">[Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1230" y="242.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1144.5" y="258.3857">Publica eventos para as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="1184" y="274.6826">subscrições.</text><!--MD5=[701095ecdb6042b708720967b4aea48b]
+entity message_execution_history_use_case--><rect fill="#85BBF0" height="120.1094" style="stroke: #78A8D8; stroke-width: 1.5;" width="197" x="1129.5" y="519"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="1139.5" y="543.8516">Message Execution</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="1152.5" y="562.4766">History Use Case</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="1194.5" y="577.3887">[Use Case]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1230" y="593.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="1164.5" y="609.5107">Realiza CRUD das</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="1184" y="625.8076">subscrições.</text><!--MD5=[c8ca3db94178dc5d3073f7883c1e910c]
+entity subscription--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="196" x="1495" y="111"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="1538" y="135.8516">Subscription</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="164" x="1511" y="150.7637">[Service/Repository/GORM]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1595" y="166.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="1505" y="182.8857">Realiza a criação, edição,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="1523" y="199.1826">deleção e busca de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1517" y="215.4795">subscrições. Envia as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="1513" y="231.7764">mensagens de evento.</text><!--MD5=[62712c3e8a606f7e5116ef99ea9b5d12]
+entity message--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="189" x="1498.5" y="280"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="1553.5" y="304.8516">Message</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="164" x="1511" y="319.7637">[Service/Repository/GORM]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1595" y="335.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1533.5" y="351.8857">Cadastra para as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1508.5" y="368.1826">subscrições inscritas as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="1509" y="384.4795">mensagens de eventos.</text><!--MD5=[14bfa40486e4f2b433d2816e459aaecf]
+entity message_execution_history--><rect fill="#85BBF0" height="136.4063" style="stroke: #78A8D8; stroke-width: 1.5;" width="210" x="1488" y="458"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="1504.5" y="482.8516">Message Execution</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="1561.5" y="501.4766">History</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="164" x="1511" y="516.3887">[Service/Repository/GORM]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1595" y="532.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="1498" y="548.5107">Insere e busca os historico</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="1498" y="564.8076">de mensagens de eventos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="1515" y="581.1045">publicadas e enviadas.</text><!--MD5=[a6e63e5080b6098cbc36e97e7cf20a2e]
+entity consumer--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="188" x="1134" y="335"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="1183" y="359.8516">Consumer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="1167" y="374.7637">[RabbitMQ Listener]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1230" y="390.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="1161" y="406.8857">Consome da fila as</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="1144" y="423.1826">mensagens de eventos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="1189" y="439.4795">publicadas.</text><!--MD5=[1fe25e6ad2a661c9f8478b5f50e2a15d]
+entity publisher--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1119" y="694.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1187" y="719.3516">Publisher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="117" x="1169.5" y="734.2637">[RabbitMQ Sender]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1230" y="750.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1129" y="766.3857">Publica na fila as mensagens</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1154" y="782.6826">de eventos inseridas.</text><!--MD5=[bc7b2a6a8cdafcbf6eab76a3b2af1fdb]
+entity ampq_client--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="203" x="1491.5" y="680.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="1522" y="705.3516">RabbitMQ Client</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="1552" y="720.2637">[AMPQ Client]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1595" y="736.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="1501.5" y="752.3857">Conecta e interage com o</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="1557.5" y="768.6826">RabbitMQ.</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="7" y="186.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="50.5" y="211.3516">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="44.5" y="226.2637">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="110.5" y="242.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="17" y="258.3857">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="70" y="274.6826">do produto</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="375" y="137.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="401.5" y="162.3516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="419" y="177.2637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="482" y="193.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="385" y="209.3857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="398.5" y="225.6826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="387" y="241.9795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="401.5" y="258.2764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="395" y="274.5732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="402" y="290.8701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="387" y="307.167">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="441.5" y="323.4639">aplicações.</text><!--MD5=[610554e496cc25e803820e4e87dc292c]
+entity hermes_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="187" x="1910" y="280"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="1929.5" y="304.8516">Moove Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1972" y="319.7637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2005.5" y="335.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1922.5" y="351.8857">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="1930.5" y="368.1826">sobre Subscrições e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1920" y="384.4795">Mensagens de eventos.</text><!--MD5=[ff8313afff9b4c8e958e63a3dee3987a]
+entity webhooks_service--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="187" x="1910" y="119"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="155" x="1926" y="143.8516">Webhook Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1973.5" y="158.7637">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2005.5" y="174.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="1929.5" y="190.8857">Serviço exposto para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1920" y="207.1826">receber notificações de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1924" y="223.4795">eventos do CharlesCD.</text><!--MD5=[9368636ac3c118ef8bf0dfcdb3c2e1e2]
+entity rabbit_mq--><rect fill="#438DD5" height="52.5938" style="stroke: #3C7FC0; stroke-width: 1.5;" width="129" x="1939" y="704.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="1960.5" y="729.3516">RabbitMQ</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="109" x="1949" y="744.2637">[Message Broker]</text><!--MD5=[702f70bcaf057ebd536d7920ba7d3ec8]
+link suscription_api to suscription_use_case--><path d="M968.2144,196.7475 C1013.2074,180.1647 1065.4104,160.9246 1111.1675,144.0602 " fill="none" id="suscription_api-to-suscription_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1118.7471,141.2666,1110.2032,141.2183,1112.2782,146.8481,1118.7471,141.2666" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1030" y="161.1387">Usa</text><!--MD5=[4d521a1bb4b4133190f0fa167b7c7db7]
+link suscription_api to message_use_case--><path d="M968.2144,237 C1013.0219,237 1064.98,237 1110.6011,237 " fill="none" id="suscription_api-to-message_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1118.7471,237,1110.7471,234,1110.7471,240,1118.7471,237" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1030" y="234.1387">Usa</text><!--MD5=[4cc3c85fe25067fdd16adedca4e5d421]
+link suscription_api to message_execution_history_use_case--><path d="M931.4623,304.1601 C996.7308,364.653 1092.1052,453.0488 1156.9385,513.1381 " fill="none" id="suscription_api-to-message_execution_history_use_case" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1163.1153,518.863,1159.2871,511.2246,1155.2085,515.6252,1163.1153,518.863" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1030" y="393.1387">Usa</text><!--MD5=[45b1b3da7e449eb44707a047ecd3a85d]
+link suscription_use_case to subscription--><path d="M1337.0145,111.8856 C1366.3988,115.7313 1398.0596,120.7106 1427,127 C1446.6366,131.2675 1467.3007,136.77 1487.1263,142.5751 " fill="none" id="suscription_use_case-to-subscription" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1494.9727,144.9007,1488.1551,139.751,1486.45,145.5036,1494.9727,144.9007" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="119.1387">Usa</text><!--MD5=[541e85bc9d0c2e43c6afa666b0730e09]
+link message_use_case to message--><path d="M1337.1523,205.2668 C1366.9073,201.4314 1398.7201,201.8909 1427,212 C1460.0092,223.7997 1460.3002,240.516 1488,262 C1493.4564,266.232 1499.1057,270.5504 1504.8241,274.8743 " fill="none" id="message_use_case-to-message" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1511.5614,279.9479,1506.9755,272.7389,1503.3661,277.5319,1511.5614,279.9479" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="202.1387">Usa</text><!--MD5=[de4e2f85febac344044542eced03ef59]
+link message_execution_history_use_case to message_execution_history--><path d="M1326.6692,627.6842 C1358.7492,637.6688 1394.4618,642.578 1427,633 C1452.4863,625.4978 1477.752,612.7346 1500.5958,598.5825 " fill="none" id="message_execution_history_use_case-to-message_execution_history" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1507.6051,594.1501,1499.2402,595.8903,1502.447,600.9615,1507.6051,594.1501" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="630.1387">Usa</text><!--MD5=[9b8b79c493b3314e5bfe9a9f011c4a2d]
+link subscription to webhooks_service--><path d="M1691.0641,178 C1754.6339,178 1837.2714,178 1901.5906,178 " fill="none" id="subscription-to-webhooks_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1909.7399,178,1901.7399,175,1901.7399,181,1909.7399,178" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="1729" y="161.1387">Faz requisição [JSON/</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="1779.5" y="175.1074">HTTPS]</text><!--MD5=[51c0651f8122281be8b32ecc40b26001]
+link subscription to hermes_database--><path d="M1691.0641,216.4612 C1754.7633,241.4443 1837.6081,273.9364 1901.9833,299.1847 " fill="none" id="subscription-to-hermes_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1909.7399,302.2268,1903.3877,296.5128,1901.1969,302.0986,1909.7399,302.2268" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1747" y="232.1387">Lê e escreve em</text><!--MD5=[ea427e8d74b280c722394016ac6292ee]
+link message to hermes_database--><path d="M1687.6924,339 C1751.7253,339 1836.2207,339 1901.6982,339 " fill="none" id="message-to-hermes_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1909.9921,339,1901.9921,336,1901.9921,342,1909.9921,339" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1747" y="336.1387">Lê e escreve em</text><!--MD5=[3273067164b033601bd942e3ea6391b7]
+link message_execution_history to hermes_database--><path d="M1698.1809,478.0857 C1760.9552,449.4893 1840.2638,413.3609 1902.3168,385.0932 " fill="none" id="message_execution_history-to-hermes_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1909.7964,381.6859,1901.2725,382.2723,1903.7599,387.7324,1909.7964,381.6859" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1747" y="397.1387">Lê e escreve em</text><!--MD5=[7cdcbbc921065a19bf0c83dc8d1a6e3f]
+link consumer to ampq_client--><path d="M1308.2484,453.2509 C1345.4589,481.8365 1389.6172,517.3792 1427,552 C1468.7414,590.6573 1512.3494,637.9898 1544.3898,674.2711 " fill="none" id="consumer-to-ampq_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1549.8318,680.4531,1546.7975,672.466,1542.2939,676.4306,1549.8318,680.4531" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="524.1387">Usa</text><!--MD5=[67692a4745e9acfe98cc59c1afeeed1b]
+link publisher to ampq_client--><path d="M1332.8191,795.5427 C1362.9772,804.6196 1396.081,809.4165 1427,803 C1446.8222,798.8863 1467.1842,792.281 1486.5581,784.6991 " fill="none" id="publisher-to-ampq_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1494.2175,781.6318,1485.6756,781.8209,1487.9062,787.3909,1494.2175,781.6318" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="800.1387">Usa</text><!--MD5=[d9ac4c68841e6a459d96d2557ab00455]
+link publisher to message--><path d="M1290.9668,694.4463 C1306.1567,682.0152 1322.2554,668.642 1337,656 C1377.8539,620.972 1395.2439,618.4459 1427,575 C1465.8529,521.8449 1450.0339,493.7921 1488,440 C1496.8183,427.5058 1507.3281,415.2795 1518.2385,403.8916 " fill="none" id="publisher-to-message" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1523.9736,398.0159,1516.2388,401.6454,1520.5325,405.8363,1523.9736,398.0159" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="572.1387">Usa</text><!--MD5=[ffd927308944c72b43e31062dac68837]
+link publisher to message_execution_history--><path d="M1337.1101,705.481 C1367.0947,692.8887 1399.0353,677.8045 1427,661 C1456.3296,643.3753 1486.0448,620.9552 1512.0708,599.4727 " fill="none" id="publisher-to-message_execution_history" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1518.2569,594.327,1510.188,597.1366,1514.025,601.7493,1518.2569,594.327" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="658.1387">Usa</text><!--MD5=[9eb39632cc7dd56fcd4236c4aeaf9549]
+link consumer to message--><path d="M1322.4712,379.7646 C1373.9049,372.0143 1437.6051,362.4157 1490.2708,354.4797 " fill="none" id="consumer-to-message" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1498.2912,353.2712,1489.9335,351.4969,1490.8276,357.4299,1498.2912,353.2712" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="362.1387">Usa</text><!--MD5=[83e2ebe4ffd34288b5cff1bde44542f0]
+link consumer to message_execution_history--><path d="M1322.4712,428.1649 C1370.6903,445.6031 1429.6905,466.9401 1480.2724,485.2327 " fill="none" id="consumer-to-message_execution_history" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1487.993,488.0249,1481.4901,482.483,1479.4496,488.1254,1487.993,488.0249" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="453.1387">Usa</text><!--MD5=[ae76f5591e77baeb79388524601d2a2a]
+link consumer to subscription--><path d="M1322.4712,338.0937 C1373.11,308.1267 1435.6389,271.1233 1487.8209,240.243 " fill="none" id="consumer-to-subscription" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1494.7849,236.1218,1486.3723,237.6143,1489.428,242.7779,1494.7849,236.1218" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1399" y="274.1387">Usa</text><!--MD5=[ae29b75b050b2e7614433626929f5d04]
+link ampq_client to rabbit_mq--><path d="M1694.7355,731 C1767.9407,731 1864.9437,731 1930.5384,731 " fill="none" id="ampq_client-to-rabbit_mq" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1938.7782,731,1930.7782,728,1930.7782,734,1938.7782,731" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1790.5" y="728.1387">Usa</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M210.014,237 C258.4479,237 316.5757,237 366.4696,237 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="374.7228,237,366.7228,234,366.7228,240,374.7228,237" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="241" y="220.1387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="252" y="234.1074">[JSON/HTTPS]</text><!--MD5=[9329f3a924c3016e7affda5fa548c97c]
+link moove to suscription_api--><path d="M585.0693,237 C633.6281,237 691.4841,237 741.486,237 " fill="none" id="moove-to-suscription_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="749.7609,237,741.7609,234,741.7609,240,749.7609,237" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="616" y="220.1387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="627" y="234.1074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="1922" y="886"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1928" y="905.9951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1991" y="905.9951"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="909.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1932" y="922.292">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="925.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1932" y="938.5889">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="941.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="1932" y="954.8857">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="958.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="1932" y="971.1826">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="974.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="1932" y="987.4795">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="990.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="1932" y="1003.7764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="1007.0781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="1932" y="1020.0732">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1928" y="1023.375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="1932" y="1036.3701">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="893" y2="893"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="909.2969" y2="909.2969"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="925.5938" y2="925.5938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="941.8906" y2="941.8906"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="958.1875" y2="958.1875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="974.4844" y2="974.4844"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="990.7813" y2="990.7813"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="1007.0781" y2="1007.0781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="1023.375" y2="1023.375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="2075" y1="1039.6719" y2="1039.6719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1928" x2="1928" y1="893" y2="1039.6719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2075" x2="2075" y1="893" y2="1039.6719"/><!--MD5=[db0172df7bfefe482d58d626d8fa0f62]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(hermes_database, "Moove Database", "Postgres", "Armazena Informações sobre Subscrições e Mensagens de eventos.")
+Container(webhooks_service, "Webhook Service", "Rest API", "Serviço exposto para receber notificações de eventos do CharlesCD.")
+Container(rabbit_mq, "RabbitMQ", "Message Broker", "")
+
+Container_Boundary(charlescd_gate, "CharlesCD Hermes"){
+   
+
+    Component(suscription_api, "Subscription API", "HTTP Handler", "Solicita CRUD das subscrições e publicação eventos para as subscriçoes.")
+    Component(suscription_use_case, "Subscription Use Case", "Use Case", "Realiza CRUD das subscrições.")
+    Component(message_use_case, "Subscription Use Case", "Use Case", "Publica eventos para as subscrições.")
+    Component(message_execution_history_use_case, "Message Execution History Use Case", "Use Case", "Realiza CRUD das subscrições.")
+    
+    Component(subscription, "Subscription", "Service/Repository/GORM", "Realiza a criação, edição, deleção e busca de subscrições. Envia as mensagens de evento.")
+    Component(message, "Message", "Service/Repository/GORM", "Cadastra para as subscrições inscritas as mensagens de eventos.")
+    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Insere e busca os historico de mensagens de eventos publicadas e enviadas.")
+    
+    
+    Component(consumer, "Consumer", "RabbitMQ Listener", "Consome da fila as mensagens de eventos publicadas.")
+    Component(publisher, "Publisher", "RabbitMQ Sender", "Publica na fila as mensagens de eventos inseridas.")
+    Component(ampq_client, "RabbitMQ Client", "AMPQ Client", "Conecta e interage com o RabbitMQ.")
+
+   
+    Rel(suscription_api, suscription_use_case, "Usa")
+    Rel(suscription_api, message_use_case, "Usa")
+    Rel(suscription_api, message_execution_history_use_case, "Usa")
+
+    Rel(suscription_use_case, subscription, "Usa")
+    Rel(message_use_case, message, "Usa")
+    Rel(message_execution_history_use_case, message_execution_history, "Usa")
+    
+    Rel(subscription, webhooks_service, "Faz requisição [JSON/HTTPS]")
+    Rel(subscription, hermes_database, "Lê e escreve em")
+    Rel(message, hermes_database, "Lê e escreve em")
+    Rel(message_execution_history, hermes_database, "Lê e escreve em")
+
+     
+    Rel(consumer, ampq_client, "Usa")
+    Rel(publisher, ampq_client, "Usa")
+    Rel(publisher, message, "Usa")
+    Rel(publisher, message_execution_history, "Usa")
+    Rel(consumer, message, "Usa")
+    Rel(consumer, message_execution_history, "Usa")
+    Rel(consumer, subscription, "Usa")
+
+    Rel(ampq_client, rabbit_mq, "Usa")
+   
+}
+
+
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(moove, suscription_api, "Faz requisição", "JSON/HTTPS")
+
+
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==Moove Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Subscrições e Mensagens de eventos." <<container>> as hermes_database
+rectangle "==Webhook Service\n//<size:12>[Rest API]</size>//\n\n Serviço exposto para receber notificações de eventos do CharlesCD." <<container>> as webhooks_service
+rectangle "==RabbitMQ\n//<size:12>[Message Broker]</size>//" <<container>> as rabbit_mq
+
+rectangle "==CharlesCD Hermes\n<size:12>[Container]</size>" <<boundary>> as charlescd_gate{
+   
+
+    rectangle "==Subscription API\n//<size:12>[HTTP Handler]</size>//\n\n Solicita CRUD das subscrições e publicação eventos para as subscriçoes." <<component>> as suscription_api
+    rectangle "==Subscription Use Case\n//<size:12>[Use Case]</size>//\n\n Realiza CRUD das subscrições." <<component>> as suscription_use_case
+    rectangle "==Subscription Use Case\n//<size:12>[Use Case]</size>//\n\n Publica eventos para as subscrições." <<component>> as message_use_case
+    rectangle "==Message Execution History Use Case\n//<size:12>[Use Case]</size>//\n\n Realiza CRUD das subscrições." <<component>> as message_execution_history_use_case
+    
+    rectangle "==Subscription\n//<size:12>[Service/Repository/GORM]</size>//\n\n Realiza a criação, edição, deleção e busca de subscrições. Envia as mensagens de evento." <<component>> as subscription
+    rectangle "==Message\n//<size:12>[Service/Repository/GORM]</size>//\n\n Cadastra para as subscrições inscritas as mensagens de eventos." <<component>> as message
+    rectangle "==Message Execution History\n//<size:12>[Service/Repository/GORM]</size>//\n\n Insere e busca os historico de mensagens de eventos publicadas e enviadas." <<component>> as message_execution_history
+    
+    
+    rectangle "==Consumer\n//<size:12>[RabbitMQ Listener]</size>//\n\n Consome da fila as mensagens de eventos publicadas." <<component>> as consumer
+    rectangle "==Publisher\n//<size:12>[RabbitMQ Sender]</size>//\n\n Publica na fila as mensagens de eventos inseridas." <<component>> as publisher
+    rectangle "==RabbitMQ Client\n//<size:12>[AMPQ Client]</size>//\n\n Conecta e interage com o RabbitMQ." <<component>> as ampq_client
+
+   
+suscription_api - ->> suscription_use_case : **Usa**
+suscription_api - ->> message_use_case : **Usa**
+suscription_api - ->> message_execution_history_use_case : **Usa**
+
+suscription_use_case - ->> subscription : **Usa**
+message_use_case - ->> message : **Usa**
+message_execution_history_use_case - ->> message_execution_history : **Usa**
+    
+subscription - ->> webhooks_service : **Faz requisição [JSON/HTTPS]**
+subscription - ->> hermes_database : **Lê e escreve em**
+message - ->> hermes_database : **Lê e escreve em**
+message_execution_history - ->> hermes_database : **Lê e escreve em**
+
+     
+consumer - ->> ampq_client : **Usa**
+publisher - ->> ampq_client : **Usa**
+publisher - ->> message : **Usa**
+publisher - ->> message_execution_history : **Usa**
+consumer - ->> message : **Usa**
+consumer - ->> message_execution_history : **Usa**
+consumer - ->> subscription : **Usa**
+
+ampq_client - ->> rabbit_mq : **Usa**
+   
+}
+
+
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> suscription_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

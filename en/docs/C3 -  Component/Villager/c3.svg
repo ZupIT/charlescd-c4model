@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="759px" preserveAspectRatio="none" style="width:2116px;height:759px;" version="1.1" viewBox="0 0 2116 759" width="2116px" zoomAndPan="magnify"><defs/><g><!--MD5=[e9a8535f5fd83dca36c3dc34ad8d6980]
+cluster charlescd_villager--><rect fill="#FFFFFF" height="360" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1680.5" x="7" y="214.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="161" x="766.75" y="231.3516">CharlesCD Villager</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="807.25" y="246.2637">[Container]</text><!--MD5=[7a8b02f8838abd4503d15109fabc839b]
+entity docker_request_handler--><rect fill="#85BBF0" height="152.7031" style="stroke: #78A8D8; stroke-width: 1.5;" width="190" x="15" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="35" y="282.8516">Docker Request</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="76.5" y="301.4766">Handler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="114" x="53" y="316.3887">[Request Handler]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="112" y="332.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="26.5" y="348.5107">Realiza criação/deleção/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="38" y="364.8076">atualização/teste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="50.5" y="381.1045">conexão de uma</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="25" y="397.4014">configuração de registry.</text><!--MD5=[07337002e227f91866d5278ffc594009]
+entity docker_registry_resource--><rect fill="#85BBF0" height="152.7031" style="stroke: #78A8D8; stroke-width: 1.5;" width="191" x="751.5" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="772" y="282.8516">Docker Registry</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="805" y="301.4766">Resource</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="786" y="316.3887">[Quarkus Resource]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="849" y="332.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="761.5" y="348.5107">Permite criação/deleção/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="775" y="364.8076">atualização/teste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="787.5" y="381.1045">conexão de uma</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="762" y="397.4014">configuração de registry.</text><!--MD5=[eb3335fef2018c822888dd0c6b2cd67a]
+entity docker_registry_interactor--><rect fill="#85BBF0" height="152.7031" style="stroke: #78A8D8; stroke-width: 1.5;" width="187" x="1107.5" y="258"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="1126" y="282.8516">Docker Registry</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="91" x="1155.5" y="301.4766">Interactor</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="153" x="1124.5" y="316.3887">[Quarkus UseCase/Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1203" y="332.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1117.5" y="348.5107">Realiza criação/deleção/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="1129" y="364.8076">atualização/teste de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1141.5" y="381.1045">conexão de uma</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="1118" y="397.4014">configuração de registry</text><!--MD5=[db5a5541e71100f1adaab6dbb50955de]
+entity docker_registry_client--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1459.5" y="292"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="200" x="1469.5" y="316.8516">Docker Registry Client</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="1535.5" y="331.7637">[Client API]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1571.5" y="347.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="1482.5" y="363.8857">Acesso a API do Registry.</text><!--MD5=[4c1d6b8fc5abe0271adc8120a389c343]
+entity villager_repository--><rect fill="#85BBF0" height="134.0781" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1460.5" y="425.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="1486.5" y="450.3516">Villager Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="140" x="1499.5" y="465.2637">[Database Repository]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1571.5" y="481.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1471.5" y="497.3857">Acesso ao banco de dados.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="1486.5" y="513.6826">Engloba as repositories</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1470.5" y="529.9795">DockerRegistryConfiguration</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="1472" y="546.2764">, Module, Component, Build.</text><!--MD5=[0922b9e9840499bc7fc56b896a5ce525]
+entity build_resource--><rect fill="#85BBF0" height="120.1094" style="stroke: #78A8D8; stroke-width: 1.5;" width="215" x="1093.5" y="446.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="189" x="1103.5" y="471.3516">&lt;DEPRECATED&gt; Build</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="1159" y="489.9766">Resource</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="1140" y="504.8887">[Quarkus Resource]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1203" y="520.7139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="1110" y="537.0107">Permite criação de builds (</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="1131" y="553.3076">board de hipoteses)</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="8.5" y="56"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="52" y="80.8516">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="46" y="95.7637">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="112" y="111.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="18.5" y="127.8857">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="71.5" y="144.1826">do produto</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="376.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="403" y="31.8516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="420.5" y="46.7637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="483.5" y="62.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="386.5" y="78.8857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="400" y="95.1826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="388.5" y="111.4795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="403" y="127.7764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="396.5" y="144.0732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="403.5" y="160.3701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="388.5" y="176.667">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="443" y="192.9639">aplicações.</text><!--MD5=[c5f4ed0d7efd64aafa5469d220c985b4]
+entity registry_api--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="214" x="1891.5" y="277"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="1943.5" y="301.8516">Registry API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181" x="1906" y="316.7637">[DockerHub, AWS ECR, Azure</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="1942" y="330.7324">ECR, GCR, Harbor]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2000.5" y="346.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1901.5" y="362.8545">Armazena e disponibiliza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="1967" y="379.1514">imagens.</text><!--MD5=[cb3fe23cc19a1d92c8ea14d4f51ec133]
+entity villager_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="1892.5" y="433.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="1922" y="458.3516">Villager Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1967" y="473.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2000.5" y="489.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1917" y="505.3857">Armazena os dados de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="1902.5" y="521.6826">configuração do registry do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="1971" y="537.9795">usuário.</text><!--MD5=[448fc6c9b470b61074e21cef6670fa98]
+link docker_request_handler to docker_registry_resource--><path d="M205.2174,334.5 C343.712,334.5 599.7804,334.5 743.0401,334.5 " fill="none" id="docker_request_handler-to-docker_registry_resource" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="751.4653,334.5,743.4653,331.5,743.4653,337.5,751.4653,334.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="468" y="331.6387">Usa</text><!--MD5=[b836cd3d0297d7a7920fd6808c142127]
+link docker_registry_resource to docker_registry_interactor--><path d="M942.7975,334.5 C991.1917,334.5 1049.9258,334.5 1099.1419,334.5 " fill="none" id="docker_registry_resource-to-docker_registry_interactor" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1107.2696,334.5,1099.2696,331.5,1099.2696,337.5,1107.2696,334.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1004.5" y="331.6387">Usa</text><!--MD5=[60eddd3670dce48077c6e8ff46ccae01]
+link docker_registry_interactor to docker_registry_client--><path d="M1294.9416,334.5 C1342.5076,334.5 1400.7419,334.5 1451.3199,334.5 " fill="none" id="docker_registry_interactor-to-docker_registry_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1459.3688,334.5,1451.3688,331.5,1451.3688,337.5,1459.3688,334.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1370.5" y="331.6387">Usa</text><!--MD5=[f8ddc35a2bada258e848ddc1a11abaa5]
+link docker_registry_interactor to villager_repository--><path d="M1294.9416,374.7789 C1343.0082,395.3882 1401.9688,420.6684 1452.9142,442.5121 " fill="none" id="docker_registry_interactor-to-villager_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1460.3704,445.709,1454.2,439.7992,1451.8355,445.3136,1460.3704,445.709" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1370.5" y="404.6387">Usa</text><!--MD5=[c3c3651a01d738af40378989049ec39b]
+link docker_registry_client to registry_api--><path d="M1679.6995,334.5 C1742.0754,334.5 1820.0042,334.5 1883.2001,334.5 " fill="none" id="docker_registry_client-to-registry_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1891.2255,334.5,1883.2255,331.5,1883.2255,337.5,1891.2255,334.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1720" y="317.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1744.5" y="331.6074">HTTPS/JSON</text><!--MD5=[325876f2a6f307c3e1f470f47d2784a8]
+link villager_repository to villager_database--><path d="M1678.587,492.5 C1741.4345,492.5 1820.3497,492.5 1884.0758,492.5 " fill="none" id="villager_repository-to-villager_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1892.1666,492.5,1884.1666,489.5,1884.1666,495.5,1892.1666,492.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="1710.5" y="489.6387">Lê e escreve em (JPA)</text><!--MD5=[d662f88c0435652741501abc31433569]
+link build_resource to villager_repository--><path d="M1308.5761,502.413 C1353.5669,500.7037 1405.9814,498.7124 1451.9803,496.9648 " fill="none" id="build_resource-to-villager_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1460.1934,496.6528,1452.0852,493.9588,1452.3131,499.9545,1460.1934,496.6528" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1370.5" y="496.6387">Usa</text><!--MD5=[6c798e06a723401d317aedc17ef5db9b]
+link moove to docker_registry_resource--><path d="M586.7274,172.1412 C636.2759,203.0497 695.1574,239.7801 744.3725,270.4807 " fill="none" id="moove-to-docker_registry_resource" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="751.2509,274.7714,746.0511,267.9918,742.8755,273.0825,751.2509,274.7714" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="617.5" y="176.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="628.5" y="190.6074">[JSON/HTTPS]</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M211.514,106.5 C259.9479,106.5 318.0757,106.5 367.9696,106.5 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="376.2228,106.5,368.2228,103.5,368.2228,109.5,376.2228,106.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="242.5" y="89.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="253.5" y="103.6074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="1930.5" y="587.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1936.5" y="607.4951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1999.5" y="607.4951"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="610.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1940.5" y="623.792">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="627.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1940.5" y="640.0889">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="643.3906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="1940.5" y="656.3857">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="659.6875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="1940.5" y="672.6826">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="675.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="1940.5" y="688.9795">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="692.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="1940.5" y="705.2764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="708.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="1940.5" y="721.5732">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1936.5" y="724.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="1940.5" y="737.8701">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="594.5" y2="594.5"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="610.7969" y2="610.7969"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="627.0938" y2="627.0938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="643.3906" y2="643.3906"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="659.6875" y2="659.6875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="675.9844" y2="675.9844"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="692.2813" y2="692.2813"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="708.5781" y2="708.5781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="724.875" y2="724.875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="2083.5" y1="741.1719" y2="741.1719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1936.5" x2="1936.5" y1="594.5" y2="741.1719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2083.5" x2="2083.5" y1="594.5" y2="741.1719"/><!--MD5=[b75d5d271da47d2171ed1970bc190cb6]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(registry_api, "Registry API", "DockerHub, AWS ECR, Azure ECR, GCR, Harbor", "Armazena e disponibiliza as imagens.")
+Container(villager_database, "Villager Database", "Postgres", "Armazena os dados de configuração do registry do usuário.")
+
+Container_Boundary(charlescd_villager, "CharlesCD Villager"){
+   
+    Component(docker_request_handler, "Docker Request Handler", "Request Handler", "Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry.")
+    Component(docker_registry_resource, "Docker Registry Resource", "Quarkus Resource", "Permite criação/deleção/atualização/teste de conexão de uma configuração de registry.")
+    Component(docker_registry_interactor, "Docker Registry Interactor", "Quarkus UseCase/Bean", "Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry")
+
+    Component(docker_registry_client, "Docker Registry Client", "Client API", "Acesso a API do Registry.")
+    Component(villager_repository, "Villager Repository", "Database Repository", "Acesso ao banco de dados. Engloba as repositories DockerRegistryConfiguration, Module, Component, Build.")
+
+    Component(build_resource, "<DEPRECATED> Build Resource", "Quarkus Resource", "Permite criação de builds (board de hipoteses)")
+    
+    Rel(docker_request_handler, docker_registry_resource, "Usa")
+    Rel(docker_registry_resource, docker_registry_interactor, "Usa")
+    Rel(docker_registry_interactor, docker_registry_client, "Usa")
+    Rel(docker_registry_interactor, villager_repository, "Usa")
+    Rel(docker_registry_client, registry_api, "Faz requisição via HTTPS/JSON")
+    Rel(villager_repository, villager_database, "Lê e escreve em (JPA)")
+
+    Rel(build_resource, villager_repository, "Usa")
+   
+}
+
+Rel(moove, docker_registry_resource, "Faz requisição", "JSON/HTTPS")
+Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==Registry API\n//<size:12>[DockerHub, AWS ECR, Azure ECR, GCR, Harbor]</size>//\n\n Armazena e disponibiliza as imagens." <<container>> as registry_api
+rectangle "==Villager Database\n//<size:12>[Postgres]</size>//\n\n Armazena os dados de configuração do registry do usuário." <<container>> as villager_database
+
+rectangle "==CharlesCD Villager\n<size:12>[Container]</size>" <<boundary>> as charlescd_villager{
+   
+    rectangle "==Docker Request Handler\n//<size:12>[Request Handler]</size>//\n\n Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry." <<component>> as docker_request_handler
+    rectangle "==Docker Registry Resource\n//<size:12>[Quarkus Resource]</size>//\n\n Permite criação/deleção/atualização/teste de conexão de uma configuração de registry." <<component>> as docker_registry_resource
+    rectangle "==Docker Registry Interactor\n//<size:12>[Quarkus UseCase/Bean]</size>//\n\n Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry" <<component>> as docker_registry_interactor
+
+    rectangle "==Docker Registry Client\n//<size:12>[Client API]</size>//\n\n Acesso a API do Registry." <<component>> as docker_registry_client
+    rectangle "==Villager Repository\n//<size:12>[Database Repository]</size>//\n\n Acesso ao banco de dados. Engloba as repositories DockerRegistryConfiguration, Module, Component, Build." <<component>> as villager_repository
+
+    rectangle "==<DEPRECATED> Build Resource\n//<size:12>[Quarkus Resource]</size>//\n\n Permite criação de builds (board de hipoteses)" <<component>> as build_resource
+    
+docker_request_handler - ->> docker_registry_resource : **Usa**
+docker_registry_resource - ->> docker_registry_interactor : **Usa**
+docker_registry_interactor - ->> docker_registry_client : **Usa**
+docker_registry_interactor - ->> villager_repository : **Usa**
+docker_registry_client - ->> registry_api : **Faz requisição via HTTPS/JSON**
+villager_repository - ->> villager_database : **Lê e escreve em (JPA)**
+
+build_resource - ->> villager_repository : **Usa**
+   
+}
+
+moove - ->> docker_registry_resource : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

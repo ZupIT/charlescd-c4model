@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1083px" preserveAspectRatio="none" style="width:5142px;height:1083px;" version="1.1" viewBox="0 0 5142 1083" width="5142px" zoomAndPan="magnify"><defs/><g><!--MD5=[f8709f8a37ede7726c47b9a1bde342ed]
+cluster charlescd_moove--><rect fill="#FFFFFF" height="461" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="4726" x="7" y="198.3301"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="2292" y="215.1816">CharlesCD Moove</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="2330" y="230.0938">[Container]</text><!--MD5=[df39d5e858a533427847dbe2e4d05c14]
+entity module_web--><rect fill="#85BBF0" height="101.4844" style="stroke: #78A8D8; stroke-width: 1.5;" width="213" x="15" y="324.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="101.5" y="349.6816">Web</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="80.5" y="364.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="123.5" y="380.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="38" y="396.7158">Possui o inicializador da</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="25" y="413.0127">aplicação e config de CORS.</text><!--MD5=[83d72ed2fd0a575081fbebfae2bb5c8c]
+entity module_api--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="163" x="659" y="273.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="727" y="298.6816">Api</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="699.5" y="313.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="742.5" y="329.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="669" y="345.7158">Camada de serviços.</text><!--MD5=[0b2cc827d5007d907d9bb8c8e67211fd]
+entity module_application--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="170" x="1681" y="329.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="1718" y="354.6816">Application</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="1725" y="369.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1768" y="385.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="1691" y="401.7158">Camada de aplicação.</text><!--MD5=[71fff15633f8717adfe80e6b4495668a]
+entity module_domain--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="161" x="2879" y="397.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="2927" y="422.6816">Domain</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="2918.5" y="437.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2961.5" y="453.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="2889" y="469.7158">Camada de domínio.</text><!--MD5=[a434ef518cf50cf78982a7d56b1bb9a2]
+entity module_metrics--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="165" x="39" y="565.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="88" y="590.6816">Metrics</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="80.5" y="605.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="123.5" y="621.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="49" y="637.7158">Camada de métricas.</text><!--MD5=[d07b7a970e4adbb933de0660ad5367d4]
+entity module_security--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="179" x="2870" y="241.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="2923" y="266.6816">Security</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="2918.5" y="281.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2961.5" y="297.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="2880" y="313.7158">Camada de segurança.</text><!--MD5=[ef407581d3a602c343df197217182358]
+entity module_infrastructure--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="198" x="4004" y="397.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4039.5" y="422.6816">Infrastructure</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="4062" y="437.5938">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="4105" y="453.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="4014" y="469.7158">Camada de infraestrutura.</text><!--MD5=[1bb4b8b1f1ab863e55ecca2d3b97e74f]
+entity module_legacy_moove--><rect fill="#85BBF0" height="120.1094" style="stroke: #78A8D8; stroke-width: 1.5;" width="167" x="657" y="409.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="667" y="434.1816">&lt;DEPRECATED&gt;</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="677" y="452.8066">Legacy Moove</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="699.5" y="467.7188">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="742.5" y="483.5439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="672" y="499.8408">Camada Legado de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="668.5" y="516.1377">Aplicação e Serviços.</text><!--MD5=[4c13d26d854fe687e14fbc64f9218541]
+entity module_legacy_repository--><rect fill="#85BBF0" height="103.8125" style="stroke: #78A8D8; stroke-width: 1.5;" width="218" x="1291.5" y="547.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="1327" y="572.1816">&lt;DEPRECATED&gt;</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="164" x="1318.5" y="590.8066">Legacy Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="1359.5" y="605.7188">[Component]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1402.5" y="621.5439"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1301.5" y="637.8408">Camada Legado de Dominio.</text><!--MD5=[c05fcadc036a699206cfdfa4a4fdb889]
+entity controller--><rect fill="#85BBF0" height="150.375" style="stroke: #78A8D8; stroke-width: 1.5;" width="219" x="1291" y="241.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="1356.5" y="266.1816">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="146" x="1327.5" y="281.0938">[Spring Rest Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1402.5" y="296.9189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1315" y="313.2158">Possui as Controllers de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1301.5" y="329.5127">Build, Circle, ConfigurationV2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="1303" y="345.8096">, DeploymentV2, ModuleV2,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1301" y="362.1064">RoleV2, UserGroupV2, UserV</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1305.5" y="378.4033">2, WorkspaceV2, Webhook.</text><!--MD5=[63ed921ad51bff8b0a4d0609e85ee51a]
+entity respository_jpa--><rect fill="#85BBF0" height="52.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="123" x="1704.5" y="588.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="1718" y="613.6816">Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="1714.5" y="628.5938">[Repository, JPA]</text><!--MD5=[dcfbbe92af1bd9654ec8ea14450727bd]
+entity interactor--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="204" x="2022" y="362.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="91" x="2078.5" y="387.6816">Interactor</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="2103" y="402.5938">[Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2126" y="418.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="2032" y="434.7158">Implementação Use Cases</text><!--MD5=[42abf7c1f7ec5f21f4dadb294150cd4a]
+entity respository_jdbc--><rect fill="#85BBF0" height="52.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="195" x="3364.5" y="557.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="3414" y="582.6816">Repository</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="175" x="3374.5" y="597.5938">[Repository, JDBC Template]</text><!--MD5=[38bfa9dc6018363cafe15f923a4b8db9]
+entity service--><rect fill="#85BBF0" height="52.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="85" x="2377" y="265.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="2387" y="290.6816">Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="2398.5" y="305.5938">[Bean]</text><!--MD5=[1a35737f3a61301804531c580c6e988e]
+entity thirdy_service--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="3352" y="381.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="3399" y="406.1816">Thirdy Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="3441" y="421.0938">[Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="3464" y="436.9189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="3362" y="453.2158">CircleMatcher, Deploy (Butler</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="3372.5" y="469.5127">), Git, Hermes, Keycloack,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="3435.5" y="485.8096">Villager.</text><!--MD5=[3c6e4e12ebe2ceb50f9717379d74bf5c]
+entity legacy_controller--><rect fill="#85BBF0" height="85.1875" style="stroke: #78A8D8; stroke-width: 1.5;" width="187" x="1307" y="426.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="1322.5" y="451.6816">Legacy Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="146" x="1327.5" y="466.5938">[Spring Rest Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1402.5" y="482.4189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="1317" y="498.7158">Possui as Controllers V1</text><!--MD5=[d0c2a1ef4522f91dc5a235a781191f3f]
+entity legacy_service--><rect fill="#85BBF0" height="52.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="153" x="1689.5" y="241.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="1699.5" y="266.6816">Legacy Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1745" y="281.5938">[Bean]</text><!--MD5=[5b1a930a628c47075a3cd948432782e0]
+entity metric_service_factory--><rect fill="#85BBF0" height="71.2188" style="stroke: #78A8D8; stroke-width: 1.5;" width="154" x="663.5" y="577.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="673.5" y="602.6816">Metric Service</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="707" y="621.3066">Factory</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="719.5" y="636.2188">[Bean]</text><!--MD5=[bc6cf6f64e6e3c0cc8b4330adbf8e828]
+entity keycloack_service--><rect fill="#85BBF0" height="52.5938" style="stroke: #78A8D8; stroke-width: 1.5;" width="179" x="3372.5" y="249.8301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="159" x="3382.5" y="274.6816">Keycloack Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="3441" y="289.5938">[Bean]</text><!--MD5=[6be96040792a0cd556c535244c12ec70]
+entity api_client--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="4505" y="381.3301"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="4572" y="406.1816">API Client</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="102" x="4564" y="421.0938">[Integração API]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="4617" y="436.9189"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="4515" y="453.2158">CircleMatcher, Deploy (Butler</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="4525.5" y="469.5127">), Git, Hermes, Keycloack,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="4590.5" y="485.8096">Villager</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="289" y="88.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="332.5" y="113.6816">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="326.5" y="128.5938">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="392.5" y="144.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="299" y="160.7158">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="352" y="177.0127">do produto</text><!--MD5=[ce8c1f9e16bd6fd9376df95af0afd0d2]
+entity moove_database--><rect fill="#438DD5" height="231.8594" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="3723" y="667.3301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="3759" y="692.1816">Moove Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="3801.5" y="707.0938">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="3835" y="722.9189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="3752" y="739.2158">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="3738.5" y="755.5127">sobre Usuários, Grupos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="3733.5" y="771.8096">Usuários, Token Sistêmicos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="3765" y="788.1064">Permissões, Roles,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="3733" y="804.4033">Workspaces, Componentes,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="3772.5" y="820.7002">Modules,  Builds,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="3751.5" y="836.9971">Deployments, Círculos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="3734.5" y="853.2939">Configurações de Métricas e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="3735" y="869.5908">Configurações de Ambiente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="3797" y="885.8877">de deploy.</text><!--MD5=[654cfe29856ac6bf71695e0ba3be24ed]
+entity git_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="154" x="2655" y="88.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="2701.5" y="113.6816">Git API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="2702" y="128.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2734" y="144.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="2665" y="160.7158">Busca recursos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="2689" y="177.0127">repositórios.</text><!--MD5=[72403164994526c317ea65843fe29b98]
+entity idm--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="188" x="27.5" y="88.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="104" y="113.6816">IDM</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="85" y="128.5938">[Keycloack]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="123.5" y="144.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="37.5" y="160.7158">Gerencia e autentica os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="90" y="177.0127">usuários.</text><!--MD5=[76c72a0d0666ffe20c687699125b4b7c]
+entity prometheus--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="1017" y="667.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="1069" y="692.6816">Prometheus</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="125" x="1061" y="707.5938">[System Monitoring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1125.5" y="723.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="1027" y="739.7158">Collects and stores Charles</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="1096" y="756.0127">metrics.</text><!--MD5=[b860da2548d24d3389ed66c62b24a714]
+entity keycloack_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="188" x="4930.5" y="117.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="4962.5" y="142.6816">Keycloack API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="4994.5" y="157.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5026.5" y="173.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="4940.5" y="189.7158">Gerencia e autentica os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="4945.5" y="206.0127">usuários no Keycloack.</text><!--MD5=[243b7e7d6ce300dd36e65a586bc0962f]
+entity circle_matcher_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="206" x="4921.5" y="253.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="165" x="4942" y="278.6816">Circle Matcher API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="4994.5" y="293.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5026.5" y="309.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="4931.5" y="325.7158">Gerencia e faz descoberta</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="4985" y="342.0127">de círculos.</text><!--MD5=[2246d9454da17c8b80fb80cbe3915f8f]
+entity butler_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="193" x="4928" y="389.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="4979.5" y="414.6816">Butler API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="4994.5" y="429.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5026.5" y="445.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="4938" y="461.7158">Realiza os processos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="4981.5" y="478.0127">deployment.</text><!--MD5=[bc4b659d5fa58487629285ad9a90e23d]
+entity hermes_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="4918.5" y="525.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="4972.5" y="550.6816">Hermes API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="4994.5" y="565.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5026.5" y="581.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="4928.5" y="597.7158">Gerencia e notifica eventos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="4979.5" y="614.0127">de webhook.</text><!--MD5=[94742e81ae3f9ce9ac6a350c76b48ded]
+entity villager_api--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="4918" y="661.8301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="100" x="4974.5" y="686.6816">Villager API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="4994.5" y="701.5938">[Rest API]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5026.5" y="717.4189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="4928" y="733.7158">Valida o nome das tags das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="4953" y="750.0127">imagens informadas.</text><!--MD5=[a137b8c0241a8da31f507cbcd595b6a1]
+link module_web to module_api--><path d="M228.0558,404.7143 C248.1522,409.1314 269.1061,412.9876 289,415.3301 C378.6032,425.8807 403.3939,432.3303 492,415.3301 C546.981,404.7813 605.2851,382.2143 651.5908,361.2871 " fill="none" id="module_web-to-module_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="658.9172,357.9446,650.3937,358.5359,652.8842,363.9946,658.9172,357.9446" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="377" y="412.4688">Usa</text><!--MD5=[086a5a63b29a8e90cee3e9e1e197f5a6]
+link module_api to controller--><path d="M822.0909,316.3301 C937.7087,316.3301 1149.8867,316.3301 1282.6149,316.3301 " fill="none" id="module_api-to-controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1290.8456,316.3301,1282.8456,313.3301,1282.8456,319.3301,1290.8456,316.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="1100" y="313.4688">Possui</text><!--MD5=[b4b93d18052e3c76eafe184c581e5d4f]
+link controller to module_application--><path d="M1510.1621,333.1319 C1561.9503,341.0667 1623.1139,350.4378 1672.6497,358.0275 " fill="none" id="controller-to-module_application" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1680.811,359.2779,1673.3576,355.1009,1672.4489,361.0317,1680.811,359.2779" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1582" y="340.4688">Usa</text><!--MD5=[45bdeca013d86394e53ef503a5cee873]
+link module_application to interactor--><path d="M1851.2951,380.1925 C1899.9823,384.6804 1961.5502,390.3557 2013.8608,395.1776 " fill="none" id="module_application-to-interactor" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2021.8406,395.9132,2014.1498,392.1914,2013.599,398.1661,2021.8406,395.9132" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="1913" y="383.4688">Possui</text><!--MD5=[c315374e02a25d5becbcdb931965d8ba]
+link interactor to module_domain--><path d="M2226.1051,432.4754 C2250.6185,437.0391 2276.8437,440.3301 2301.5,440.3301 C2301.5,440.3301 2301.5,440.3301 2732,440.3301 C2777.8248,440.3301 2828.8418,440.3301 2870.9321,440.3301 " fill="none" id="interactor-to-module_domain" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2878.9551,440.3301,2870.9551,437.3301,2870.9551,443.3301,2878.9551,440.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="2406" y="437.4688">Usa</text><!--MD5=[fcc27d8eaee4e175d6556450a9dc9f9b]
+link module_domain to respository_jdbc--><path d="M3040.2353,463.4662 C3127.6654,488.5208 3267.2536,528.5222 3361.6693,555.5786 " fill="none" id="module_domain-to-respository_jdbc" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="3369.5228,557.8292,3362.6588,552.7414,3361.0059,558.5092,3369.5228,557.8292" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="3243" y="518.4688">Possui</text><!--MD5=[37f4c6d8aa1bcc67316048fd9aa5bf2f]
+link module_domain to thirdy_service--><path d="M3040.2353,440.3301 C3122.3209,440.3301 3250.3828,440.3301 3343.8706,440.3301 " fill="none" id="module_domain-to-thirdy_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="3351.9548,440.3301,3343.9548,437.3301,3343.9548,443.3301,3351.9548,440.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="3243" y="437.4688">Possui</text><!--MD5=[4d0dcc589e008cd5e359053c9e578eab]
+link thirdy_service to module_infrastructure--><path d="M3572.1918,440.3301 C3690.7809,440.3301 3878.1474,440.3301 3995.631,440.3301 " fill="none" id="thirdy_service-to-module_infrastructure" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4003.9672,440.3301,3995.9672,437.3301,3995.9672,443.3301,4003.9672,440.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="3819.5" y="437.4688">Usa</text><!--MD5=[16094fead2d54aa88b308cc3d9aa5dfe]
+link module_infrastructure to api_client--><path d="M4202.0221,440.3301 C4286.1684,440.3301 4407.1692,440.3301 4496.4568,440.3301 " fill="none" id="module_infrastructure-to-api_client" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4504.7243,440.3301,4496.7243,437.3301,4496.7243,443.3301,4504.7243,440.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="4396" y="437.4688">Possui</text><!--MD5=[7abc05a324e632693b6ea00b7aba9a86]
+link api_client to circle_matcher_api--><path d="M4725.0077,403.7952 C4783.3887,384.4062 4854.9527,360.6388 4913.4843,341.1998 " fill="none" id="api_client-to-circle_matcher_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4921.287,338.6084,4912.7492,338.2829,4914.6404,343.977,4921.287,338.6084" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4756" y="335.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4780.5" y="349.4375">HTTPS/JSON</text><!--MD5=[f33ffd7dd170d9e0b569cd3e6d1487c8]
+link api_client to butler_api--><path d="M4725.0077,440.3301 C4785.419,440.3301 4859.9462,440.3301 4919.5426,440.3301 " fill="none" id="api_client-to-butler_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4927.8498,440.3301,4919.8498,437.3301,4919.8498,443.3301,4927.8498,440.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4756" y="423.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4780.5" y="437.4375">HTTPS/JSON</text><!--MD5=[1c4b1543c3f032d783605f7913b3442e]
+link api_client to hermes_api--><path d="M4725.0077,476.865 C4782.4818,495.9529 4852.7326,519.284 4910.7473,538.5514 " fill="none" id="api_client-to-hermes_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4918.4853,541.1213,4911.8387,535.7526,4909.9475,541.4468,4918.4853,541.1213" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4756" y="471.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4780.5" y="485.4375">HTTPS/JSON</text><!--MD5=[3879a9028ed2e040e77d5ffc3ffdca1a]
+link api_client to villager_api--><path d="M4674.3863,499.4617 C4698.357,521.7757 4726.9493,546.5302 4755,566.3301 C4803.5836,600.6233 4861.1074,632.7986 4910.5077,658.1698 " fill="none" id="api_client-to-villager_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4917.7353,661.8632,4911.9766,655.5515,4909.2464,660.8943,4917.7353,661.8632" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4756" y="549.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4780.5" y="563.4375">HTTPS/JSON</text><!--MD5=[1bf8d5f71a9ab18d1db78aa898a7f95a]
+link api_client to keycloack_api--><path d="M4675.1653,381.1097 C4699.0058,359.1479 4727.3042,334.8567 4755,315.3301 C4807.834,278.08 4871.1028,243.1281 4923.0573,216.6589 " fill="none" id="api_client-to-keycloack_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4930.311,212.981,4921.8191,213.9233,4924.5326,219.2746,4930.311,212.981" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4756" y="220.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4780.5" y="234.4375">HTTPS/JSON</text><!--MD5=[87fd6525d5119f12e3297a73ebef8285]
+link module_application to service--><path d="M1824.0637,329.7536 C1855.6843,310.6483 1896.446,292.3301 1936.5,292.3301 C1936.5,292.3301 1936.5,292.3301 2301.5,292.3301 C2323.5642,292.3301 2347.949,292.3301 2368.7965,292.3301 " fill="none" id="module_application-to-service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2376.8979,292.3301,2368.8979,289.3301,2368.8979,295.3301,2376.8979,292.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="2100.5" y="289.4688">Possui</text><!--MD5=[2d6a12e86c5499ff8877c1d963e47d05]
+link interactor to service--><path d="M2226.1081,366.2837 C2274.4344,347.8036 2329.9847,326.561 2369.1138,311.5979 " fill="none" id="interactor-to-service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2376.7137,308.6917,2368.1699,308.747,2370.3129,314.3512,2376.7137,308.6917" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="2288" y="329.4688">Usa</text><!--MD5=[f951268014936818a70fcf911fe50cba]
+link service to module_domain--><path d="M2462.3243,304.0671 C2550.3552,328.1941 2753.2222,383.7947 2870.8063,416.0214 " fill="none" id="service-to-module_domain" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2878.774,418.2052,2871.8515,413.1973,2870.2656,418.9839,2878.774,418.2052" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="2718.5" y="355.4688">Usa</text><!--MD5=[bee5a02f158631b9c77dbcab9a3a9e07]
+link service to module_security--><path d="M2462.3243,291.6957 C2548.1605,290.424 2743.1783,287.5349 2861.856,285.7767 " fill="none" id="service-to-module_security" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2869.9134,285.6573,2861.8698,282.7762,2861.9587,288.7755,2869.9134,285.6573" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="2718.5" y="284.4688">Usa</text><!--MD5=[d73c190f36125b50a3c89a6166b4182b]
+link service to git_api--><path d="M2462.2965,271.3769 C2509.8431,248.0981 2587.7992,209.9308 2647.7031,180.6019 " fill="none" id="service-to-git_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2654.9157,177.0706,2646.4115,177.894,2649.0498,183.2828,2654.9157,177.0706" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="2493" y="176.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="2517.5" y="190.4375">HTTPS/JSON</text><!--MD5=[655cb3480541c7217b0becae077133f3]
+link module_security to keycloack_service--><path d="M3049.0472,282.9045 C3137.6531,281.4938 3272.91,279.3405 3364.2628,277.8861 " fill="none" id="module_security-to-keycloack_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="3372.4118,277.7564,3364.365,274.8842,3364.4606,280.8834,3372.4118,277.7564" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="3243" y="276.4688">Possui</text><!--MD5=[1caeb956fd82bba9f8b5cb7425db5728]
+link keycloack_service to keycloack_api--><path d="M3519.0819,249.8174 C3590.7633,219.0048 3718.2792,172.3301 3833,172.3301 C3833,172.3301 3833,172.3301 4615,172.3301 C4719.585,172.3301 4839.1876,171.0094 4922.0169,169.8857 " fill="none" id="keycloack_service-to-keycloack_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4930.1673,169.7742,4922.127,166.884,4922.2091,172.8835,4930.1673,169.7742" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="4233" y="155.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="4257.5" y="169.4375">HTTPS/JSON</text><!--MD5=[683f57499d08fa0ed6ce84de1a8cd3c9]
+link module_metrics to metric_service_factory--><path d="M204.0184,608.9966 C321.6216,609.9466 536.341,611.681 655.3654,612.6424 " fill="none" id="module_metrics-to-metric_service_factory" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="663.416,612.7075,655.4405,609.6429,655.392,615.6427,663.416,612.7075" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="367" y="607.4688">Possui</text><!--MD5=[aad93c3437a62090630d704a39bbad40]
+link metric_service_factory to prometheus--><path d="M817.545,634.4521 C872.4294,649.4987 947.1259,669.9769 1008.9726,686.9322 " fill="none" id="metric_service_factory-to-prometheus" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1016.835,689.0877,1009.9128,684.0793,1008.3265,689.8658,1016.835,689.0877" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="855" y="630.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="879.5" y="644.4375">HTTPS/JSON</text><!--MD5=[3e8db2575419cc20a740af23b85f4da0]
+link module_web to module_legacy_moove--><path d="M228.0347,374.9281 C302.4764,376.2134 403.9151,381.1034 492,396.3301 C544.9892,405.49 602.7015,422.0229 649.1598,437.0411 " fill="none" id="module_web-to-module_legacy_moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="656.8114,439.5337,650.1341,434.2032,648.2756,439.9081,656.8114,439.5337" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="377" y="374.4688">Usa</text><!--MD5=[1b27e4b4240080cb2cab1d79fd77938c]
+link module_legacy_moove to legacy_controller--><path d="M824.0895,469.3301 C945.0423,469.3301 1168.603,469.3301 1298.9067,469.3301 " fill="none" id="module_legacy_moove-to-legacy_controller" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1306.9669,469.3301,1298.9669,466.3301,1298.9669,472.3301,1306.9669,469.3301" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="1100" y="466.4688">Possui</text><!--MD5=[1da894d436e50a8a4e317c10848e7ad4]
+link legacy_controller to legacy_service--><path d="M1494.1971,437.3024 C1534.6988,421.2464 1581.5222,399.589 1620,373.3301 C1651.6691,351.7178 1650.0541,334.9659 1681,312.3301 C1687.4377,307.6212 1694.4495,303.1312 1701.5939,298.9436 " fill="none" id="legacy_controller-to-legacy_service" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1708.7661,294.86,1700.3296,296.2113,1703.2984,301.4254,1708.7661,294.86" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1582" y="370.4688">Usa</text><!--MD5=[ce759dbc55221f6dcd744b9bc0dbc4aa]
+link legacy_service to keycloack_api--><path d="M1772.0429,241.602 C1787.6275,180.4005 1835.2475,35.3301 1936.5,35.3301 C1936.5,35.3301 1936.5,35.3301 4615,35.3301 C4723.9824,35.3301 4841.6518,78.4689 4922.7647,115.6098 " fill="none" id="legacy_service-to-keycloack_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="4930.4987,119.1837,4924.495,113.1045,4921.9781,118.5511,4930.4987,119.1837" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="3080" y="18.4688">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="3104.5" y="32.4375">HTTPS/JSON</text><!--MD5=[1bac80e31553f6251b2c9e76f9b55ec1]
+link module_legacy_moove to module_legacy_repository--><path d="M824.0895,485.7947 C940.2857,508.6818 1151.1782,550.2213 1283.1131,576.2084 " fill="none" id="module_legacy_moove-to-module_legacy_repository" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1291.2947,577.82,1284.0253,573.3304,1282.8657,579.2173,1291.2947,577.82" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1110" y="521.4688">Usa</text><!--MD5=[13929722d6d97ac623f175f0b91bce60]
+link module_legacy_repository to respository_jpa--><path d="M1509.667,604.109 C1570.0673,606.753 1643.3415,609.9606 1696.0528,612.2681 " fill="none" id="module_legacy_repository-to-respository_jpa" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1704.331,612.6305,1696.4699,609.2834,1696.2074,615.2776,1704.331,612.6305" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="1572" y="604.4688">Possui</text><!--MD5=[98f26989a584a34d876d2bc94b714f1d]
+link respository_jpa to moove_database--><path d="M1792.3081,641.8358 C1823.7374,670.5557 1879.2863,712.3301 1936.5,712.3301 C1936.5,712.3301 1936.5,712.3301 3462,712.3301 C3547.735,712.3301 3642.6602,730.8471 3715.0289,748.9683 " fill="none" id="respository_jpa-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="3722.8482,750.9466,3715.8285,746.0759,3714.3567,751.8926,3722.8482,750.9466" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="2514" y="709.4688">Lê e escreve</text><!--MD5=[aa810ffd7e837a624ae22d4ddc0ee785]
+link respository_jdbc to moove_database--><path d="M3531.3758,610.9242 C3578.1351,629.8174 3640.6078,656.9646 3693,686.3301 C3700.5045,690.5363 3708.1114,695.0393 3715.7006,699.7173 " fill="none" id="respository_jdbc-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="3722.6619,704.0591,3717.4617,697.2799,3714.2864,702.3708,3722.6619,704.0591" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="3603" y="640.4688">Lê e escreve</text><!--MD5=[e06ea860e6349857c95fa462f094e82c]
+link ui to module_api--><path d="M490.796,190.0512 C541.5281,215.7072 602.5719,246.5779 651.6042,271.3742 " fill="none" id="ui-to-module_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="658.7486,274.9873,652.9634,268.6999,650.2557,274.0542,658.7486,274.9873" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="523" y="190.4688">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="534" y="204.4375">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="4956" y="912.1895"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="4962" y="932.1846">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="5025" y="932.1846"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="935.4863"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="4966" y="948.4814">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="951.7832"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="4966" y="964.7783">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="968.0801"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="4966" y="981.0752">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="984.377"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="4966" y="997.3721">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="1000.6738"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="4966" y="1013.6689">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="1016.9707"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="4966" y="1029.9658">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="1033.2676"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="4966" y="1046.2627">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="4962" y="1049.5645"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="4966" y="1062.5596">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="919.1895" y2="919.1895"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="935.4863" y2="935.4863"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="951.7832" y2="951.7832"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="968.0801" y2="968.0801"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="984.377" y2="984.377"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="1000.6738" y2="1000.6738"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="1016.9707" y2="1016.9707"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="1033.2676" y2="1033.2676"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="1049.5645" y2="1049.5645"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="5109" y1="1065.8613" y2="1065.8613"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="4962" x2="4962" y1="919.1895" y2="1065.8613"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="5109" x2="5109" y1="919.1895" y2="1065.8613"/><!--MD5=[b6bbf5ee797259b791fcc81f48c95a48]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(git_api, "Git API", "Rest API", "Busca recursos de repositórios.")
+Container(idm, "IDM", "Keycloack", "Gerencia e autentica os usuários.")
+Container(prometheus, "Prometheus", "System Monitoring", "Collects and stores Charles metrics.")
+Container(keycloack_api, "Keycloack API", "Rest API", "Gerencia e autentica os usuários no Keycloack.")
+Container(circle_matcher_api, "Circle Matcher API", "Rest API", "Gerencia e faz descoberta de círculos.")
+Container(butler_api, "Butler API", "Rest API", "Realiza os processos de deployment.")
+Container(hermes_api, "Hermes API", "Rest API", "Gerencia e notifica eventos de webhook.")
+Container(villager_api, "Villager API", "Rest API", "Valida o nome das tags das imagens informadas.")
+
+
+Container_Boundary(charlescd_moove, "CharlesCD Moove"){
+   
+    Component(module_web, "Web", "Component", "Possui o inicializador da aplicação e config de CORS.")
+    Component(module_api, "Api", "Component", "Camada de serviços.")
+    Component(module_application, "Application", "Component", "Camada de aplicação.")
+    Component(module_domain, "Domain", "Component", "Camada de domínio.")
+    Component(module_metrics, "Metrics", "Component", "Camada de métricas.")
+    Component(module_security, "Security", "Component", "Camada de segurança.")
+    Component(module_infrastructure, "Infrastructure", "Component", "Camada de infraestrutura.")
+    Component(module_legacy_moove, "<DEPRECATED> Legacy Moove", "Component", "Camada Legado de Aplicação e Serviços.")
+    Component(module_legacy_repository, "<DEPRECATED> Legacy Repository", "Component", "Camada Legado de Dominio.")
+
+    Component(controller, "Controller", "Spring Rest Controller", "Possui as Controllers de Build, Circle, ConfigurationV2, DeploymentV2, ModuleV2, RoleV2, UserGroupV2, UserV2, WorkspaceV2, Webhook.")
+    Component(respository_jpa, "Repository", "Repository, JPA", "")
+    Component(interactor, "Interactor", "Bean", "Implementação Use Cases")
+    Component(respository_jdbc, "Repository", "Repository, JDBC Template", "")
+    Component(service, "Service", "Bean", "")
+    Component(thirdy_service, "Thirdy Service", "Bean", "CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager.")
+    Component(legacy_controller, "Legacy Controller", "Spring Rest Controller", "Possui as Controllers V1")
+    Component(legacy_service, "Legacy Service", "Bean", "")
+    Component(metric_service_factory, "Metric Service Factory", "Bean", "")
+    Component(keycloack_service, "Keycloack Service", "Bean", "")
+    Component(api_client, "API Client", "Integração API", "CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager")
+
+    Rel(module_web, module_api, "Usa")
+    Rel(module_api, controller, "Possui")
+    Rel(controller, module_application, "Usa")
+    Rel(module_application, interactor, "Possui")
+    Rel(interactor, module_domain, "Usa")
+    Rel(module_domain, respository_jdbc, "Possui")
+    Rel(module_domain, thirdy_service, "Possui")
+    Rel(thirdy_service, module_infrastructure, "Usa")
+    Rel(module_infrastructure, api_client, "Possui")
+    Rel(api_client, circle_matcher_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, butler_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, hermes_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, villager_api, "Faz requisição via HTTPS/JSON")
+    Rel(api_client, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_application, service, "Possui")
+    Rel(interactor, service, "Usa")
+    Rel(service, module_domain, "Usa")
+    Rel(service, module_security, "Usa")
+    Rel(service, git_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_security, keycloack_service, "Possui")
+    Rel(keycloack_service, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_metrics, metric_service_factory, "Possui")
+    Rel(metric_service_factory, prometheus, "Faz requisição via HTTPS/JSON")
+    Rel(module_web, module_legacy_moove, "Usa")
+    Rel(module_legacy_moove, legacy_controller, "Possui")
+    Rel(legacy_controller, legacy_service, "Usa")
+    Rel(legacy_service, keycloack_api, "Faz requisição via HTTPS/JSON")
+    Rel(module_legacy_moove, module_legacy_repository, "Usa")
+    Rel(module_legacy_repository, respository_jpa, "Possui")
+    Rel(respository_jpa, moove_database, "Lê e escreve")
+    Rel(respository_jdbc, moove_database, "Lê e escreve")
+}
+
+Rel(ui, module_api, "Faz requisição", "JSON/HTTPS")
+
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+rectangle "==Moove Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy." <<container>> as moove_database
+rectangle "==Git API\n//<size:12>[Rest API]</size>//\n\n Busca recursos de repositórios." <<container>> as git_api
+rectangle "==IDM\n//<size:12>[Keycloack]</size>//\n\n Gerencia e autentica os usuários." <<container>> as idm
+rectangle "==Prometheus\n//<size:12>[System Monitoring]</size>//\n\n Collects and stores Charles metrics." <<container>> as prometheus
+rectangle "==Keycloack API\n//<size:12>[Rest API]</size>//\n\n Gerencia e autentica os usuários no Keycloack." <<container>> as keycloack_api
+rectangle "==Circle Matcher API\n//<size:12>[Rest API]</size>//\n\n Gerencia e faz descoberta de círculos." <<container>> as circle_matcher_api
+rectangle "==Butler API\n//<size:12>[Rest API]</size>//\n\n Realiza os processos de deployment." <<container>> as butler_api
+rectangle "==Hermes API\n//<size:12>[Rest API]</size>//\n\n Gerencia e notifica eventos de webhook." <<container>> as hermes_api
+rectangle "==Villager API\n//<size:12>[Rest API]</size>//\n\n Valida o nome das tags das imagens informadas." <<container>> as villager_api
+
+
+rectangle "==CharlesCD Moove\n<size:12>[Container]</size>" <<boundary>> as charlescd_moove{
+   
+    rectangle "==Web\n//<size:12>[Component]</size>//\n\n Possui o inicializador da aplicação e config de CORS." <<component>> as module_web
+    rectangle "==Api\n//<size:12>[Component]</size>//\n\n Camada de serviços." <<component>> as module_api
+    rectangle "==Application\n//<size:12>[Component]</size>//\n\n Camada de aplicação." <<component>> as module_application
+    rectangle "==Domain\n//<size:12>[Component]</size>//\n\n Camada de domínio." <<component>> as module_domain
+    rectangle "==Metrics\n//<size:12>[Component]</size>//\n\n Camada de métricas." <<component>> as module_metrics
+    rectangle "==Security\n//<size:12>[Component]</size>//\n\n Camada de segurança." <<component>> as module_security
+    rectangle "==Infrastructure\n//<size:12>[Component]</size>//\n\n Camada de infraestrutura." <<component>> as module_infrastructure
+    rectangle "==<DEPRECATED> Legacy Moove\n//<size:12>[Component]</size>//\n\n Camada Legado de Aplicação e Serviços." <<component>> as module_legacy_moove
+    rectangle "==<DEPRECATED> Legacy Repository\n//<size:12>[Component]</size>//\n\n Camada Legado de Dominio." <<component>> as module_legacy_repository
+
+    rectangle "==Controller\n//<size:12>[Spring Rest Controller]</size>//\n\n Possui as Controllers de Build, Circle, ConfigurationV2, DeploymentV2, ModuleV2, RoleV2, UserGroupV2, UserV2, WorkspaceV2, Webhook." <<component>> as controller
+    rectangle "==Repository\n//<size:12>[Repository, JPA]</size>//" <<component>> as respository_jpa
+    rectangle "==Interactor\n//<size:12>[Bean]</size>//\n\n Implementação Use Cases" <<component>> as interactor
+    rectangle "==Repository\n//<size:12>[Repository, JDBC Template]</size>//" <<component>> as respository_jdbc
+    rectangle "==Service\n//<size:12>[Bean]</size>//" <<component>> as service
+    rectangle "==Thirdy Service\n//<size:12>[Bean]</size>//\n\n CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager." <<component>> as thirdy_service
+    rectangle "==Legacy Controller\n//<size:12>[Spring Rest Controller]</size>//\n\n Possui as Controllers V1" <<component>> as legacy_controller
+    rectangle "==Legacy Service\n//<size:12>[Bean]</size>//" <<component>> as legacy_service
+    rectangle "==Metric Service Factory\n//<size:12>[Bean]</size>//" <<component>> as metric_service_factory
+    rectangle "==Keycloack Service\n//<size:12>[Bean]</size>//" <<component>> as keycloack_service
+    rectangle "==API Client\n//<size:12>[Integração API]</size>//\n\n CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager" <<component>> as api_client
+
+module_web - ->> module_api : **Usa**
+module_api - ->> controller : **Possui**
+controller - ->> module_application : **Usa**
+module_application - ->> interactor : **Possui**
+interactor - ->> module_domain : **Usa**
+module_domain - ->> respository_jdbc : **Possui**
+module_domain - ->> thirdy_service : **Possui**
+thirdy_service - ->> module_infrastructure : **Usa**
+module_infrastructure - ->> api_client : **Possui**
+api_client - ->> circle_matcher_api : **Faz requisição via HTTPS/JSON**
+api_client - ->> butler_api : **Faz requisição via HTTPS/JSON**
+api_client - ->> hermes_api : **Faz requisição via HTTPS/JSON**
+api_client - ->> villager_api : **Faz requisição via HTTPS/JSON**
+api_client - ->> keycloack_api : **Faz requisição via HTTPS/JSON**
+module_application - ->> service : **Possui**
+interactor - ->> service : **Usa**
+service - ->> module_domain : **Usa**
+service - ->> module_security : **Usa**
+service - ->> git_api : **Faz requisição via HTTPS/JSON**
+module_security - ->> keycloack_service : **Possui**
+keycloack_service - ->> keycloack_api : **Faz requisição via HTTPS/JSON**
+module_metrics - ->> metric_service_factory : **Possui**
+metric_service_factory - ->> prometheus : **Faz requisição via HTTPS/JSON**
+module_web - ->> module_legacy_moove : **Usa**
+module_legacy_moove - ->> legacy_controller : **Possui**
+legacy_controller - ->> legacy_service : **Usa**
+legacy_service - ->> keycloack_api : **Faz requisição via HTTPS/JSON**
+module_legacy_moove - ->> module_legacy_repository : **Usa**
+module_legacy_repository - ->> respository_jpa : **Possui**
+respository_jpa - ->> moove_database : **Lê e escreve**
+respository_jdbc - ->> moove_database : **Lê e escreve**
+}
+
+ui - ->> module_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

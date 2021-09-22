@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="642px" preserveAspectRatio="none" style="width:1743px;height:642px;" version="1.1" viewBox="0 0 1743 642" width="1743px" zoomAndPan="magnify"><defs/><g><!--MD5=[5d56a05c42d4568cc3cfdb3da57c171b]
+cluster charlescd_ui--><rect fill="#FFFFFF" height="368" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="982" x="346" y="89.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="779.5" y="106.3516">CharlesCD UI</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="797" y="121.2637">[Container]</text><!--MD5=[800abf3622c134f85427057589664eb8]
+entity routes--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="354" y="273.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="433.5" y="298.3516">Router</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="196" x="366" y="313.2637">[React-Router-Dom, Typescript]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="466" y="329.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="364" y="345.3857">Atraves do sistema de rotas,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="368.5" y="361.6826">sabe qual módulo deve ser</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="420.5" y="377.9795">renderizado.</text><!--MD5=[45450784b59d3c3016a944a87c894c97]
+entity module--><rect fill="#85BBF0" height="166.6719" style="stroke: #78A8D8; stroke-width: 1.5;" width="212" x="725" y="249"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="799" y="273.8516">Module</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="130" x="766" y="288.7637">[ReactJS, typeScript]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="833" y="304.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="764" y="320.8857">O módulo usa uma</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="742" y="337.1826">implementação nossa do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="735" y="353.4795">fetch para fazer requsições</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="737.5" y="369.7764">HTTP e apartir da resposta</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="739" y="386.0732">da requisição ele popula a</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="816.5" y="402.3701">tela.</text><!--MD5=[5f175ec018c225c86e8e77149e6345d4]
+entity component--><rect fill="#85BBF0" height="131.75" style="stroke: #78A8D8; stroke-width: 1.5;" width="192" x="1114" y="317.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="1159" y="342.3516">Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="172" x="1124" y="357.2637">[ReactJS, TypeScript, react-</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="1176" y="371.2324">hook-form]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1212" y="387.0576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="1135" y="403.3545">Para melhor view dos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="1132.5" y="419.6514">compontents acessar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="1175.5" y="435.9482">storybook</text><!--MD5=[62cc4166db310ca44a141886713fd6cd]
+entity provider--><rect fill="#85BBF0" height="150.375" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1100" y="132.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="1172.5" y="157.3516">Provider</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="161" x="1129.5" y="172.2637">[URL Request, Typescript]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1212" y="188.0889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1125.5" y="204.3857">Recebe informações do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1110" y="220.6826">estado atual de um deploy e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1113" y="236.9795">envia estado desejado para</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="1119" y="253.2764">que operator sincronize e</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="1154" y="269.5732">faça o reconcile.</text><!--MD5=[23555a4f9c8a267cdfd801ad53ceaf15]
+entity browser--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="182" x="7" y="273.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="60.5" y="298.3516">Browser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="20" y="313.2637">[Chrome, Firefox, IE, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="100" y="329.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="17" y="345.3857">Navegador de Internet,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="22.5" y="361.6826">usado para acessar a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="18.5" y="377.9795">interface do CharlesCD</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="1517.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="1544" y="31.8516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="1561.5" y="46.7637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1624.5" y="62.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="1527.5" y="78.8857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1541" y="95.1826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="1529.5" y="111.4795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="1544" y="127.7764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="1537.5" y="144.0732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="1544.5" y="160.3701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="1529.5" y="176.667">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="1584" y="192.9639">aplicações.</text><!--MD5=[fe9f238ef05d075ef710a7fa4076dd25]
+entity compass--><rect fill="#438DD5" height="134.0781" style="stroke: #3C7FC0; stroke-width: 1.5;" width="219" x="1513" y="241.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="178" x="1533.5" y="266.3516">CharlesCD-Compass</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="1595.5" y="281.2637">[Golang]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1624.5" y="297.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="1547" y="313.3857">Processa as métricas</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="1534.5" y="329.6826">consumidas do provedor</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1523" y="345.9795">cadastrado pelo usuário e as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="1533.5" y="362.2764">provê via JSON/HTTPS API.</text><!--MD5=[c3476d9414ce88b9540bff5d567233f2]
+link routes to module--><path d="M574.1121,332.5 C619.1263,332.5 671.1948,332.5 716.6376,332.5 " fill="none" id="routes-to-module" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="724.7483,332.5,716.7483,329.5,716.7483,335.5,724.7483,332.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="636" y="329.6387">Usa</text><!--MD5=[7d431dfd668f5740b9253551c4155d09]
+link module to component--><path d="M937.0766,346.7742 C989.8793,353.8795 1053.4786,362.4378 1105.9945,369.5045 " fill="none" id="module-to-component" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1113.9916,370.5807,1106.4632,366.5405,1105.663,372.4869,1113.9916,370.5807" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="1005" y="352.6387">Usa</text><!--MD5=[9a99ee243a5b545733ba763ba48a14c9]
+link module to provider--><path d="M937.0766,297.5143 C985.3017,281.6089 1042.5327,262.7333 1092.1007,246.385 " fill="none" id="module-to-provider" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1099.9878,243.7837,1091.4507,243.4405,1093.3301,249.1386,1099.9878,243.7837" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="999" y="261.6387">Fetch</text><!--MD5=[55eec12e6957e42715daa0ac77ab780f]
+link provider to moove--><path d="M1320.0006,180.5665 C1378.588,166.2215 1450.5322,148.6061 1509.5578,134.1537 " fill="none" id="provider-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1517.4276,132.2268,1508.9436,131.2156,1510.3707,137.0434,1517.4276,132.2268" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1351" y="125.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1375.5" y="139.6074">HTTPS/JSON</text><!--MD5=[14ea295ef34c339d225f4928cbcce7d6]
+link provider to compass--><path d="M1320.0006,234.4335 C1376.9868,248.3865 1446.6097,265.4335 1504.6898,279.6544 " fill="none" id="provider-to-compass" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1512.806,281.6416,1505.7491,276.825,1504.322,282.6528,1512.806,281.6416" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="1351" y="226.6387">Faz requisição via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1375.5" y="240.6074">HTTPS/JSON</text><!--MD5=[160b591df8ecbcae28bef1aa31b6f408]
+link browser to routes--><path d="M189.4131,332.5 C236.7439,332.5 295.0875,332.5 345.8053,332.5 " fill="none" id="browser-to-routes" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="353.8768,332.5,345.8768,329.5,345.8768,335.5,353.8768,332.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="220" y="315.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="231" y="329.6074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="159" x="1557" y="470.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1563" y="490.4951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1626" y="490.4951"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="493.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1567" y="506.792">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="510.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1567" y="523.0889">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="526.3906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="1567" y="539.3857">container</text><rect fill="#85BBF0" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="542.6875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="1567" y="555.6826">component</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="558.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="1567" y="571.9795">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="575.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="1567" y="588.2764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="591.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="1567" y="604.5732">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="147" x="1563" y="607.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="1567" y="620.8701">external component</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="477.5" y2="477.5"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="493.7969" y2="493.7969"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="510.0938" y2="510.0938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="526.3906" y2="526.3906"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="542.6875" y2="542.6875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="558.9844" y2="558.9844"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="575.2813" y2="575.2813"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="591.5781" y2="591.5781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="607.875" y2="607.875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1710" y1="624.1719" y2="624.1719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1563" x2="1563" y1="477.5" y2="624.1719"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1710" x2="1710" y1="477.5" y2="624.1719"/><!--MD5=[7e2f32f3b1049df90e20500c90b2f300]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Container(browser, "Browser", "Chrome, Firefox, IE, etc", "Navegador de Internet, usado para acessar a interface do CharlesCD")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(compass, "CharlesCD-Compass", "Golang", "Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API.")
+
+Container_Boundary(charlescd_ui, "CharlesCD UI"){
+   
+    Component(routes, "Router", "React-Router-Dom, Typescript", "Atraves do sistema de rotas, sabe qual módulo deve ser renderizado.")
+    Component(module, "Module", "ReactJS, typeScript", "O módulo usa uma implementação nossa do fetch para fazer requsições HTTP e apartir da resposta da requisição ele popula a tela.")
+    Component(component, "Component", "ReactJS, TypeScript, react-hook-form", "Para melhor view dos compontents acessar storybook")
+    Component(provider, "Provider", "URL Request, Typescript", "Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile.")
+   
+    
+    Rel(routes, module, "Usa")
+    Rel(module, component, "Usa")
+    Rel(module, provider, "Fetch")
+    Rel(provider, moove, "Faz requisição via HTTPS/JSON")
+    Rel(provider, compass, "Faz requisição via HTTPS/JSON")
+   
+}
+
+Rel(browser, routes, "Faz requisição", "JSON/HTTPS")
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+left to right direction
+
+rectangle "==Browser\n//<size:12>[Chrome, Firefox, IE, etc]</size>//\n\n Navegador de Internet, usado para acessar a interface do CharlesCD" <<container>> as browser
+rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+rectangle "==CharlesCD-Compass\n//<size:12>[Golang]</size>//\n\n Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API." <<container>> as compass
+
+rectangle "==CharlesCD UI\n<size:12>[Container]</size>" <<boundary>> as charlescd_ui{
+   
+    rectangle "==Router\n//<size:12>[React-Router-Dom, Typescript]</size>//\n\n Atraves do sistema de rotas, sabe qual módulo deve ser renderizado." <<component>> as routes
+    rectangle "==Module\n//<size:12>[ReactJS, typeScript]</size>//\n\n O módulo usa uma implementação nossa do fetch para fazer requsições HTTP e apartir da resposta da requisição ele popula a tela." <<component>> as module
+    rectangle "==Component\n//<size:12>[ReactJS, TypeScript, react-hook-form]</size>//\n\n Para melhor view dos compontents acessar storybook" <<component>> as component
+    rectangle "==Provider\n//<size:12>[URL Request, Typescript]</size>//\n\n Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile." <<component>> as provider
+   
+    
+routes - ->> module : **Usa**
+module - ->> component : **Usa**
+module - ->> provider : **Fetch**
+provider - ->> moove : **Faz requisição via HTTPS/JSON**
+provider - ->> compass : **Faz requisição via HTTPS/JSON**
+   
+}
+
+browser - ->> routes : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

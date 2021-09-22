@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1832px" preserveAspectRatio="none" style="width:2380px;height:1832px;" version="1.1" viewBox="0 0 2380 1832" width="2380px" zoomAndPan="magnify"><defs/><g><!--MD5=[c74f8acdf0ba92020a3d72fe4e166b7c]
+cluster charlescd_system2--><rect fill="#FFFFFF" height="970" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1572" x="390" y="399.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="163" x="1094.5" y="416.3516">CharlesCD System</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1136" y="431.2637">[Container]</text><!--MD5=[bf1b4add2ee2e1b53e65912b20fb7ef4]
+entity ui--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="405" y="952"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="448.5" y="976.8516">CharlesCD-UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="442.5" y="991.7637">[ReacjJS, Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="508.5" y="1007.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="415" y="1023.8857">Web Application: Interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="468" y="1040.1826">do produto</text><!--MD5=[93b1caf4ff659fc939d417c97e5e796b]
+entity gate--><rect fill="#438DD5" height="182.9688" style="stroke: #3C7FC0; stroke-width: 1.5;" width="217" x="398" y="1133"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="436.5" y="1157.8516">CharlesCD-Gate</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="455" y="1172.7637">[Golang, Casbin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="508.5" y="1188.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="408.5" y="1204.8857">API Application: Gerencia os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="435.5" y="1221.1826">tokens de aplicação</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="411.5" y="1237.4795">armazenando-os no banco</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="435.5" y="1253.7764">de dados e realiza a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="408" y="1270.0732">autorização das requisições</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="409" y="1286.3701">de todo o sistema via token</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="416" y="1302.667">ou header de autorização.</text><!--MD5=[fe9f238ef05d075ef710a7fa4076dd25]
+entity compass--><rect fill="#438DD5" height="150.375" style="stroke: #3C7FC0; stroke-width: 1.5;" width="217" x="957" y="579.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="178" x="976.5" y="604.3516">CharlesCD-Compass</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="103" x="1014" y="619.2637">[Golang, Casbin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1067.5" y="635.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="967" y="651.3857">API Application: Processa as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="979" y="667.6826">métricas consumidas do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="975" y="683.9795">provedor cadastrado pelo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="970" y="700.2764">usuário e as provê via JSON/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1028" y="716.5732">HTTPS API.</text><!--MD5=[8ff20db77df385ae9dec9b6266e43f44]
+entity moove--><rect fill="#438DD5" height="199.2656" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="960.5" y="903"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="987" y="927.8516">CharlesCD-Moove</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="1004.5" y="942.7637">[Kotlin, SpringBoot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1067.5" y="958.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="970.5" y="974.8857">API Application: Processa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="984" y="991.1826">armazena no banco de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="972.5" y="1007.4795">dados as informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="987" y="1023.7764">usuários, aplicações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="980.5" y="1040.0732">configurações em geral.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="987.5" y="1056.3701">Além de orquestrar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="972.5" y="1072.667">requisições para as outras</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="1027" y="1088.9639">aplicações.</text><!--MD5=[082c0401bfed4e0ae69e739a9fccce3e]
+entity circle_matcher--><rect fill="#438DD5" height="182.9688" style="stroke: #3C7FC0; stroke-width: 1.5;" width="219" x="1735" y="1178"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="1767.5" y="1202.8516">CharlesCD-Circle-</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1807.5" y="1221.4766">Matcher</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="191" x="1747" y="1236.3887">[Java 11, SpringBoot, GraalVM,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1812" y="1250.3574">Javascript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1846.5" y="1266.1826"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="1754.5" y="1282.4795">API Application: Gerencia (</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="1767" y="1298.7764">identifica/armazena) a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1745" y="1315.0732">segmentação (círculo) a qual</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="1769" y="1331.3701">usuário da requisição</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="1811" y="1347.667">pertence.</text><!--MD5=[55af6afdd7b005b19c5dbb9a51070b53]
+entity villager--><rect fill="#438DD5" height="166.6719" style="stroke: #3C7FC0; stroke-width: 1.5;" width="219" x="1735" y="442"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="162" x="1763.5" y="466.8516">CharlesCD-Villager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="106" x="1791.5" y="481.7637">[Java 8, Quarkus]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1846.5" y="497.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="1761.5" y="513.8857">API Application: Valida o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="1745" y="530.1826">nome das tags das imagens</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1761" y="546.4795">informadas para realizar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1747.5" y="562.7764">deploy. Se comunica com o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1746" y="579.0732">Registry do usuário via JSON/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1807" y="595.3701">HTTPS API.</text><!--MD5=[25cc2a07eab060485537298fecf68bfa]
+entity hermes--><rect fill="#438DD5" height="182.9688" style="stroke: #3C7FC0; stroke-width: 1.5;" width="202" x="1743.5" y="644"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="1761.5" y="668.8516">CharlesCD-Hermes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="1817.5" y="683.7637">[Golang]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1846.5" y="699.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="1757" y="715.8857">API Application: Gerencia</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="1753.5" y="732.1826">subscrições de webhook,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1763.5" y="748.4795">recebe notificações de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="1758.5" y="764.7764">eventos de deployment,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="1766" y="781.0732">envia notificações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="1764.5" y="797.3701">eventos que possuem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="1805" y="813.667">subscrição.</text><!--MD5=[0ecfe39fd2b97681a55af15df62c9906]
+entity butler--><rect fill="#438DD5" height="280.75" style="stroke: #3C7FC0; stroke-width: 1.5;" width="219" x="1735" y="862"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="1768.5" y="886.8516">CharlesCD-Butler</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="1799" y="901.7637">[Node, NestJS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1846.5" y="917.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1745.5" y="933.8857">API Application: Se comunica</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="1776.5" y="950.1826">com o Kubernetes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="1762.5" y="966.4795">informando estados do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1747.5" y="982.7764">cluster para que o Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1745" y="999.0732">possa realizar o processo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1745.5" y="1015.3701">reconciliação de acordo com</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="1748.5" y="1031.667">as informações passadas e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="1762.5" y="1047.9639">realiza as implantações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="1767" y="1064.2607">necessárias. Abstrai o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1746" y="1080.5576">recurso do Istio para permitir</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="1761" y="1096.8545">diferentes versões com</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="1761.5" y="1113.1514">base em um cabeçalho/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="1769" y="1129.4482">cookie personalizado.</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="205.3594" style="stroke: #073B6F; stroke-width: 1.5;" width="220" x="7" y="900"/><image height="48" width="48" x="93" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="910"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="18" y="972.8516">Desenvolvedor/QA/PM</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="174" x="30" y="991.4766">/Gestor/Supervisor/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="103" y="1010.1016">Etc</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="1026.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="23" y="1043.167">Qualquer pessoa que  que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="17.5" y="1059.4639">possui alguma aplicação que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="17" y="1075.7607">tem os deploys gerenciados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="61.5" y="1092.0576">pelo CharlesCD.</text><!--MD5=[ce8c1f9e16bd6fd9376df95af0afd0d2]
+entity moove_database--><rect fill="#438DD5" height="231.8594" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="1350" y="1448.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="1386" y="1473.3516">Moove Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1428.5" y="1488.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1462" y="1504.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="1379" y="1520.3857">Armazena Informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="1365.5" y="1536.6826">sobre Usuários, Grupos de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="1360.5" y="1552.9795">Usuários, Token Sistêmicos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1392" y="1569.2764">Permissões, Roles,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1360" y="1585.5732">Workspaces, Componentes,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1399.5" y="1601.8701">Modules,  Builds,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1378.5" y="1618.167">Deployments, Círculos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="1361.5" y="1634.4639">Configurações de Métricas e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="1362" y="1650.7607">Configurações de Ambiente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="1424" y="1667.0576">de deploy.</text><!--MD5=[f112716b1f5f496a03e81d37124e807a]
+entity compass_database--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="189" x="1365.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="169" x="1375.5" y="31.8516">Compass Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="1428.5" y="46.7637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1462" y="62.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="1378.5" y="78.8857">Armazena os dados de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="1428.5" y="95.1826">métricas.</text><!--MD5=[cbd20c8648d417fefcd1e05072bd748e]
+entity circle_matcher_database--><rect fill="#438DD5" height="136.4063" style="stroke: #3C7FC0; stroke-width: 1.5;" width="215" x="2151.5" y="1357.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="2191.5" y="1382.3516">Circle Matcher</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="2217.5" y="1400.9766">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="2237.5" y="1415.8887">[Redis]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="1431.7139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="2174" y="1448.0107">Armazena os dados das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="2161.5" y="1464.3076">segmentações dos círculos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="2206" y="1480.6045">por workspace.</text><!--MD5=[cb3fe23cc19a1d92c8ea14d4f51ec133]
+entity villager_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="212" x="2153" y="179.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="2182.5" y="204.3516">Villager Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="2227.5" y="219.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="235.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="2177.5" y="251.3857">Armazena os dados de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="2163" y="267.6826">configuração do registry do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="2231.5" y="283.9795">usuário.</text><!--MD5=[610554e496cc25e803820e4e87dc292c]
+entity hermes_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="204" x="2157" y="805.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="2180.5" y="830.3516">Hermes Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="2227.5" y="845.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="861.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="2176.5" y="877.3857">Armazena subscrições,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="2167" y="893.6826">histórico de mensagens e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="2192" y="909.9795">histórico de envios.</text><!--MD5=[c71883367c3db9857ebdf1902de59177]
+entity butler_database--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="201" x="2158.5" y="1081.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="2187.5" y="1106.3516">Butler Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="63" x="2227.5" y="1121.2637">[Postgres]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="1137.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="2177.5" y="1153.3857">Armazena os dados de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="2168.5" y="1169.6826">deployment e aplicações (</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="2174" y="1185.9795">manifestos Kubernetes).</text><!--MD5=[7c4bdcbffaae752ca8912dbed5c1d554]
+entity hermes_message_broker--><rect fill="#438DD5" height="120.1094" style="stroke: #3C7FC0; stroke-width: 1.5;" width="179" x="2169.5" y="511.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="2179.5" y="536.3516">Hermes Message</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="2228.5" y="554.9766">Broker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="2225" y="569.8887">[RabbitMQ]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="585.7139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="2190.5" y="602.0107">Gerencia o fluxo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="2218" y="618.3076">mensagens</text><!--MD5=[490fc3b9844aefb0a03356887bdeeebf]
+entity keycloack--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="219" x="1350.5" y="303.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="1416" y="328.3516">Keycloack</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1462" y="345.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1360.5" y="361.417">IDM: Gerencia e autentica os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="1428.5" y="377.7139">usuários.</text><!--MD5=[44c8cc8ae346c22d5e1e5bfe247c047d]
+entity metrics_provider--><rect fill="#999999" height="124.7656" style="stroke: #8A8A8A; stroke-width: 1.5;" width="219" x="1350.5" y="143"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="193" x="1360.5" y="167.8516">Provedor de Metricas</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="1385" y="186.4766">(Prometheus ou</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="1383.5" y="205.1016">Google Analytics)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1462" y="221.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="1363" y="238.167">Armazena e disponibiliza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1375.5" y="254.4639">métricas das aplicações.</text><!--MD5=[2b27dc867bd819cd4fde5f99ed905902]
+entity github_api--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="193" x="2162.5" y="1234.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="2211.5" y="1259.3516">GitHub API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="1276.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="2172.5" y="1292.417">Acessa informações dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="2235.5" y="1308.7139">charts.</text><!--MD5=[c5f4ed0d7efd64aafa5469d220c985b4]
+entity registry_api--><rect fill="#999999" height="143.3906" style="stroke: #8A8A8A; stroke-width: 1.5;" width="217" x="2150.5" y="333"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="2197.5" y="357.8516">Registry API (</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="197" x="2160.5" y="376.4766">DockerHub, AWS ECR,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="2172" y="395.1016">Azure ECR, GCR ou</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="2225.5" y="413.7266">Harbor)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="430.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="2162" y="446.792">Armazena e disponibiliza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="2227.5" y="463.0889">imagens.</text><!--MD5=[996aef42999d8d93795c54127de8d0e0]
+entity webhook_api--><rect fill="#999999" height="103.8125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="207" x="2155.5" y="666.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="2199" y="691.3516">Webhook API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="708.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="2165.5" y="724.417">Recebe as notificações de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="2179" y="740.7139">evento de deployment</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="2168" y="757.0107">configuradas pelo usuário.</text><!--MD5=[5bd80a26ec93a92f87cc9f0038135d10]
+entity kubernetes_api--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="220" x="2149" y="958.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="2190" y="983.3516">Kubernates API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2261" y="1000.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="2159" y="1016.417">Gerencia recursos do cluster</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="2173.5" y="1032.7139">que estão as aplicações.</text><!--MD5=[af1c298bb04aacc9d15065cc96d77f3a]
+entity envoy--><rect fill="#B3B3B3" height="52.5938" style="stroke: #A6A6A6; stroke-width: 1.5;" width="72" x="81" y="1154"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="91" y="1178.8516">Envoy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="44" x="95" y="1193.7637">[Proxy]</text><!--MD5=[805ea5e9695719f5adc9e6778a061558]
+link ui to moove--><path d="M608.0548,1002.5 C705.2057,1002.5 851.4579,1002.5 952.3101,1002.5 " fill="none" id="ui-to-moove" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="960.4019,1002.5,952.4019,999.5,952.4019,1005.5,960.4019,1002.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="677" y="985.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="688" y="999.6074">[JSON/HTTPS]</text><!--MD5=[c7fe552cc839617ee266dd1fce53352e]
+link ui to compass--><path d="M587.7834,951.8978 C683.1184,892.5479 841.8427,793.7357 949.9497,726.4347 " fill="none" id="ui-to-compass" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="956.9961,722.048,948.6191,723.7291,951.7901,728.8228,956.9961,722.048" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="677" y="816.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="688" y="830.6074">[JSON/HTTPS]</text><!--MD5=[70922f8435033aa9b99278cb5ea0ea0e]
+link moove to circle_matcher--><path d="M1170.5594,1038.5088 C1315.3994,1088.1523 1575.6224,1177.343 1726.8322,1229.1697 " fill="none" id="moove-to-circle_matcher" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1734.8429,1231.9153,1728.2478,1226.4835,1726.3024,1232.1594,1734.8429,1231.9153" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1408.5" y="1084.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1419.5" y="1098.6074">[JSON/HTTPS]</text><!--MD5=[9eb23d73ce0397fa31a12c7bfd8ab0e8]
+link moove to villager--><path d="M1170.7793,921.9671 C1223.5321,882.8283 1289.0173,836.0428 1350,797.5 C1475.5721,718.1348 1625.8488,637.3739 1727.5254,584.7069 " fill="none" id="moove-to-villager" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1734.7612,580.9639,1726.2772,581.975,1729.034,587.3042,1734.7612,580.9639" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1408.5" y="654.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1419.5" y="668.6074">[JSON/HTTPS]</text><!--MD5=[7471378c27671e8e73f8c941e21d67b2]
+link moove to hermes--><path d="M1170.5594,966.4912 C1318.1534,915.9038 1585.5599,824.251 1735.3378,772.915 " fill="none" id="moove-to-hermes" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1743.2632,770.1986,1734.7227,769.9547,1736.6682,775.6305,1743.2632,770.1986" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1408.5" y="817.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1419.5" y="831.6074">[JSON/HTTPS]</text><!--MD5=[4f0a8353d8cfb47cadec41ca3550ed4b]
+link moove to butler--><path d="M1170.5594,1002.5 C1315.3994,1002.5 1575.6224,1002.5 1726.8322,1002.5 " fill="none" id="moove-to-butler" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1734.8429,1002.5,1726.8429,999.5,1726.8429,1005.5,1734.8429,1002.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1408.5" y="985.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1419.5" y="999.6074">[JSON/HTTPS]</text><!--MD5=[d493cb863785bb9723d99074dd96e51f]
+link moove to moove_database--><path d="M1072.7336,1102.2201 C1084.8517,1201.4902 1117.2709,1352.7718 1204,1450.5 C1224.0502,1473.0929 1284.8813,1500.5901 1342.2137,1522.9182 " fill="none" id="moove-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1349.9109,1525.8935,1343.5306,1520.2109,1341.3673,1525.8073,1349.9109,1525.8935" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1205" y="1433.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="1242.5" y="1447.6074">[JDBC]</text><!--MD5=[fe96f8723a2a51ccb15f25956ebb431e]
+link moove to keycloack--><path d="M1112.6058,902.8405 C1133.4265,856.1068 1156.9875,799.2143 1174,746.5 C1192.4779,689.2451 1180.2539,669.7782 1204,614.5 C1249.1348,509.4316 1259.8387,472.2748 1348.6676,396.8418 " fill="none" id="moove-to-keycloack" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1354.9158,391.5802,1346.8641,394.4386,1350.729,399.028,1354.9158,391.5802" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1210.5" y="408.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1221.5" y="422.6074">[JSON/HTTPS]</text><!--MD5=[dce3cc2ddb61f55a834e8ef987ac33e8]
+link moove to github_api--><path d="M1082.6796,1102.1078 C1100.4419,1173.2683 1135.6476,1265.0167 1204,1315.5 C1367.959,1436.5957 1936.6888,1470.6556 2119,1379.5 C2138.8762,1369.5619 2132.2466,1354.0996 2149,1339.5 C2153.8039,1335.3137 2158.9418,1331.2892 2164.2751,1327.4441 " fill="none" id="moove-to-github_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2171.1248,1322.6707,2162.8461,1324.7833,2166.2766,1329.7059,2171.1248,1322.6707" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1601" y="1405.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1612" y="1419.6074">[JSON/HTTPS]</text><!--MD5=[7f99c5cbc6fe0cb81ca6721496f59629]
+link gate to moove_database--><path d="M615.2713,1280.3876 C750.0382,1347.3629 988.3009,1458.4262 1204,1521.5 C1248.1824,1534.4196 1297.8621,1543.875 1341.6186,1550.5738 " fill="none" id="gate-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1349.7173,1551.7927,1342.2529,1547.6354,1341.3599,1553.5686,1349.7173,1551.7927" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="812" y="1356.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="849.5" y="1370.6074">[JDBC]</text><!--MD5=[05c8cda38599e57e4e2a621e5ab60279]
+link compass to compass_database--><path d="M1071.7514,579.3563 C1083.2371,483.0947 1115.3523,315.4638 1204,204.5 C1243.7174,154.7842 1305.1266,118.7146 1357.844,94.7489 " fill="none" id="compass-to-compass_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1365.2218,91.4473,1356.6942,91.9767,1359.145,97.4533,1365.2218,91.4473" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1205" y="99.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="1242.5" y="113.6074">[JDBC]</text><!--MD5=[801839dad476384261d81adfb7dccb44]
+link compass to moove_database--><path d="M1103.0184,729.6362 C1124.8194,774.4208 1152.1995,832.6639 1174,885.5 C1262.5783,1100.1805 1251.5792,1167.1499 1350,1377.5 C1359.8597,1398.5726 1371.3652,1420.3628 1383.1484,1441.2975 " fill="none" id="compass-to-moove_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1387.1531,1448.362,1385.8177,1439.923,1380.598,1442.8819,1387.1531,1448.362" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1205" y="951.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="1242.5" y="965.6074">[JDBC]</text><!--MD5=[d31e72cb2270abe60a2f62a9b6009ca1]
+link compass to metrics_provider--><path d="M1078.0737,579.3459 C1094.5534,502.5899 1130.4897,384.4875 1204,310.5 C1241.5215,272.7349 1294.5312,247.9897 1342.5882,232.0689 " fill="none" id="compass-to-metrics_provider" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1350.2554,229.5889,1341.7204,229.1967,1343.567,234.9054,1350.2554,229.5889" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="1210.5" y="224.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="1221.5" y="238.6074">[JSON/HTTPS]</text><!--MD5=[0f91c2e9ffa580a0f2641923c78d4c01]
+link circle_matcher to circle_matcher_database--><path d="M1954.2186,1310.7934 C2012.6407,1332.781 2084.4572,1359.8096 2143.7004,1382.1062 " fill="none" id="circle_matcher-to-circle_matcher_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2151.2309,1384.9403,2144.8004,1379.3146,2142.6869,1384.93,2151.2309,1384.9403" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1994.5" y="1307.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="2032" y="1321.6074">[JDBC]</text><!--MD5=[38852bdbe79bede6a4990a489d86f878]
+link villager to villager_database--><path d="M1942.6913,441.8901 C1956.3508,431.0484 1970.3741,420.3138 1984,410.5 C2037.3518,372.0743 2099.2414,332.921 2150.783,301.6969 " fill="none" id="villager-to-villager_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2157.6611,297.54,2149.2627,299.1105,2152.3662,304.2455,2157.6611,297.54" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1994.5" y="305.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="2032" y="319.6074">[JDBC]</text><!--MD5=[2c5d013874f08d52de838a12cedf0e3a]
+link villager to registry_api--><path d="M1954.2186,493.4712 C2012.1775,476.5519 2083.319,455.7844 2142.2886,438.5701 " fill="none" id="villager-to-registry_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2150.1556,436.2736,2141.6355,435.6355,2143.3168,441.3951,2150.1556,436.2736" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="2000" y="430.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="2011" y="444.6074">[JSON/HTTPS]</text><!--MD5=[3a44dac907765a414e31645eae16edd8]
+link hermes to hermes_database--><path d="M1945.633,766.9744 C2007.111,786.1075 2085.6496,810.5502 2148.7199,830.1788 " fill="none" id="hermes-to-hermes_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2156.725,832.6702,2149.978,827.4283,2148.1949,833.1572,2156.725,832.6702" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1994.5" y="764.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="2032" y="778.6074">[JDBC]</text><!--MD5=[eb5ece1df49d4cfc048f77af44c45958]
+link hermes to hermes_message_broker--><path d="M1945.633,695.486 C2011.3815,669.4721 2096.643,635.7377 2161.6284,610.0258 " fill="none" id="hermes-to-hermes_message_broker" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2169.4502,606.931,2160.9076,607.0847,2163.115,612.6638,2169.4502,606.931" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="1985" y="612.6387">Publica e Consome</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="2030" y="626.6074">[AMQP]</text><!--MD5=[53b901bf27e372c4fd17962dab2808da]
+link hermes to webhook_api--><path d="M1945.633,731.3522 C2006.5271,728.8547 2084.1592,725.6708 2146.9186,723.0968 " fill="none" id="hermes-to-webhook_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2155.2791,722.7539,2147.1629,720.0843,2147.4088,726.0792,2155.2791,722.7539" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="2000" y="707.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="2011" y="721.6074">[JSON/HTTPS]</text><!--MD5=[bb8fd93b10480af3b35fcde080ee20ef]
+link butler to butler_database--><path d="M1954.2186,1039.0287 C2014.9408,1059.2451 2090.1328,1084.2788 2150.6376,1104.4228 " fill="none" id="butler-to-butler_database" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2158.3181,1106.9798,2151.6754,1101.6063,2149.7801,1107.299,2158.3181,1106.9798" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="1994.5" y="1034.6387">Lê e escreve em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="39" x="2032" y="1048.6074">[JDBC]</text><!--MD5=[268ea55aeb39c0053f9dd5544dce3e79]
+link butler to kubernetes_api--><path d="M1954.2186,1002.5 C2011.601,1002.5 2081.9052,1002.5 2140.5256,1002.5 " fill="none" id="butler-to-kubernetes_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2148.7171,1002.5,2140.7171,999.5,2140.7171,1005.5,2148.7171,1002.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="2000" y="985.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="2011" y="999.6074">[JSON/HTTPS]</text><!--MD5=[d1184bb3dc51177d0ae4fe9e77d25e64]
+link butler to github_api--><path d="M1954.0125,1106.5809 C1963.9131,1114.6352 1973.9864,1122.3884 1984,1129.5 C2038.2279,1168.0123 2103.52,1203.7818 2156.8737,1230.6165 " fill="none" id="butler-to-github_api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2164.3205,1234.343,2158.5089,1228.08,2155.8237,1233.4457,2164.3205,1234.343" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="2000" y="1112.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="2011" y="1126.6074">[JSON/HTTPS]</text><!--MD5=[1a009621445494d43847b83a8c0876e4]
+link user to ui--><path d="M227.0533,1002.5 C280.1192,1002.5 343.6049,1002.5 396.6448,1002.5 " fill="none" id="user-to-ui" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="404.7278,1002.5,396.7278,999.5,396.7278,1005.5,404.7278,1002.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="267" y="887.6387">Acessa para</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="276.5" y="901.6074">gerenciar</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="265.5" y="915.5762">workspaces,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="270.5" y="929.5449">aplicações,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="258" y="943.5137">configurações,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="277" y="957.4824">usuários,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="262" y="971.4512">deployments,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="273.5" y="985.4199">métricas e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="273.5" y="999.3887">webhooks.</text><!--MD5=[d63e87acfc462e7277d22e60e8f1349c]
+link envoy to ui--><path d="M153.2934,1163.914 C208.4732,1138.6971 315.7001,1089.6948 397.6009,1052.2665 " fill="none" id="envoy-to-ui" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="404.9452,1048.9102,396.4221,1049.5069,398.916,1054.964,404.9452,1048.9102" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="273.5" y="1039.6387">Intercepta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="271.5" y="1053.6074">requisições</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="275" y="1067.5762">[HTTP Filter]</text><!--MD5=[3d38fbffa9ac2d1eea59daee43e29f3e]
+link envoy to gate--><path d="M153.2934,1184.5999 C206.6992,1190.6329 308.8592,1202.1734 389.6257,1211.2973 " fill="none" id="envoy-to-gate" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="397.8686,1212.2284,390.256,1208.3492,389.5824,1214.3113,397.8686,1212.2284" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="261" y="1180.6387">Faz requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="272" y="1194.6074">[JSON/HTTPS]</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="144" x="2209" y="1693.3594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="2215" y="1713.3545">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2278" y="1713.3545"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1716.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="2219" y="1729.6514">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1732.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="2219" y="1745.9482">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1749.25"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="2219" y="1762.2451">container</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1765.5469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="2219" y="1778.542">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1781.8438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="2219" y="1794.8389">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2215" y="1798.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="2219" y="1811.1357">external container</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1700.3594" y2="1700.3594"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1716.6563" y2="1716.6563"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1732.9531" y2="1732.9531"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1749.25" y2="1749.25"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1765.5469" y2="1765.5469"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1781.8438" y2="1781.8438"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1798.1406" y2="1798.1406"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2347" y1="1814.4375" y2="1814.4375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2215" x2="2215" y1="1700.3594" y2="1814.4375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2347" x2="2347" y1="1700.3594" y2="1814.4375"/><!--MD5=[13cfaa9c75eb9f564d25daa00c88dca3]
+@startuml c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+
+Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(compass_database, "Compass Database", "Postgres", "Armazena os dados de métricas.")
+Container(circle_matcher_database, "Circle Matcher Database", "Redis", "Armazena os dados das segmentações dos círculos por workspace.")
+Container(villager_database, "Villager Database", "Postgres", "Armazena os dados de configuração do registry do usuário.")
+Container(hermes_database, "Hermes Database", "Postgres", "Armazena subscrições, histórico de mensagens e histórico de envios.")
+Container(butler_database, "Butler Database", "Postgres", "Armazena os dados de deployment e aplicações (manifestos Kubernetes).")
+Container(hermes_message_broker, "Hermes Message Broker", "RabbitMQ", "Gerencia o fluxo de mensagens")
+
+	
+System_Ext(keycloack, "Keycloack", "IDM: Gerencia e autentica os usuários.")
+System_Ext(metrics_provider, "Provedor de Metricas (Prometheus ou Google Analytics)", "Armazena e disponibiliza as métricas das aplicações.")
+System_Ext(github_api, "GitHub API", "Acessa informações dos charts.")
+System_Ext(registry_api, "Registry API (DockerHub, AWS ECR, Azure ECR, GCR ou Harbor)", "Armazena e disponibiliza as imagens.")
+System_Ext(webhook_api, "Webhook API", "Recebe as notificações de evento de deployment configuradas pelo usuário.")
+System_Ext(kubernetes_api, "Kubernates API", "Gerencia recursos do cluster que estão as aplicações.")
+Container_Ext(envoy, "Envoy", "Proxy")
+
+Container_Boundary(charlescd_system2, "CharlesCD System"){
+   
+    Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
+    Container(gate, "CharlesCD-Gate", "Golang, Casbin", "API Application: Gerencia os tokens de aplicação armazenando-os no banco de dados e realiza a autorização das requisições de todo o sistema via token ou header de autorização.")
+    Container(compass, "CharlesCD-Compass", "Golang, Casbin", "API Application: Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API.")
+    Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+    Container(circle_matcher, "CharlesCD-Circle-Matcher", "Java 11, SpringBoot, GraalVM, Javascript", "API Application: Gerencia (identifica/armazena) a segmentação (círculo) a qual usuário da requisição pertence.")
+    Container(villager, "CharlesCD-Villager", "Java 8, Quarkus", "API Application: Valida o nome das tags das imagens informadas para realizar deploy. Se comunica com o Registry do usuário via JSON/HTTPS API.")
+    Container(hermes, "CharlesCD-Hermes", "Golang", "API Application: Gerencia subscrições de webhook, recebe notificações de eventos de deployment, envia notificações dos eventos que possuem subscrição.")
+    Container(butler, "CharlesCD-Butler", "Node, NestJS", "API Application: Se comunica com o Kubernetes  informando estados do cluster para que o Operator possa realizar o processo de reconciliação de acordo com as informações passadas e realiza as implantações necessárias. Abstrai o recurso do Istio para permitir diferentes versões com base em um cabeçalho/cookie personalizado.")
+
+   
+    Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+    Rel(ui, compass, "Faz requisição", "JSON/HTTPS")
+
+    Rel(moove, circle_matcher, "Faz requisição", "JSON/HTTPS")
+    Rel(moove, villager, "Faz requisição", "JSON/HTTPS")
+    Rel(moove, hermes, "Faz requisição", "JSON/HTTPS")
+    Rel(moove, butler, "Faz requisição", "JSON/HTTPS")
+    Rel(moove, moove_database, "Lê e escreve em", "JDBC")
+    Rel(moove, keycloack, "Faz requisição", "JSON/HTTPS")
+    Rel(moove, github_api, "Faz requisição", "JSON/HTTPS")   
+    
+    Rel(gate, moove_database, "Lê e escreve em", "JDBC")
+
+    Rel(compass, compass_database, "Lê e escreve em", "JDBC")
+    Rel(compass, moove_database, "Lê e escreve em", "JDBC")
+    Rel(compass, metrics_provider, "Faz requisição", "JSON/HTTPS")
+
+        
+    Rel(circle_matcher, circle_matcher_database, "Lê e escreve em", "JDBC")
+
+    Rel(villager, villager_database, "Lê e escreve em", "JDBC")
+    Rel(villager, registry_api, "Faz requisição", "JSON/HTTPS")
+    
+    Rel(hermes, hermes_database, "Lê e escreve em", "JDBC")
+    Rel(hermes, hermes_message_broker, "Publica e Consome", "AMQP")
+    Rel(hermes, webhook_api, "Faz requisição", "JSON/HTTPS")
+
+    Rel(butler, butler_database, "Lê e escreve em", "JDBC")
+    Rel(butler, kubernetes_api, "Faz requisição", "JSON/HTTPS")
+    Rel(butler, github_api, "Faz requisição", "JSON/HTTPS")
+   
+}
+
+
+Rel(user, ui, "Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.")
+Rel(envoy, ui, "Intercepta requisições", "HTTP Filter")
+Rel(envoy, gate, "Faz requisição", "JSON/HTTPS")
+
+@enduml
+
+@startuml c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+left to right direction
+
+rectangle "<$person>\n==Desenvolvedor/QA/PM/Gestor/Supervisor/Etc\n\n Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD." <<person>> as user
+
+rectangle "==Moove Database\n//<size:12>[Postgres]</size>//\n\n Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy." <<container>> as moove_database
+rectangle "==Compass Database\n//<size:12>[Postgres]</size>//\n\n Armazena os dados de métricas." <<container>> as compass_database
+rectangle "==Circle Matcher Database\n//<size:12>[Redis]</size>//\n\n Armazena os dados das segmentações dos círculos por workspace." <<container>> as circle_matcher_database
+rectangle "==Villager Database\n//<size:12>[Postgres]</size>//\n\n Armazena os dados de configuração do registry do usuário." <<container>> as villager_database
+rectangle "==Hermes Database\n//<size:12>[Postgres]</size>//\n\n Armazena subscrições, histórico de mensagens e histórico de envios." <<container>> as hermes_database
+rectangle "==Butler Database\n//<size:12>[Postgres]</size>//\n\n Armazena os dados de deployment e aplicações (manifestos Kubernetes)." <<container>> as butler_database
+rectangle "==Hermes Message Broker\n//<size:12>[RabbitMQ]</size>//\n\n Gerencia o fluxo de mensagens" <<container>> as hermes_message_broker
+
+	
+rectangle "==Keycloack\n\n IDM: Gerencia e autentica os usuários." <<external_system>> as keycloack
+rectangle "==Provedor de Metricas (Prometheus ou Google Analytics)\n\n Armazena e disponibiliza as métricas das aplicações." <<external_system>> as metrics_provider
+rectangle "==GitHub API\n\n Acessa informações dos charts." <<external_system>> as github_api
+rectangle "==Registry API (DockerHub, AWS ECR, Azure ECR, GCR ou Harbor)\n\n Armazena e disponibiliza as imagens." <<external_system>> as registry_api
+rectangle "==Webhook API\n\n Recebe as notificações de evento de deployment configuradas pelo usuário." <<external_system>> as webhook_api
+rectangle "==Kubernates API\n\n Gerencia recursos do cluster que estão as aplicações." <<external_system>> as kubernetes_api
+rectangle "==Envoy\n//<size:12>[Proxy]</size>//" <<external_container>> as envoy
+
+rectangle "==CharlesCD System\n<size:12>[Container]</size>" <<boundary>> as charlescd_system2{
+   
+    rectangle "==CharlesCD-UI\n//<size:12>[ReacjJS, Typescript]</size>//\n\n Web Application: Interface do produto" <<container>> as ui
+    rectangle "==CharlesCD-Gate\n//<size:12>[Golang, Casbin]</size>//\n\n API Application: Gerencia os tokens de aplicação armazenando-os no banco de dados e realiza a autorização das requisições de todo o sistema via token ou header de autorização." <<container>> as gate
+    rectangle "==CharlesCD-Compass\n//<size:12>[Golang, Casbin]</size>//\n\n API Application: Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API." <<container>> as compass
+    rectangle "==CharlesCD-Moove\n//<size:12>[Kotlin, SpringBoot]</size>//\n\n API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações." <<container>> as moove
+    rectangle "==CharlesCD-Circle-Matcher\n//<size:12>[Java 11, SpringBoot, GraalVM, Javascript]</size>//\n\n API Application: Gerencia (identifica/armazena) a segmentação (círculo) a qual usuário da requisição pertence." <<container>> as circle_matcher
+    rectangle "==CharlesCD-Villager\n//<size:12>[Java 8, Quarkus]</size>//\n\n API Application: Valida o nome das tags das imagens informadas para realizar deploy. Se comunica com o Registry do usuário via JSON/HTTPS API." <<container>> as villager
+    rectangle "==CharlesCD-Hermes\n//<size:12>[Golang]</size>//\n\n API Application: Gerencia subscrições de webhook, recebe notificações de eventos de deployment, envia notificações dos eventos que possuem subscrição." <<container>> as hermes
+    rectangle "==CharlesCD-Butler\n//<size:12>[Node, NestJS]</size>//\n\n API Application: Se comunica com o Kubernetes  informando estados do cluster para que o Operator possa realizar o processo de reconciliação de acordo com as informações passadas e realiza as implantações necessárias. Abstrai o recurso do Istio para permitir diferentes versões com base em um cabeçalho/cookie personalizado." <<container>> as butler
+
+   
+ui - ->> moove : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+ui - ->> compass : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+moove - ->> circle_matcher : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> villager : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> hermes : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> butler : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> moove_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+moove - ->> keycloack : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+moove - ->> github_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//   
+    
+gate - ->> moove_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+
+compass - ->> compass_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+compass - ->> moove_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+compass - ->> metrics_provider : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+        
+circle_matcher - ->> circle_matcher_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+
+villager - ->> villager_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+villager - ->> registry_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+    
+hermes - ->> hermes_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+hermes - ->> hermes_message_broker : **Publica e Consome**\n//<size:12>[AMQP]</size>//
+hermes - ->> webhook_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+butler - ->> butler_database : **Lê e escreve em**\n//<size:12>[JDBC]</size>//
+butler - ->> kubernetes_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+butler - ->> github_api : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+   
+}
+
+
+user - ->> ui : **Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.**
+envoy - ->> ui : **Intercepta requisições**\n//<size:12>[HTTP Filter]</size>//
+envoy - ->> gate : **Faz requisição**\n//<size:12>[JSON/HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
