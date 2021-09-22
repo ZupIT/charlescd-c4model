@@ -26,12 +26,28 @@ module.exports = options => {
     <body>
       <div id="app"></div>
 
+      <nav class="language-nav">
+        <div class="language-nav-head">
+          <div class="language-nav-head-text">Português</div>
+
+          <div class="language-nav-head-icon"></div>
+        </div>
+
+        <div class="language-nav-main">
+          <ul class="language-nav-main-list">
+            <li class="language-nav-main-list-item" data-value="pt-br">Português</li>
+            <li class="language-nav-main-list-item" data-value="en">English</li>
+          </ul>
+        </div>
+      </nav>
+
       <script>
         window.$docsify = ${JSON.stringify(options, null, 2)};
       </script>
       <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
       <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+      <script src="//127.0.0.1:8080/js/theme.js"></script>
     </body>
     
     </html>`;
