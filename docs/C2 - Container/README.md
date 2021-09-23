@@ -39,4 +39,4 @@ O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os
 
 - **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
 
-![diagram](c2.png)
+![diagram](c2.svg)
