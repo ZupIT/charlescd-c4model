@@ -23,9 +23,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Upload Custom C4Builder Theme
-        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/ --delete
-        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ --delete         
+      - name: Upload Custom C4Builder Theme CSS
+        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/ --delete        
+
+      - name: Upload Custom C4Builder Theme JS
+        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ --delete   
 
       - name: C4Builder PT-BR
         uses: clippings/c4builder-action@v1
