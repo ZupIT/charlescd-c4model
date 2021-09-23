@@ -30,7 +30,7 @@ jobs:
         run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ --delete   
 
       - name: C4Builder PT-BR
-        uses: clippings/c4builder-action@v1
+        uses: barbararochazup/c4builder-action@v1.0.3
         with:
           path: 'pt-br'
 
@@ -38,7 +38,7 @@ jobs:
         run: aws s3 sync --follow-symlinks pt-br/docs s3://$AWS_S3_BUCKET/c4model/pt-br/ --delete
 
       - name: C4Builder EN
-        uses: clippings/c4builder-action@v1
+        uses: barbararochazup/c4builder-action@v1.0.3
         with:
           path: 'pt-br'  
 
