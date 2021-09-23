@@ -35,10 +35,10 @@ jobs:
     
 
       - name: Upload Custom C4Builder Theme CSS on S3
-        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/ --delete        
+        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/       
 
       - name: Upload Custom C4Builder Theme JS on S3
-        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ --delete   
+        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ 
 
       - name: C4Builder PT-BR
         uses: barbararochazup/c4builder-action@v1.0.3
