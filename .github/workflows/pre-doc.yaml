@@ -23,29 +23,24 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-#       - name: Remove from S3
-#         uses: vitorsgomes/s3-rm-action@master
-#         with:
-#           args: --recursive
-#         env:
-#           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#           AWS_REGION: ${{ secrets.AWS_REGION }}
-#           PATH_TO_DELETE: /
+      - name: Upload Custom C4Builder Theme
+        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/ --delete
+        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ --delete         
 
-      # - name: Markdown-HTML
-      # # You may pin to the exact commit or the version.
-      # # uses: ZacJW/markdown-html-action@3865edcff67a98f3984bd6312111f0d4deec57d4
-      #   uses: ZacJW/markdown-html-action@1.1.1
-      #   with:
-      #     input_files: '["pt-br/docs/*.md", "en/docs/*.md"]]'
-      #     output_files: '["pt-br/docs/html", "en/docs/html"]'
-      #     builtin_stylesheet: 'style.css'
+      - name: C4Builder PT-BR
+        uses: clippings/c4builder-action@v1
+        with:
+          path: 'pt-br'
 
       - name: Upload PT-BR
         run: aws s3 sync --follow-symlinks pt-br/docs s3://$AWS_S3_BUCKET/c4model/pt-br/ --delete
 
-      - name: Upload En
+      - name: C4Builder EN
+        uses: clippings/c4builder-action@v1
+        with:
+          path: 'pt-br'  
+
+      - name: Upload EN
         run: aws s3 sync --follow-symlinks en/docs s3://$AWS_S3_BUCKET/c4model/en/ --delete
 
  
