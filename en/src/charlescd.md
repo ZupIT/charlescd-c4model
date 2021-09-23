@@ -1,35 +1,35 @@
 
 
-**Overview**
+## **Overview**
 
-Uma das definições usadas de arquitetura de software é que ela define as partes de um software e é a estratégia tecnológica de um produto/projeto. E como toda estratégia, é muito importante que ela seja vista e frequentemente visitada e atualizada. Afinal, um planejamento sem visualização tenderá a ser falho. 
+The software architecture defines the parts of the software and it is also the technology strategy of a project/product. It is very important for the users to see constant updates because, without them, failures may happen.
 
-Documentar a arquitetura de um projeto muitas vezes é um processo maçante, que exige tempo, conhecimento de ferramentas e técnicas para diagramação e documentação. O maior desafio dentro de uma documentação de arquitetura é evitar dois cenários.
+### Architecture documentation 
+Documenting a project's architecture takes time, knowledge of tools, and layout techniques. The biggest challenge is to avoid two scenarios: 
 
-- Documentações de arquitetura muito complexas e por consequência elas tendem a ficarem confusas e obsoletas, assim, se perde o seu propósito. Ou seja, se gasta bastante tempo para uma documentação que tende a ser inutilizada eventualmente.
+- **Scenario 1:** Complex documentation can be confusing and obsolete and it loses the main purpose and it is a waste of time to produce something it won't be used. 
 
-- Documentações pobres com pouca informação ou informações falhas. 
+- **Scenario 2:** Documents with flaws and not enough information.
 
-Em ambos os casos o resultado final é que elas acabam atrapalhando mais do que ajudando.
+In both cases, the final result can confuse the user. 
 
+The project's architecture is crucial for the user to have a better experience, so it is important to document because it answers questions like: 
+- How does my system integrate between itself and other systems? 
+- How can I escalate my application? 
+- How can I assure my application's security? 
 
-A visualização da arquitetura é crucial em diversos aspectos e responde várias perguntas, por exemplo, como o meu sistema integra entre eles mesmo e outros sistemas? Como consigo escalar a minha aplicação? Como garantir a segurança entre as minhas aplicações, dentre outros pontos.
-
-
-Pensando nisso, nos motivamos para criar uma visualização da nossa arquitetura de um modo bastante simples com o C4 Model.
-
-
-
-**O que é o C4Model?**
-
- O C4 Model é baseado no 4+1 e UML e foi criado por Simon Brown entre 2006 e 2011. O modelo surgiu com o intuito de ajudar a resolver o problema de documentação de arquiteturas falhas, difíceis de entender e manter, trazendo uma visão mais clara da arquitetura documentada abrangendo vários níveis e que seja relevante para as várias “personas” envolvidas. Ele é dividido em quatro tipos de diagramas, onde cada um possui um nível diferente de detalhes e público alvo. A ideia é que cada nível se aprofunde mais nos detalhes e informações do nível anterior. 
+After all this, CharlesCD's team created a view of our architecture in a simpler way, the C4 Model.
 
 
+## **What is a C4Model?**
 
-**O que é o CharlesCD?**
+The C4 model was created by Simon Brown, it is based on 4+1 and UML. The model helps to solve architecture problems in the documentation, it is divided into 4 diagrams, each one has a different detail level to a specific audience. The idea is to bring a clearer view of the project deep diving at every level. 
 
-O CharlesCD é uma ferramenta open source que realiza deploys de forma ágil, contínua e segura, permitindo que as equipes de desenvolvimento realizem simultaneamente validações de hipóteses com grupos específicos de usuários. 
 
-O produto traz um conceito pioneiro no mercado e na comunidade: deploys em círculos de usuários em clusters de Kubernetes. 
+## **What is CharlesCD?**
 
-Neste modelo de deploy, é possível segmentar seus clientes através de características específicas e, ao mesmo tempo, submeter diversas versões de uma mesma aplicação para teste com os usuários dos círculos. 
+Charles is an open-source tool that performs deployment in a continuous, agile, and safe way. It allows the development teams to make hypotheses validations with specific user groups.
+
+The project brings a new concept to the market and to the community: deployment in users' circles in Kubernetes clusters.
+
+In this deployment model, it is possible to segment your clients through specific characteristics and submit several versions of the same application to test with circle's users.
