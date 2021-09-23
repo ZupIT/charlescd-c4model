@@ -1,4 +1,4 @@
-name: Pre Doc
+name: PreDoc
 
 on:
   push:
