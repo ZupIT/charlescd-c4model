@@ -13,17 +13,17 @@
   # See the License for the specific language governing permissions and
   # limitations under the License.
 
-name: PreDoc
+name: OfficialDoc
 
 on:
-  pull_request:
+  push:
     branches: [ main ]
 
 env:
-  AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET_DEV }}
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
-  AWS_REGION: ${{ AWS_REGION_DEV }}
+  AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_REGION: ${{ AWS_REGION }}
 
 jobs:
   predoc_deploy_c4model:
@@ -40,9 +40,9 @@ jobs:
           aws-access-key-id: $AWS_ACCESS_KEY_ID
           aws-secret-access-key: $AWS_SECRET_ACCESS_KEY
           aws-region: $AWS_REGION
-          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME_DEV }}
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           role-duration-seconds: 1200
-          role-session-name: PreDocS3Session
+          role-session-name: OfficialDocS3Session
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
