@@ -19,12 +19,6 @@ on:
   push:
     branches: [ main ]
 
-env:
-  AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_REGION: ${{ AWS_REGION }}
-
 jobs:
   predoc_deploy_c4model:
     runs-on: ubuntu-latest
@@ -37,9 +31,9 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: $AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $AWS_SECRET_ACCESS_KEY
-          aws-region: $AWS_REGION
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ AWS_REGION }}
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           role-duration-seconds: 1200
           role-session-name: OfficialDocS3Session
@@ -50,17 +44,17 @@ jobs:
         with:
           args: --recursive
         env:
-          AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-          AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
-          AWS_REGION: $AWS_REGION
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ AWS_REGION }}
           PATH_TO_DELETE: /c4model/theme/
     
 
       - name: Upload Custom C4Builder Theme CSS on S3
-        run: aws s3 sync --follow-symlinks assets/css s3://$AWS_S3_BUCKET/c4model/theme/       
+        run: aws s3 sync --follow-symlinks assets/css s3://${{ secrets.AWS_S3_BUCKET }}/c4model/theme/       
 
       - name: Upload Custom C4Builder Theme JS on S3
-        run: aws s3 sync --follow-symlinks assets/js s3://$AWS_S3_BUCKET/c4model/theme/ 
+        run: aws s3 sync --follow-symlinks assets/js s3://${{ secrets.AWS_S3_BUCKET }}/c4model/theme/ 
 
       - name: C4Builder PT-BR
         uses: ZupIT/c4builder-action@v1.0.3
@@ -68,7 +62,7 @@ jobs:
           path: 'pt-br'
 
       - name: Upload PT-BR on S3
-        run: aws s3 sync --follow-symlinks pt-br/docs s3://$AWS_S3_BUCKET/c4model/pt-br/ --delete
+        run: aws s3 sync --follow-symlinks pt-br/docs s3://${{ secrets.AWS_S3_BUCKET }}/c4model/pt-br/ --delete
 
       - name: C4Builder EN
         uses: ZupIT/c4builder-action@v1.0.3
@@ -76,6 +70,6 @@ jobs:
           path: 'pt-br'  
 
       - name: Upload EN on S3
-        run: aws s3 sync --follow-symlinks en/docs s3://$AWS_S3_BUCKET/c4model/en/ --delete
+        run: aws s3 sync --follow-symlinks en/docs s3://${{ secrets.AWS_S3_BUCKET }}/c4model/en/ --delete
 
  
