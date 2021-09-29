@@ -40,7 +40,7 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
-        uses: barbararochazup/s3-rm-action@e9e05b2d115e79b3760470a1a1f2df0ae9bec722 #v1.0.1
+        uses: barbararochazup/s3-rm-action@1fd9ad0536387dfae226bc451c8ba4a66690379d #v1.0.1
         with:
           args: --recursive
         env:
