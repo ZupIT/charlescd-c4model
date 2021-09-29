@@ -40,7 +40,7 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
-        uses: vitorsgomes/s3-rm-action@88c92c6bf3f0768c8462ee057f8c7ae8a7a8b70e #v1.0.1
+        uses: barbararochazup/s3-rm-action@ae3a59fb5e3d60ab7cb5717fca13b0d2db8079fc #v1.0.1
         with:
           args: --recursive
         env:
@@ -48,6 +48,11 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
           AWS_REGION: ${{ secrets.AWS_REGION_DEV }}
+          ASSUME_ROLE_ARN: ${{ secrets.AWS_ROLE_TO_ASSUME_DEV }}
+          ASSUME_ROLE_SESSION_NAME: PreDocS3Session
+          ASSUME_ROLE_SESSION_TIME: 1200
+          
+
           PATH_TO_DELETE: /c4model/theme/
     
 
