@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@0d9a5be0dceea74e09396820e1e522ba4a110d2f #v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
@@ -40,7 +40,7 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
-        uses: vitorsgomes/s3-rm-action@master
+        uses: vitorsgomes/s3-rm-action@88c92c6bf3f0768c8462ee057f8c7ae8a7a8b70e #v1.0.1
         with:
           args: --recursive
         env:
@@ -57,7 +57,7 @@ jobs:
         run: aws s3 sync --follow-symlinks assets/js s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/ 
 
       - name: C4Builder PT-BR
-        uses: ZupIT/c4builder-action@v1.0.3
+        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
         with:
           path: 'pt-br'
 
@@ -65,7 +65,7 @@ jobs:
         run: aws s3 sync --follow-symlinks pt-br/docs s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/pt-br/ --delete
 
       - name: C4Builder EN
-        uses: ZupIT/c4builder-action@v1.0.3
+        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
         with:
           path: 'pt-br'  
 
