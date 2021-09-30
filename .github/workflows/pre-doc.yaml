@@ -40,7 +40,7 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
-        run: aws s3 rm s3://${{ AWS_S3_BUCKET_DEV }}/c4model/theme/ --recursive
+        run: aws s3 rm s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/ --recursive
 
       - name: Upload Custom C4Builder Theme CSS on S3
         run: aws s3 sync --follow-symlinks assets/css s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/       
