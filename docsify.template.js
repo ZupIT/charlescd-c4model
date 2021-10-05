@@ -20,6 +20,8 @@ module.exports = options => {
       <meta name="description" content="Description">
       <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+      <link rel="icon" href="https://charlescd.io/favicon-32x32.png?v=9709489f3b54772dfba88d6a4597ae2e"/>
       <link rel="stylesheet" href="${options.stylesheet}">
     </head>
     
@@ -50,5 +52,5 @@ module.exports = options => {
       <script src="//docs.charlescd.io/c4model/theme/theme.js"></script>
     </body>
     
-    </html>`;
-};
+    </html>`
+}
