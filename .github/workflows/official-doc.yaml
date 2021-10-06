@@ -13,11 +13,13 @@
   # See the License for the specific language governing permissions and
   # limitations under the License.
 
-name: PreDoc
+name: OfficialDoc
 
 on:
   push:
     branches: [ main ]
+    tags:
+      - '*'
 
 jobs:
   predoc_deploy_c4model:
@@ -31,22 +33,22 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@0d9a5be0dceea74e09396820e1e522ba4a110d2f #v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
-          aws-region: ${{ secrets.AWS_REGION_DEV }}
-          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME_DEV }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           role-duration-seconds: 1200
-          role-session-name: PreDocS3Session
+          role-session-name: OfficialDocS3Session
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Theme from S3
-        run: aws s3 rm s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/ --recursive
+        run: aws s3 rm s3://${{ secrets.AWS_S3_BUCKET }}/c4model/theme/ --recursive
     
       - name: Upload Custom C4Builder Theme CSS on S3
-        run: aws s3 sync --follow-symlinks assets/css s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/       
+        run: aws s3 sync --follow-symlinks assets/css s3://${{ secrets.AWS_S3_BUCKET }}/c4model/theme/       
 
       - name: Upload Custom C4Builder Theme JS on S3
-        run: aws s3 sync --follow-symlinks assets/js s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/ 
+        run: aws s3 sync --follow-symlinks assets/js s3://${{ secrets.AWS_S3_BUCKET }}/c4model/theme/ 
 
       - name: C4Builder PT-BR
         uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
@@ -54,7 +56,7 @@ jobs:
           path: 'pt-br'
 
       - name: Upload PT-BR on S3
-        run: aws s3 sync --follow-symlinks pt-br/docs s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/pt-br/ --delete
+        run: aws s3 sync --follow-symlinks pt-br/docs s3://${{ secrets.AWS_S3_BUCKET }}/c4model/pt-br/ --delete
 
       - name: C4Builder EN
         uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
@@ -62,6 +64,6 @@ jobs:
           path: 'pt-br'  
 
       - name: Upload EN on S3
-        run: aws s3 sync --follow-symlinks en/docs s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/en/ --delete
+        run: aws s3 sync --follow-symlinks en/docs s3://${{ secrets.AWS_S3_BUCKET }}/c4model/en/ --delete
 
  
