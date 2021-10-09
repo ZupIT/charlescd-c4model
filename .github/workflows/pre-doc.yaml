@@ -49,7 +49,7 @@ jobs:
         run: aws s3 sync --follow-symlinks assets/js s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/theme/ 
 
       - name: C4Builder PT-BR
-        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
+        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651
         with:
           path: 'pt-br'
 
@@ -57,7 +57,7 @@ jobs:
         run: aws s3 sync --follow-symlinks pt-br/docs s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/pt-br/ --delete
 
       - name: C4Builder EN
-        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
+        uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651
         with:
           path: 'pt-br'  
 
