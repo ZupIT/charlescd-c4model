@@ -58,8 +58,11 @@ module.exports = options => {
         </div>
       </nav>
 
-      <script>
-        window.$docsify = ${JSON.stringify(options, null, 2)};
+     <script>
+        window.$docsify = ${JSON.stringify({
+          ...options,
+          logo: 'https://raw.githubusercontent.com/ZupIT/charlescd/main/images/logo.png'
+        }, null, 2)};
       </script>
       <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
       <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
