@@ -21,6 +21,8 @@
 
 ---
 
-Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as mensagens de eventos para as subscrições cadastradas.
+Backend service in Golang, it controls the webhook's subscriptions and sends events messages to the registered ones.
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)

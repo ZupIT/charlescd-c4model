@@ -1,21 +1,26 @@
 # C2 - Container
 
-Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers (Não confundir com o Docker) e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
+At this level, you can see details of the system describing the containers (don't mix it up with Docker) and how they communicate/interact. Here, the main goal is to show you the architecture and technology we use. 
 
-O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os seguintes módulos (onde cada módulo, é um container):
+We want to show you how the system is and a container can be a web application, a databse, a sysyem file, etc. 
 
-- **UI:**  Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD.
+CharlesCD was built using a microservices approach, and it has the following modules (each module is a container): 
 
-- **Moove:**  Serviço backend que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, realizando a ponte entre os demais microserviços.
+- **UI:** It provides a friendly-user interface for all CharlesCD features. 
 
-- **Butler:**  Responsável por orquestrar e gerenciar as releases e deploys realizados.
+- **Moove:** It is a backend service that orchestrates the hypotheses tests of your products and the delivery pipeline until it reaches your circles, it is like a bridge between other microservices.
 
-- **Circle Matcher:** Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+- **Butler:** Orchestrates and manages the releases and deployments.
 
-- **Compass:** Integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+- **Circle Matcher:** Manages all circles and indicates which one the user belongs to based on a set of characteristics. 
 
-- **Hermes:**  Responsável por gerenciar e notificar eventos de webhook.
+- **Compass:** Integrates with the data provider, it makes the metrics analysis and runs actions you are able to configure.
 
-- **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+- **Hermes:** Manages and notifies webhook events. 
+
+- **Gate:** Controls the user's permissions related to the existing resources on Charles' APIs.
+
+![diagram](c2.svg)
+
 
 ![diagram](c2.svg)

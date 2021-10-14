@@ -1,8 +1,8 @@
 # Butler
 
+Serviço backend em NestJS, orquestra e gerencia as releases e os deploys.
 
-Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases e deploys realizados.
 
-
+![diagram](c3.svg)
 
 ![diagram](c3.svg)

@@ -37,14 +37,15 @@
 
 ---
 
-Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os compõe. Nesse nível damos enfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores. 
+Level 3 describes what the system is made of. The focus here is to show you more details about the interactions, responsabilities and technologies we use. 
 
-O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentro do C4Model:
+CharlesCD os divided by modules, each one of them is a container inside C4Model, check out below: 
 
-- Butler: Orquestra e gerencia as releases e deploys realizados
-- Circle Matcher: Gerencia e identifica os círculos
-- Compass: Realiza ntegração do provedor de dados, faz análise de métricas e executa ações configuráveis
-- Gate: Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles
-- Moove:  Orquestra os testes de hipóteses e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos
-- UI: Prove uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD
-- Villager: Responsável por acessar as imagens docker
+- **Butler:** Orchestrates and manages deployments and releases. 
+- **Circle Matcher:** Manages and identifies the circles.
+- **Compass:** Performs the data provider integration, makes the metrics analysis, and runs actions you can configure. 
+- **Gate:** Controls the user's permissions related to the existing resources on Charles' APIs.
+- **Moove:** Orchestrates the hypotheses tests of your products and the delivery pipeline until it reaches your circles, it is like a bridge between other microservices.
+- **UI:**  It provides a friendly-user interface for all CharlesCD features. 
+- **Villager:** Access Docker images. 
+

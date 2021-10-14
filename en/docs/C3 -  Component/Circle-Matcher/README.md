@@ -21,8 +21,10 @@
 
 ---
 
+Backend service in Java, It manages all created circles and indicates which circle the user belongs to based on a set of characteristics. 
 
-Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+![diagram](c3.svg)
 
 
 ![diagram](c3.svg)

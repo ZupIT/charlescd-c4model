@@ -17,41 +17,39 @@
 
 ## C4Model
 
+## **Overview**
+
+The software architecture defines the parts of the software and it is also the technology strategy of a project/product. It is very important for the users to see constant updates because, without them, failures may happen.
+
+### Architecture documentation 
+Documenting a project's architecture takes time, knowledge of tools, and layout techniques. The biggest challenge is to avoid two scenarios: 
+
+- **Scenario 1:** Complex documentation can be confusing and obsolete and it loses the main purpose and it is a waste of time to produce something it won't be used. 
+
+- **Scenario 2:** Documents with flaws and not enough information.
+
+In both cases, the final result can confuse the user. 
+
+The project's architecture is crucial for the user to have a better experience, so it is important to document because it answers questions like: 
+- How does my system integrate between itself and other systems? 
+- How can I escalate my application? 
+- How can I assure my application's security? 
+
+After all this, CharlesCD's team created a view of our architecture in a simpler way, the C4 Model.
 
 
-**Overview**
+## **What is a C4Model?**
 
-Uma das definições usadas de arquitetura de software é que ela define as partes de um software e é a estratégia tecnológica de um produto/projeto. E como toda estratégia, é muito importante que ela seja vista e frequentemente visitada e atualizada. Afinal, um planejamento sem visualização tenderá a ser falho. 
-
-Documentar a arquitetura de um projeto muitas vezes é um processo maçante, que exige tempo, conhecimento de ferramentas e técnicas para diagramação e documentação. O maior desafio dentro de uma documentação de arquitetura é evitar dois cenários.
-
-- Documentações de arquitetura muito complexas e por consequência elas tendem a ficarem confusas e obsoletas, assim, se perde o seu propósito. Ou seja, se gasta bastante tempo para uma documentação que tende a ser inutilizada eventualmente.
-
-- Documentações pobres com pouca informação ou informações falhas. 
-
-Em ambos os casos o resultado final é que elas acabam atrapalhando mais do que ajudando.
+The C4 model was created by Simon Brown, it is based on 4+1 and UML. The model helps to solve architecture problems in the documentation, it is divided into 4 diagrams, each one has a different detail level to a specific audience. The idea is to bring a clearer view of the project deep diving at every level. 
 
 
-A visualização da arquitetura é crucial em diversos aspectos e responde várias perguntas, por exemplo, como o meu sistema integra entre eles mesmo e outros sistemas? Como consigo escalar a minha aplicação? Como garantir a segurança entre as minhas aplicações, dentre outros pontos.
+## **What is CharlesCD?**
 
+Charles is an open-source tool that performs deployment in a continuous, agile, and safe way. It allows the development teams to make hypotheses validations with specific user groups.
 
-Pensando nisso, nos motivamos para criar uma visualização da nossa arquitetura de um modo bastante simples com o C4 Model.
+The project brings a new concept to the market and to the community: deployment in users' circles in Kubernetes clusters.
 
-
-
-**O que é o C4Model?**
-
- O C4 Model é baseado no 4+1 e UML e foi criado por Simon Brown entre 2006 e 2011. O modelo surgiu com o intuito de ajudar a resolver o problema de documentação de arquiteturas falhas, difíceis de entender e manter, trazendo uma visão mais clara da arquitetura documentada abrangendo vários níveis e que seja relevante para as várias “personas” envolvidas. Ele é dividido em quatro tipos de diagramas, onde cada um possui um nível diferente de detalhes e público alvo. A ideia é que cada nível se aprofunde mais nos detalhes e informações do nível anterior. 
-
-
-
-**O que é o CharlesCD?**
-
-O CharlesCD é uma ferramenta open source que realiza deploys de forma ágil, contínua e segura, permitindo que as equipes de desenvolvimento realizem simultaneamente validações de hipóteses com grupos específicos de usuários. 
-
-O produto traz um conceito pioneiro no mercado e na comunidade: deploys em círculos de usuários em clusters de Kubernetes. 
-
-Neste modelo de deploy, é possível segmentar seus clientes através de características específicas e, ao mesmo tempo, submeter diversas versões de uma mesma aplicação para teste com os usuários dos círculos. 
+In this deployment model, it is possible to segment your clients through specific characteristics and submit several versions of the same application to test with circle's users.
 
 ## C1 -  Context
 
@@ -59,16 +57,28 @@ Neste modelo de deploy, é possível segmentar seus clientes através de caracte
 
 [C4Model](#CharlesCD)
 
-É o primeiro nível do nosso desenho. A ideia é mostrar as interações de forma macro, sem muitos detalhes, dando enfoque às comunicações e dependências entre sistemas e usuários que compõem e interagem com o software.
+This is the first drawing level. The idea is to show the project's interactions in a large view, focusing on the communication and dependencies between user and system that make and interact with the software.
 
-Nesse nível contextualizamos  de forma macro como o CharlesCD interage com o Kubernetes e permite que o usuário possa gerenciar seus deploys utilizando uma série de recursos como métricas, hipoteses e webhooks. Onde:
+At this level, we contextualize how CharlesCD interacts with Kubernetes and allows the user to manage their deployments using several resources such as metrics, hypotheses,and webhooks. 
+See it below: 
 
-- **Usuário:** Qualquer pessoa que possui uma aplicação que tem os deploys gerenciados pelo CharlesCD. Seja ela um desenvolvedor, gestor, QA, PM, etc.
 
-- **Sistema CharlesCD**: O CharlesCD é uma ferramenta de deploy continuo orientada a hipoteses que permite o gerenciamento dos deploys de aplições web e backend. Ele permite o gerenciamento dos deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, colhe e observa métricas e faz acompanhamento de versões das suas aplicações. Além disse ele envia informações de eventos (previamente configurados) via webhooks. 
-O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação de atualizações no cluster do usuário.
+### **User:** 
+- Any person who has an application CharlesCD manages. It can be a developer, manager, QA, PM, others. 
 
-- **Kubernetes:** Orquestra os containers das aplicações.
+### **CharlesCD system**
+CharlesCD is a continuous deployment tool oriented through hypotheses that: 
+    - Allows you to manage web and backend application deployments. 
+    - Allows you to manage rollout and rollback deployments.
+    - Creates smart strategies for hypothesis validation.
+    - Collect and watch metrics. 
+    - Track your application's versions. 
+    - Send events informations (previously configured through webhooks. 
+
+### **Kubernetes:** 
+- Orchestrates the application's containers.
+
+![diagram](c1.svg)
 
 
 ![diagram](c1.svg)
@@ -79,23 +89,28 @@ O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação d
 
 [C4Model](#CharlesCD)
 
-Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers (Não confundir com o Docker) e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
+At this level, you can see details of the system describing the containers (don't mix it up with Docker) and how they communicate/interact. Here, the main goal is to show you the architecture and technology we use. 
 
-O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os seguintes módulos (onde cada módulo, é um container):
+We want to show you how the system is and a container can be a web application, a databse, a sysyem file, etc. 
 
-- **UI:**  Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD.
+CharlesCD was built using a microservices approach, and it has the following modules (each module is a container): 
 
-- **Moove:**  Serviço backend que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, realizando a ponte entre os demais microserviços.
+- **UI:** It provides a friendly-user interface for all CharlesCD features. 
 
-- **Butler:**  Responsável por orquestrar e gerenciar as releases e deploys realizados.
+- **Moove:** It is a backend service that orchestrates the hypotheses tests of your products and the delivery pipeline until it reaches your circles, it is like a bridge between other microservices.
 
-- **Circle Matcher:** Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+- **Butler:** Orchestrates and manages the releases and deployments.
 
-- **Compass:** Integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+- **Circle Matcher:** Manages all circles and indicates which one the user belongs to based on a set of characteristics. 
 
-- **Hermes:**  Responsável por gerenciar e notificar eventos de webhook.
+- **Compass:** Integrates with the data provider, it makes the metrics analysis and runs actions you are able to configure.
 
-- **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+- **Hermes:** Manages and notifies webhook events. 
+
+- **Gate:** Controls the user's permissions related to the existing resources on Charles' APIs.
+
+![diagram](c2.svg)
+
 
 ![diagram](c2.svg)
 
@@ -105,17 +120,18 @@ O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os
 
 [C4Model](#CharlesCD)
 
-Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os compõe. Nesse nível damos enfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores. 
+Level 3 describes what the system is made of. The focus here is to show you more details about the interactions, responsabilities and technologies we use. 
 
-O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentro do C4Model:
+CharlesCD os divided by modules, each one of them is a container inside C4Model, check out below: 
 
-- Butler: Orquestra e gerencia as releases e deploys realizados
-- Circle Matcher: Gerencia e identifica os círculos
-- Compass: Realiza ntegração do provedor de dados, faz análise de métricas e executa ações configuráveis
-- Gate: Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles
-- Moove:  Orquestra os testes de hipóteses e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos
-- UI: Prove uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD
-- Villager: Responsável por acessar as imagens docker
+- **Butler:** Orchestrates and manages deployments and releases. 
+- **Circle Matcher:** Manages and identifies the circles.
+- **Compass:** Performs the data provider integration, makes the metrics analysis, and runs actions you can configure. 
+- **Gate:** Controls the user's permissions related to the existing resources on Charles' APIs.
+- **Moove:** Orchestrates the hypotheses tests of your products and the delivery pipeline until it reaches your circles, it is like a bridge between other microservices.
+- **UI:**  It provides a friendly-user interface for all CharlesCD features. 
+- **Villager:** Access Docker images. 
+
 
 
 ## Butler
@@ -124,10 +140,10 @@ O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentr
 
 [C4Model](#CharlesCD)
 
+Backend service in NestJS, it orchestrates and manages the deployments and releases.
 
-Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases e deploys realizados.
 
-
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -137,8 +153,10 @@ Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases 
 
 [C4Model](#CharlesCD)
 
+Backend service in Java, It manages all created circles and indicates which circle the user belongs to based on a set of characteristics. 
 
-Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+![diagram](c3.svg)
 
 
 ![diagram](c3.svg)
@@ -149,7 +167,12 @@ Serviço backend em Java, que gerencia todos os círculos criados, além de indi
 
 [C4Model](#CharlesCD)
 
-Serviço backend em Golang, que realiza a integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+Backend service in Golang and it performs:
+- The data provider integration.
+- The metrics analysis. 
+- It runs the action you can configure. 
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -159,7 +182,9 @@ Serviço backend em Golang, que realiza a integração do provedor de dados, faz
 
 [C4Model](#CharlesCD)
 
-Serviço backend em Golang, que controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+Backend service in Golang, it ontrols the user's permissions related to the existing resources on Charles' APIs.
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -169,7 +194,9 @@ Serviço backend em Golang, que controla as permissões dos usuários em relaç�
 
 [C4Model](#CharlesCD)
 
-Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as mensagens de eventos para as subscrições cadastradas.
+Backend service in Golang, it controls the webhook's subscriptions and sends events messages to the registered ones.
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -179,7 +206,9 @@ Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as 
 
 [C4Model](#CharlesCD)
 
-Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos.
+Orchestrates the hypotheses tests of your products and the delivery pipeline until it reaches your circles, it is like a bridge between other microservices.
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -189,7 +218,10 @@ Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produt
 
 [C4Model](#CharlesCD)
 
-Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
+Frontend service in ReactJS, it provides a friendly-user interface for all CharlesCD features. It was created to simplify hypotheses tests and circles deployments. 
+
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
 
@@ -199,8 +231,9 @@ Serviço frontend em ReactJS, responsável por prover uma interface de fácil us
 
 [C4Model](#CharlesCD)
 
-Serviço backend em Java, responsável por acessar as imagens docker. Possui integração com DockerHub, AWS ECR, Azure Container Registry, GCR e Harbor.
+Backend service in Java and accesses Docker's images. It is integrated with DockerHub, AWS ECR, Azure Container Registry, GCR and Harbor.
 
 
+![diagram](c3.svg)
 
 ![diagram](c3.svg)

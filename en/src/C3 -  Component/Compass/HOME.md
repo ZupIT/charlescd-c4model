@@ -1,5 +1,3 @@
-# Compass
-
 Backend service in Golang and it performs:
 - The data provider integration.
 - The metrics analysis. 

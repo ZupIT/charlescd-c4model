@@ -1,15 +1,27 @@
 # C1 -  Context
 
-É o primeiro nível do nosso desenho. A ideia é mostrar as interações de forma macro, sem muitos detalhes, dando enfoque às comunicações e dependências entre sistemas e usuários que compõem e interagem com o software.
+This is the first drawing level. The idea is to show the project's interactions in a large view, focusing on the communication and dependencies between user and system that make and interact with the software.
 
-Nesse nível contextualizamos  de forma macro como o CharlesCD interage com o Kubernetes e permite que o usuário possa gerenciar seus deploys utilizando uma série de recursos como métricas, hipoteses e webhooks. Onde:
+At this level, we contextualize how CharlesCD interacts with Kubernetes and allows the user to manage their deployments using several resources such as metrics, hypotheses,and webhooks. 
+See it below: 
 
-- **Usuário:** Qualquer pessoa que possui uma aplicação que tem os deploys gerenciados pelo CharlesCD. Seja ela um desenvolvedor, gestor, QA, PM, etc.
 
-- **Sistema CharlesCD**: O CharlesCD é uma ferramenta de deploy continuo orientada a hipoteses que permite o gerenciamento dos deploys de aplições web e backend. Ele permite o gerenciamento dos deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, colhe e observa métricas e faz acompanhamento de versões das suas aplicações. Além disse ele envia informações de eventos (previamente configurados) via webhooks. 
-O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação de atualizações no cluster do usuário.
+### **User:** 
+- Any person who has an application CharlesCD manages. It can be a developer, manager, QA, PM, others. 
 
-- **Kubernetes:** Orquestra os containers das aplicações.
+### **CharlesCD system**
+CharlesCD is a continuous deployment tool oriented through hypotheses that: 
+    - Allows you to manage web and backend application deployments. 
+    - Allows you to manage rollout and rollback deployments.
+    - Creates smart strategies for hypothesis validation.
+    - Collect and watch metrics. 
+    - Track your application's versions. 
+    - Send events informations (previously configured through webhooks. 
+
+### **Kubernetes:** 
+- Orchestrates the application's containers.
+
+![diagram](c1.svg)
 
 
 ![diagram](c1.svg)

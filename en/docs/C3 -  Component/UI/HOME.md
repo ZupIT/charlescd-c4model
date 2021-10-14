@@ -1,5 +1,8 @@
 # UI
 
-Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
+Frontend service in ReactJS, it provides a friendly-user interface for all CharlesCD features. It was created to simplify hypotheses tests and circles deployments. 
+
+
+![diagram](c3.svg)
 
 ![diagram](c3.svg)
