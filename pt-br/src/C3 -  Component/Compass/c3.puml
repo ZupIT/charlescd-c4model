@@ -2,10 +2,10 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_LEFT_RIGHT()
+LAYOUT_LEFT_RIGHT() 
 
 Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Orquestra as requisições para as outras aplicações.")
 Container(prometheus, "Prometheus", "System Monitoring", "Collects and stores Charles metrics.")
 Container(datasource, "Datasource", "Prometheus or Google Analytics", "Collects and stores applications metrics.")
 Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
@@ -13,31 +13,31 @@ Container(compass_database, "Compass Database", "Postgres", "Armazena Informaç�
 
 Container_Boundary(charlescd_compass, "CharlesCD Compass"){
    
-    Component(middleware, "Middleware", "Middleware", "Faz a autorização das requests.")
+    Component(middleware, "Middleware", "Middleware", "Faz a autorização das requisições.")
     Component(casbin, "Casbin", "Access Control Lib", "Realiza as validações de permissionamento de acordo com as regras definidas.")
 
-    Component(datasource_api, "Data Source API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de datasources, como criação, deleção, buscar as métricas associadas ao datasource e testar uma conexão com um datasource.")
+    Component(datasource_api, "Data Source API", "Http Handler, Use Case", "Fornece funcionalidades de manipulação de datasources, como criação, deleção, buscar as métricas associadas ao datasource e testar uma conexão com um datasource.")
     Component(action_api, "Action API", "Http Handler, Use Case", "Autoriza a requisição utilizando token ou header de autorização.")
-    Component(metrics_group_api, "Metrics Group API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de grupo de métricas, como criação, deleção e busca.")
-    Component(metrics_api, "Metrics API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de métricas, ccomo criação, deleção e busca.")
-    Component(group_actions_api, "Group Actions API", "Http Handler, Use Case", "Provê funcionalidades de manipulação de ações de grupo, como criação, deleção e busca.")
+    Component(metrics_group_api, "Metrics Group API", "Http Handler, Use Case", "Fornece funcionalidades de manipulação de grupo de métricas, como criação, deleção e busca.")
+    Component(metrics_api, "Metrics API", "Http Handler, Use Case", "Fornece funcionalidades de manipulação de métricas, ccomo criação, deleção e busca.")
+    Component(group_actions_api, "Group Actions API", "Http Handler, Use Case", "Fornece funcionalidades de manipulação de ações de grupo, como criação, deleção e busca.")
     Component(plugins_api, "Plugin API", "Http Handler, Use Case", "Lista os plugins disponíveis.")
-    Component(circle_api, "Circles API", "Http Handler, Use Case", "List as métricas de grupo em um círculo.")
+    Component(circle_api, "Circles API", "Http Handler, Use Case", "Lista as métricas de grupos em um círculo.")
 
-    Component(compass_repository, "Compass Repository", "Database Repository, GORM", "Engloba os repositories datasources, actions, group-actions, metric-group-actions.")
+    Component(compass_repository, "Compass Repository", "Database Repository, GORM", "Engloba os repositórios datasources, actions, group-actions, metric-group-actions.")
 
-    Component(moove_client, "Moove Client", "Client API", "Busca o permissĩonamento do usuario da requisição.")
+    Component(moove_client, "Moove Client", "Client API", "Busca o permissionamento do usuário da requisição.")
 
     Component(action_plugin, "Action Plugin", "Plugin", "Permite que ações sejam realizadas dentro do Charles de acordo com métricas.")
-    Component(action_deploy_plugin, "Deploy Action", "Service", "Solicita o deploy em um circulo de acordo com a ação cadastrada.")
-    Component(action_undeploy_plugin, "Undeploy Action", "Service", "Solicita o undeploy em um circulo de acordo com a ação cadastrada.")
+    Component(action_deploy_plugin, "Deploy Action", "Service", "Solicita o deploy em um círculo de acordo com a ação cadastrada.")
+    Component(action_undeploy_plugin, "Undeploy Action", "Service", "Solicita o undeploy em um círculo de acordo com a ação cadastrada.")
 
     Component(datasource_plugin, "Datasource Plugin", "Plugin", "Permite a integração e coleta informações em um datasource.")
     Component(datasource_prometheus_plugin, "Prometheus Datasource", "Service", "Integração e coleta informações no Prometheus.")
     Component(datasource_ga_plugin, "Google Analytics", "Google Analytics Datasource", "Integração e coleta informações no Google Analytics.")
 
-    Component(metric_dispatcher, "Metric Dispatcher", "Goroutine", "Sincroniza o valores das métricas no datasource com o do banco de dados.")
-    Component(action_dispatcher, "Action Dispatcher", "Goroutine", "Verifica as métricas para disparar uma ação se necessário.")
+    Component(metric_dispatcher, "Metric Dispatcher", "Goroutine", "Sincroniza os valores das métricas no datasource com o banco de dados.")
+    Component(action_dispatcher, "Action Dispatcher", "Goroutine", "Verifica as métricas para disparar uma ação, se necessário.")
 
     Rel(middleware, casbin, "Usa")
     Rel(middleware, moove_client, "Usa")
@@ -63,21 +63,21 @@ Container_Boundary(charlescd_compass, "CharlesCD Compass"){
     
     Rel(datasource_plugin, datasource_prometheus_plugin, "Tem")
     Rel(datasource_plugin, datasource_ga_plugin, "Tem")
-    Rel(datasource_prometheus_plugin, datasource, "Faz requisição via HTTPS/JSON")
-    Rel(datasource_ga_plugin, datasource, "Faz requisição via HTTPS/JSON")
+    Rel(datasource_prometheus_plugin, datasource, "Faz a requisição via HTTPS/JSON")
+    Rel(datasource_ga_plugin, datasource, "Faz a requisição via HTTPS/JSON")
     Rel(metric_dispatcher, datasource_plugin, "Usa")
 
-    Rel(moove_client, moove, "Faz requisição via HTTPS/JSON")
+    Rel(moove_client, moove, "Faz a requisição via HTTPS/JSON")
    
 }
 
-Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
-Rel(ui, action_api, "Faz requisição", "JSON/HTTPS")
-Rel(ui, metrics_group_api, "Faz requisição", "JSON/HTTPS")
-Rel(ui, group_actions_api, "Faz requisição", "JSON/HTTPS")
-Rel(ui, plugins_api, "Faz requisição", "JSON/HTTPS")
-Rel(ui, circle_api, "Faz requisição", "JSON/HTTPS")
-Rel(moove, datasource_api, "Faz requisição", "JSON/HTTPS")
-Rel(prometheus, metrics_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, moove, "Faz a requisição", "JSON/HTTPS")
+Rel(ui, action_api, "Faz a requisição", "JSON/HTTPS")
+Rel(ui, metrics_group_api, "Faz a requisição", "JSON/HTTPS")
+Rel(ui, group_actions_api, "Faz a requisição", "JSON/HTTPS")
+Rel(ui, plugins_api, "Faz a requisição", "JSON/HTTPS")
+Rel(ui, circle_api, "Faz a requisição", "JSON/HTTPS")
+Rel(moove, datasource_api, "Faz a requisição", "JSON/HTTPS")
+Rel(prometheus, metrics_api, "Faz a requisição", "JSON/HTTPS")
 
 @enduml

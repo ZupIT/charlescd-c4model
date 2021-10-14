@@ -2,18 +2,18 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_LEFT_RIGHT()
+LAYOUT_LEFT_RIGHT() 
 
-Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que possui alguma aplicação com deploys gerenciados pelo CharlesCD.")
 
 Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Orquestra as requisições para as outras aplicações.")
 Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
 Container_Ext(envoy, "Envoy", "Proxy")
 
 Container_Boundary(charlescd_gate, "CharlesCD Gate"){
    
-    Component(gate_repository, "Gate Repository", "Repository/GORM", "Acessa as informações necessárias no banco de dados. Engloba as repositories User, SystemToken, Permission, Workspace.")
+    Component(gate_repository, "Gate Repository", "Repository/GORM", "Acessa as informações necessárias no banco de dados. Engloba os repositórios User, SystemToken, Permission, Workspace.")
 
 
     Component(auth_controller, "Authorization Controller", "HTTP Handler", "Solicita a autorização da requisição utilizando token ou header de autorização.")
@@ -23,7 +23,7 @@ Container_Boundary(charlescd_gate, "CharlesCD Gate"){
 
     
     Component(system_token_controller, "Authorization Controller", "HTTP Handler", "Realiza o processo de controle de acesso utilizando a lib de auth.")
-    Component(system_token_use_case, "Authorization Use Case", "Use Case", "Realiza as validações de permissionamento de acordo com as regras definidas na politica de permissionamento.")
+    Component(system_token_use_case, "Authorization Use Case", "Use Case", "Realiza as validações de permissionamento de acordo com as regras definidas na política de permissionamento.")
     Component(auth_token_service, "Auth Token Service", "Service", "Faz o parse do token do header Authorization.")
    
    

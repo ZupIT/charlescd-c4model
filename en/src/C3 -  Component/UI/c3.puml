@@ -4,25 +4,25 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Container(browser, "Browser", "Chrome, Firefox, IE, etc", "Navegador de Internet, usado para acessar a interface do CharlesCD")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-Container(compass, "CharlesCD-Compass", "Golang", "Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API.")
+Container(browser, "Browser", "Chrome, Firefox, IE, etc", "Internet browser, used to access CharlesCD interface.")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Process and stores information in the database about users, applications and configurations in general in the database. It orchestrates the requests for other applications.")
+Container(compass, "CharlesCD-Compass", "Golang", "Process metrics from the provider registered by the user and provide them via JSON/HTTPS API.")
 
 Container_Boundary(charlescd_ui, "CharlesCD UI"){
    
-    Component(routes, "Router", "React-Router-Dom, Typescript", "Atraves do sistema de rotas, sabe qual módulo deve ser renderizado.")
-    Component(module, "Module", "ReactJS, typeScript", "O módulo usa uma implementação nossa do fetch para fazer requsições HTTP e apartir da resposta da requisição ele popula a tela.")
-    Component(component, "Component", "ReactJS, TypeScript, react-hook-form", "Para melhor view dos compontents acessar storybook")
-    Component(provider, "Provider", "URL Request, Typescript", "Recebe informações do estado atual de um deploy e envia estado desejado para que operator sincronize e faça o reconcile.")
+    Component(routes, "Router", "React-Router-Dom, Typescript", "Through the routes system, it knows which module needs to render.")
+    Component(module, "Module", "ReactJS, typeScript", "The module uses a CharlesCD fetch implementation to make HTTP requests. Based on the response it populates the screen.")
+    Component(component, "Component", "ReactJS, TypeScript, react-hook-form", "Check out more about components in the Storybook page.")
+    Component(provider, "Provider", "URL Request, Typescript", "Receives information about the current deployment state and then sends the state you want to the operator synchronize and make the reconcile.")
    
     
-    Rel(routes, module, "Usa")
-    Rel(module, component, "Usa")
+    Rel(routes, module, "It uses")
+    Rel(module, component, "It uses")
     Rel(module, provider, "Fetch")
-    Rel(provider, moove, "Faz requisição via HTTPS/JSON")
-    Rel(provider, compass, "Faz requisição via HTTPS/JSON")
-   
+    Rel(provider, moove, "Makes the request via HTTPS/JSON")
+    Rel(provider, compass, "Makes the request via HTTPS/JSON")
+    
 }
 
-Rel(browser, routes, "Faz requisição", "JSON/HTTPS")
+Rel(browser, routes, "Makes the request", "JSON/HTTPS")
 @enduml

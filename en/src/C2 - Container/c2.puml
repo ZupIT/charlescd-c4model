@@ -4,73 +4,73 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+Person(user, "Developer/QA/PM/Manager/Supervisor/Etc", "Anyone who has an application with deployments managed by CharlesCD.")
 
-Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
-Container(compass_database, "Compass Database", "Postgres", "Armazena os dados de métricas.")
-Container(circle_matcher_database, "Circle Matcher Database", "Redis", "Armazena os dados das segmentações dos círculos por workspace.")
-Container(villager_database, "Villager Database", "Postgres", "Armazena os dados de configuração do registry do usuário.")
-Container(hermes_database, "Hermes Database", "Postgres", "Armazena subscrições, histórico de mensagens e histórico de envios.")
-Container(butler_database, "Butler Database", "Postgres", "Armazena os dados de deployment e aplicações (manifestos Kubernetes).")
-Container(hermes_message_broker, "Hermes Message Broker", "RabbitMQ", "Gerencia o fluxo de mensagens")
+Container(moove_database, "Moove Database", "Postgres", "Stores information about Users, User Groups, Systemic Token, Permissions, Roles, Workspaces, Components, Modules, Builds, Deployments, Circles, Metrics Settings and Deploy Environment Settings.")
+Container(compass_database, "Compass Database", "Postgres", "Stores metrics data.")
+Container(circle_matcher_database, "Circle Matcher Database", "Redis", "Stores segmentation data from the circles by workspace")
+Container(villager_database, "Villager Database", "Postgres", "Stores the users' registry configuration data.")
+Container(hermes_database, "Hermes Database", "Postgres", "Stores subscription, messages history, and sending history.")
+Container(butler_database, "Butler Database", "Postgres", "Stores deployments data and applications (Kubernetes manifests).")
+Container(hermes_message_broker, "Hermes Message Broker", "RabbitMQ", "Manages messages flow.")
 
 	
-System_Ext(keycloack, "Keycloack", "IDM: Gerencia e autentica os usuários.")
-System_Ext(metrics_provider, "Provedor de Metricas (Prometheus ou Google Analytics)", "Armazena e disponibiliza as métricas das aplicações.")
-System_Ext(github_api, "GitHub API", "Acessa informações dos charts.")
-System_Ext(registry_api, "Registry API (DockerHub, AWS ECR, Azure ECR, GCR ou Harbor)", "Armazena e disponibiliza as imagens.")
-System_Ext(webhook_api, "Webhook API", "Recebe as notificações de evento de deployment configuradas pelo usuário.")
-System_Ext(kubernetes_api, "Kubernates API", "Gerencia recursos do cluster que estão as aplicações.")
+System_Ext(keycloack, "Keycloack", "IDM: Manages and authenticates users.")
+System_Ext(metrics_provider, "Metrics Provider (Prometheus or Google Analytics)", "Stores and makes application metrics available .")
+System_Ext(github_api, "GitHub API", "Access charts information.")
+System_Ext(registry_api, "Registry API (DockerHub, AWS ECR, Azure ECR, GCR or Harbor)", "Stores and makes images available.")
+System_Ext(webhook_api, "Webhook API", "Receives deployment event notifications configured by the user.")
+System_Ext(kubernetes_api, "Kubernates API", "Manages the cluster's resources in the application.")
 Container_Ext(envoy, "Envoy", "Proxy")
 
 Container_Boundary(charlescd_system2, "CharlesCD System"){
    
-    Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-    Container(gate, "CharlesCD-Gate", "Golang, Casbin", "API Application: Gerencia os tokens de aplicação armazenando-os no banco de dados e realiza a autorização das requisições de todo o sistema via token ou header de autorização.")
-    Container(compass, "CharlesCD-Compass", "Golang, Casbin", "API Application: Processa as métricas consumidas do provedor cadastrado pelo usuário e as provê via JSON/HTTPS API.")
-    Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-    Container(circle_matcher, "CharlesCD-Circle-Matcher", "Java 11, SpringBoot, GraalVM, Javascript", "API Application: Gerencia (identifica/armazena) a segmentação (círculo) a qual usuário da requisição pertence.")
-    Container(villager, "CharlesCD-Villager", "Java 8, Quarkus", "API Application: Valida o nome das tags das imagens informadas para realizar deploy. Se comunica com o Registry do usuário via JSON/HTTPS API.")
-    Container(hermes, "CharlesCD-Hermes", "Golang", "API Application: Gerencia subscrições de webhook, recebe notificações de eventos de deployment, envia notificações dos eventos que possuem subscrição.")
-    Container(butler, "CharlesCD-Butler", "Node, NestJS", "API Application: Se comunica com o Kubernetes  informando estados do cluster para que o Operator possa realizar o processo de reconciliação de acordo com as informações passadas e realiza as implantações necessárias. Abstrai o recurso do Istio para permitir diferentes versões com base em um cabeçalho/cookie personalizado.")
+    Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Product's interface")
+    Container(gate, "CharlesCD-Gate", "Golang, Casbin", "API Application: Manages application tokens storing them in the database and authorizes the system's requests via token or authorization header.")
+    Container(compass, "CharlesCD-Compass", "Golang, Casbin", "API Application: Process metrics by the user's registered provider and provides them via JSON/HTTPS API.")
+    Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Process and stores in the database the user's information, applications, and general configuration. It orchestrates the requests to other applications.")
+    Container(circle_matcher, "CharlesCD-Circle-Matcher", "Java 11, SpringBoot, GraalVM, Javascript", "API Application: Manages (identify/store) the segmentation (circle) to which the request's user belongs to.")
+    Container(villager, "CharlesCD-Villager", "Java 8, Quarkus", "API Application: Validates image's tags informed to perform a deployment. It communicates with the user's Registry via JSON/HTTPS API.")
+    Container(hermes, "CharlesCD-Hermes", "Golang", "API Application: Manages webhook subscriptions, receives deployments events notifications, sends notifications of subscribed events.")
+    Container(butler, "CharlesCD-Butler", "Node, NestJS", "API Application: It communicates with Kubernetes informing cluster states so that the Operator can carry out the reconciliation process according to the information passed and perform the necessary implementations. It uses the Istio feature to allow different versions based on a custom header/cookie.")
 
    
-    Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
-    Rel(ui, compass, "Faz requisição", "JSON/HTTPS")
+    Rel(ui, moove, "Makes the request", "JSON/HTTPS")
+    Rel(ui, compass, "Makes the request", "JSON/HTTPS")
 
-    Rel(moove, circle_matcher, "Faz requisição", "JSON/HTTPS")
-    Rel(moove, villager, "Faz requisição", "JSON/HTTPS")
-    Rel(moove, hermes, "Faz requisição", "JSON/HTTPS")
-    Rel(moove, butler, "Faz requisição", "JSON/HTTPS")
-    Rel(moove, moove_database, "Lê e escreve em", "JDBC")
-    Rel(moove, keycloack, "Faz requisição", "JSON/HTTPS")
-    Rel(moove, github_api, "Faz requisição", "JSON/HTTPS")   
+    Rel(moove, circle_matcher, "Makes the request", "JSON/HTTPS")
+    Rel(moove, villager, "Makes the request", "JSON/HTTPS")
+    Rel(moove, hermes, "Makes the request", "JSON/HTTPS")
+    Rel(moove, butler, "Makes the request", "JSON/HTTPS")
+    Rel(moove, moove_database, "Reads and writes in", "JDBC")
+    Rel(moove, keycloack, "Makes the request", "JSON/HTTPS")
+    Rel(moove, github_api, "Makes the request", "JSON/HTTPS")   
     
-    Rel(gate, moove_database, "Lê e escreve em", "JDBC")
+    Rel(gate, moove_database, "Reads and writes in", "JDBC")
 
-    Rel(compass, compass_database, "Lê e escreve em", "JDBC")
-    Rel(compass, moove_database, "Lê e escreve em", "JDBC")
-    Rel(compass, metrics_provider, "Faz requisição", "JSON/HTTPS")
+    Rel(compass, compass_database, "Reads and writes in", "JDBC")
+    Rel(compass, moove_database, "Reads and writes in", "JDBC")
+    Rel(compass, metrics_provider, "Makes the request", "JSON/HTTPS")
 
         
-    Rel(circle_matcher, circle_matcher_database, "Lê e escreve em", "JDBC")
+    Rel(circle_matcher, circle_matcher_database, "Reads and writes in", "JDBC")
 
-    Rel(villager, villager_database, "Lê e escreve em", "JDBC")
-    Rel(villager, registry_api, "Faz requisição", "JSON/HTTPS")
+    Rel(villager, villager_database, "Reads and writes in", "JDBC")
+    Rel(villager, registry_api, "Makes the request", "JSON/HTTPS")
     
-    Rel(hermes, hermes_database, "Lê e escreve em", "JDBC")
-    Rel(hermes, hermes_message_broker, "Publica e Consome", "AMQP")
-    Rel(hermes, webhook_api, "Faz requisição", "JSON/HTTPS")
+    Rel(hermes, hermes_database, "Reads and writes in", "JDBC")
+    Rel(hermes, hermes_message_broker, "Publishes and consumes", "AMQP")
+    Rel(hermes, webhook_api, "Makes the request", "JSON/HTTPS")
 
-    Rel(butler, butler_database, "Lê e escreve em", "JDBC")
-    Rel(butler, kubernetes_api, "Faz requisição", "JSON/HTTPS")
-    Rel(butler, github_api, "Faz requisição", "JSON/HTTPS")
+    Rel(butler, butler_database, "Reads and writes in", "JDBC")
+    Rel(butler, kubernetes_api, "Makes the request", "JSON/HTTPS")
+    Rel(butler, github_api, "Makes the request", "JSON/HTTPS")
    
 }
 
 
-Rel(user, ui, "Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.")
-Rel(envoy, ui, "Intercepta requisições", "HTTP Filter")
-Rel(envoy, gate, "Faz requisição", "JSON/HTTPS")
+Rel(user, ui, "Access to manage workspaces, applications, configurations, users, metrics and webhooks.")
+Rel(envoy, ui, "Intercept requests", "HTTP Filter")
+Rel(envoy, gate, "Makes the request", "JSON/HTTPS")
 
 @enduml

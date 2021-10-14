@@ -4,59 +4,59 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-Container(hermes_database, "Moove Database", "Postgres", "Armazena Informações sobre Subscrições e Mensagens de eventos.")
-Container(webhooks_service, "Webhook Service", "Rest API", "Serviço exposto para receber notificações de eventos do CharlesCD.")
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Product's interface") 
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Process and stores information about users, applications and configurations in general in the database. It orchestrates the requests for other applications.")
+Container(hermes_database, "Moove Database", "Postgres", "Stores Subscription Information and Event Messages.")
+Container(webhooks_service, "Webhook Service", "Rest API", "Exposed service to receive CharlesCD events notification.")
 Container(rabbit_mq, "RabbitMQ", "Message Broker", "")
 
 Container_Boundary(charlescd_gate, "CharlesCD Hermes"){
    
 
-    Component(suscription_api, "Subscription API", "HTTP Handler", "Solicita CRUD das subscrições e publicação eventos para as subscriçoes.")
-    Component(suscription_use_case, "Subscription Use Case", "Use Case", "Realiza CRUD das subscrições.")
-    Component(message_use_case, "Subscription Use Case", "Use Case", "Publica eventos para as subscrições.")
-    Component(message_execution_history_use_case, "Message Execution History Use Case", "Use Case", "Realiza CRUD das subscrições.")
+    Component(suscription_api, "Subscription API", "HTTP Handler", "Requests CRUD subscriptions and publishes the events for subscriptions.")
+    Component(suscription_use_case, "Subscription Use Case", "Use Case", "Performs subscriptions CRUD.")
+    Component(message_use_case, "Subscription Use Case", "Use Case", "Publishes subscriptions events.")
+    Component(message_execution_history_use_case, "Message Execution History Use Case", "Use Case", "Performs subscriptions CRUD.")
     
-    Component(subscription, "Subscription", "Service/Repository/GORM", "Realiza a criação, edição, deleção e busca de subscrições. Envia as mensagens de evento.")
-    Component(message, "Message", "Service/Repository/GORM", "Cadastra para as subscrições inscritas as mensagens de eventos.")
-    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Insere e busca os historico de mensagens de eventos publicadas e enviadas.")
+    Component(subscription, "Subscription", "Service/Repository/GORM", "Performs the creation, edition, deletion, and subscriptions searches. It sends event messages.")
+    Component(message, "Message", "Service/Repository/GORM", "Register event messages for subscriptions.")
+    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Inserts and searches for the history of published and sent event messages.")
     
     
-    Component(consumer, "Consumer", "RabbitMQ Listener", "Consome da fila as mensagens de eventos publicadas.")
-    Component(publisher, "Publisher", "RabbitMQ Sender", "Publica na fila as mensagens de eventos inseridas.")
-    Component(ampq_client, "RabbitMQ Client", "AMPQ Client", "Conecta e interage com o RabbitMQ.")
+    Component(consumer, "Consumer", "RabbitMQ Listener", "Consume the published event messages from the queue.")
+    Component(publisher, "Publisher", "RabbitMQ Sender", "Posts the entered event messages to the queue.")
+    Component(ampq_client, "RabbitMQ Client", "AMPQ Client", "Connect and interact with RabbitMQ.")
 
    
-    Rel(suscription_api, suscription_use_case, "Usa")
-    Rel(suscription_api, message_use_case, "Usa")
-    Rel(suscription_api, message_execution_history_use_case, "Usa")
+    Rel(suscription_api, suscription_use_case, "It uses")
+    Rel(suscription_api, message_use_case, "It uses")
+    Rel(suscription_api, message_execution_history_use_case, "It uses")
 
-    Rel(suscription_use_case, subscription, "Usa")
-    Rel(message_use_case, message, "Usa")
-    Rel(message_execution_history_use_case, message_execution_history, "Usa")
+    Rel(suscription_use_case, subscription, "It uses")
+    Rel(message_use_case, message, "It uses")
+    Rel(message_execution_history_use_case, message_execution_history, "It uses")
     
-    Rel(subscription, webhooks_service, "Faz requisição [JSON/HTTPS]")
-    Rel(subscription, hermes_database, "Lê e escreve em")
-    Rel(message, hermes_database, "Lê e escreve em")
-    Rel(message_execution_history, hermes_database, "Lê e escreve em")
+    Rel(subscription, webhooks_service, "Makes the request [JSON/HTTPS]")
+    Rel(subscription, hermes_database, "Reads and writes in")
+    Rel(message, hermes_database, "Reads and writes in")
+    Rel(message_execution_history, hermes_database, "Reads and writes in")
 
      
-    Rel(consumer, ampq_client, "Usa")
-    Rel(publisher, ampq_client, "Usa")
-    Rel(publisher, message, "Usa")
-    Rel(publisher, message_execution_history, "Usa")
-    Rel(consumer, message, "Usa")
-    Rel(consumer, message_execution_history, "Usa")
-    Rel(consumer, subscription, "Usa")
+    Rel(consumer, ampq_client, "It uses")
+    Rel(publisher, ampq_client, "It uses")
+    Rel(publisher, message, "It uses")
+    Rel(publisher, message_execution_history, "It uses")
+    Rel(consumer, message, "It uses")
+    Rel(consumer, message_execution_history, "It uses")
+    Rel(consumer, subscription, "It uses")
 
-    Rel(ampq_client, rabbit_mq, "Usa")
+    Rel(ampq_client, rabbit_mq, "It uses")
    
 }
 
 
-Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
-Rel(moove, suscription_api, "Faz requisição", "JSON/HTTPS")
+Rel(ui, moove, "Makes the request", "JSON/HTTPS")
+Rel(moove, suscription_api, "Makes the request", "JSON/HTTPS")
 
 
 @enduml
