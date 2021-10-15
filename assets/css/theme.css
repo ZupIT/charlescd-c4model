@@ -52,9 +52,16 @@ h1 *, h2 *, h3 *, h4 *, h5 * {
   background-color: #FF6D00;
 }
 
+a.app-name-link img {
+  width: 175px;
+}
+
 .language-nav {
+  display: block !important;
+  margin: 10px 60px 0 0 !important;
+
   position: absolute;
-  top: 40px;
+  top: 0;
   right: 40px;
   z-index: 1000;
   min-width: 130px;
@@ -62,6 +69,7 @@ h1 *, h2 *, h3 *, h4 *, h5 * {
   border: 1px solid #404659;
   border-radius: 4px;
   padding: 10px 15px;
+  background-color: #fff;
 }
 
 .language-nav-head {
@@ -118,4 +126,10 @@ h1 *, h2 *, h3 *, h4 *, h5 * {
 .language-nav-main-list-item:hover {
   background-color: #404659;
   color: #fff;
+}
+
+.content {
+  overflow-y: auto !important;
+  margin-top: 60px !important;
+  padding-top: 0 !important;
 }

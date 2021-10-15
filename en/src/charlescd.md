@@ -1,5 +1,3 @@
-
-
 ## **Overview**
 
 The software architecture defines the parts of the software and it is also the technology strategy of a project/product. It is very important for the users to see constant updates because, without them, failures may happen.
