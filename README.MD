@@ -4,15 +4,6 @@
 
 CharlesCD is an open source project that deploys quickly, continuously and securely, allowing development teams to simultaneously perform hypothesis validations with specific groups of users.
 
-For more information, check out: 
-- [**CharlesCD repository**](https://github.com/ZupIT/charlescd)
-- [**CharlesCD documentation**](https://docs.charlescd.io/) 
-
-
-## **What is CharlesCD?**
-
-CharlesCD is an open source project that deploys quickly, continuously and securely, allowing development teams to simultaneously perform hypothesis validations with specific groups of users.
-
 Check out for more information: 
 - [**CharlesCD repository**](https://github.com/ZupIT/charlescd)
 
