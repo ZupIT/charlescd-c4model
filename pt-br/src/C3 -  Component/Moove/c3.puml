@@ -30,7 +30,7 @@ Container_Boundary(charlescd_moove, "CharlesCD Moove"){
 
     Component(controller, "Controller", "Spring Rest Controller", "Possui as Controllers de Build, Circle, ConfigurationV2, DeploymentV2, ModuleV2, RoleV2, UserGroupV2, UserV2, WorkspaceV2, Webhook.")
     Component(respository_jpa, "Repository", "Repository, JPA", "")
-    Component(interactor, "Interactor", "Bean", "Implementação de Use Cases")
+    Component(interactor, "Interactor", "Bean", "Implementação de Casos de Uso")
     Component(respository_jdbc, "Repository", "Repository, JDBC Template", "")
     Component(service, "Service", "Bean", "")
     Component(thirdy_service, "Thirdy Service", "Bean", "CircleMatcher, Deploy (Butler), Git, Hermes, Keycloack, Villager.")

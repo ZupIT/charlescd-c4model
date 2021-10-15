@@ -5,8 +5,8 @@ LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
 Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto.")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-Container(hermes_database, "Moove Database", "Postgres", "Armazena Informações sobre Subscrições e Mensagens de eventos.")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral, além de orquestrar as requisições para as outras aplicações.")
+Container(hermes_database, "Moove Database", "Postgres", "Armazena informações sobre subscrições e Mensagens de eventos.")
 Container(webhooks_service, "Webhook Service", "Rest API", "Serviço exposto para receber notificações de eventos do CharlesCD.")
 Container(rabbit_mq, "RabbitMQ", "Message Broker", "")
 
@@ -20,7 +20,7 @@ Container_Boundary(charlescd_gate, "CharlesCD Hermes"){
     
     Component(subscription, "Subscription", "Service/Repository/GORM", "Realiza a criação, edição, deleção e busca de subscrições. Envia as mensagens de evento.")
     Component(message, "Message", "Service/Repository/GORM", "Cadastra para as subscrições inscritas as mensagens de eventos.")
-    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Insere e busca os histórico de mensagens de eventos publicadas e enviadas.")
+    Component(message_execution_history, "Message Execution History", "Service/Repository/GORM", "Insere e busca os históricos de mensagens de eventos publicadas e enviadas.")
     
     
     Component(consumer, "Consumer", "RabbitMQ Listener", "Consome da fila as mensagens de eventos publicadas.")

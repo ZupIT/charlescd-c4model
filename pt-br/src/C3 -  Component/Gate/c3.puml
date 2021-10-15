@@ -8,7 +8,7 @@ Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que p
 
 Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
 Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Orquestra as requisições para as outras aplicações.")
-Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(moove_database, "Moove Database", "Postgres", "Armazena informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
 Container_Ext(envoy, "Envoy", "Proxy")
 
 Container_Boundary(charlescd_gate, "CharlesCD Gate"){

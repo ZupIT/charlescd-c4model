@@ -35,26 +35,26 @@ Container_Boundary(charlescd_butler, "CharlesCD Butler"){
     Rel(deployment_use_case, helm_binary, "Usa (somente na criação).")
     Rel(deployment_use_case, kubernetes_client, "Usa")
     Rel(deployment_use_case, butler_repository, "Usa")
-    Rel(deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON (somente no undeploy)")
-    Rel(helm_binary, git_api, "Faz requisição via HTTPS/JSON")
-    Rel(kubernetes_client, kubernetes_api, "Faz requisição via HTTPS/JSON")
+    Rel(deployment_use_case, moove_api, "Faz a requisição via HTTPS/JSON (somente no undeploy).")
+    Rel(helm_binary, git_api, "Faz a requisição via HTTPS/JSON.")
+    Rel(kubernetes_client, kubernetes_api, "Faz a requisição via HTTPS/JSON.")
 
     Rel(deployment_hook_controller, reconcile_deployment_use_case, "Usa")
-    Rel(reconcile_deployment_use_case, moove_api, "Faz requisição via HTTPS/JSON")
+    Rel(reconcile_deployment_use_case, moove_api, "Faz a requisição via HTTPS/JSON.")
     Rel(reconcile_deployment_use_case, butler_repository, "Usa")
     
     Rel(route_hooks_controller, routes_hook_deployment_use_case, "Usa")
     Rel(routes_hook_deployment_use_case, butler_repository, "Usa")
 
-    Rel(time_scheduler, moove_api, "Faz requisição via HTTPS/JSON")
+    Rel(time_scheduler, moove_api, "Faz a requisição via HTTPS/JSON.")
    
     Rel(butler_repository, butler_database, "Lê e escreve em (TypeORM).")
    
 }
 
-Rel(moove, deployment_controller, "Faz requisição", "JSON/HTTPS.")
-Rel(moove, deployment_hook_controller, "Faz requisição", "JSON/HTTPS.")
-Rel(moove, route_hooks_controller, "Faz requisição", "JSON/HTTPS.")
+Rel(moove, deployment_controller, "Faz a requisição", "JSON/HTTPS.")
+Rel(moove, deployment_hook_controller, "Faz a requisição", "JSON/HTTPS.")
+Rel(moove, route_hooks_controller, "Faz a requisição", "JSON/HTTPS.")
 
 Rel(ui, moove, "Faz requisição", "JSON/HTTPS.")
 @enduml

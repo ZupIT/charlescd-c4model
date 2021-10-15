@@ -20,7 +20,7 @@ Container_Boundary(charlescd_circle_matcher, "CharlesCD Circle Matcher"){
     Component(segmentation_service, "Segmentation Service", "Spring Service", "Salva, deleta e atualiza segmentações no banco de dados.")
     
     
-    Component(identification_resource, "Identification Resource", "Spring Controller", "Permite a identificação dos círculos que são correspondentes as características de segmentação enviadas.")
+    Component(identification_resource, "Identification Resource", "Spring Controller", "Permite a identificação dos círculos que são correspondentes às características de segmentação enviadas.")
     Component(identification_service, "Identification Service", "Spring Service", "Busca segmentações no banco de dados e compara com os dados informados na requisição para retornar os círculos correspondentes.")
     Component(script_manager_service, "Script Manager Service", " Spring Service/Polyglot Engine GraalVM", "Utiliza motor javascript para verificar compatibilidade entre diferentes dados (request x redis).")
     Component(js_functions, "JS Functions", " Arquivos JS", "Fornece as funções em JS para validação dos dados (getPath, toNumber, toStr).")
