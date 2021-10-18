@@ -67,7 +67,7 @@ module.exports = options => {
       <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
       <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-      <script src="//docs.charlescd.io/c4model/theme/theme.js"></script>
+      <script src="//docsv2.charlescd.io/c4model/theme/theme.js"></script>
     </body>
     
     </html>`
