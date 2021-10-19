@@ -56,7 +56,7 @@ jobs:
       - name: C4Builder EN
         uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
         with:
-          path: 'pt-br'  
+          path: 'en'  
 
       - name: Upload EN on S3
         run: aws s3 sync --follow-symlinks en/docs s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/en/ --delete
