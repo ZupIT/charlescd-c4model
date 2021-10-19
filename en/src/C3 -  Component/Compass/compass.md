@@ -3,4 +3,4 @@ Backend service in Golang and it performs:
 - The metrics analysis. 
 - It runs the action you can configure. 
 
-![diagram](c3.svg)
+![diagram](compass.svg)
