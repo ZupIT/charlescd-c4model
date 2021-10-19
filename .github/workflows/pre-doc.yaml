@@ -40,10 +40,10 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Remove Custom C4Builder Assets from S3
-        run: aws s3 rm s3://${{ secrets.AWS_S3_BUCKET }}/c4model/assets/ --recursive
+        run: aws s3 rm s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/assets/ --recursive
     
       - name: Upload Custom C4Builder Assets CSS on S3
-        run: aws s3 sync --follow-symlinks assets/ s3://${{ secrets.AWS_S3_BUCKET }}/c4model/assets/  
+        run: aws s3 sync --follow-symlinks assets/ s3://${{ secrets.AWS_S3_BUCKET_DEV }}/c4model/assets/  
 
       - name: C4Builder PT-BR
         uses: ZupIT/c4builder-action@880d2639f0e8a7cf2b05452111fb8d741a4e5651 #v1.0.3
