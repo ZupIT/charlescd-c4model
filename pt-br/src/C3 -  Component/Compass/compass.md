@@ -3,4 +3,4 @@ Serviço backend em Golang e realiza:
 - Faz análise de métricas
 - Executa ações configuráveis.
 
-![diagram](c3.svg)
+![diagram](compass.svg)
