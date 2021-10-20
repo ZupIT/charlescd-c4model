@@ -6,7 +6,7 @@
 	"distFolder": "docs",
 	"generateMD": true,
 	"generatePDF": false,
-	"generateCompleteMD": true,
+	"generateCompleteMD": false,
 	"generateCompletePDF": false,
 	"generateWEB": true,
 	"includeNavigation": true,
