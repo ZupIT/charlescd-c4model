@@ -4,14 +4,14 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+Person(user, "Developer/QA/PM/Manager/Supervisor/Etc", "Anyone who has an application with deployments managed by CharlesCD.")
 
-System(charlescd_system, "Sistema CharlesCD", "Ferramenta de deploy continuo orientada a hipoteses.")
+System(charlescd_system, "CharlesCD System", "Hypothesis-oriented continuous deployment tool.")
 System_Ext(kubernetes, "Kubernetes")
 
-Rel(user, charlescd_system, "Gerencia seus deploys")
-Rel(charlescd_system, kubernetes, "Implanta atualizações no cluster Kubernetes")
-Rel(charlescd_system, user, "Envia retornos dos eventos")
+Rel(user, charlescd_system, "Manages your deployments")
+Rel(charlescd_system, kubernetes, "Deploys updates to your Kubernetes cluster")
+Rel(charlescd_system, user, "Sends the events returns")
 
 
 @enduml

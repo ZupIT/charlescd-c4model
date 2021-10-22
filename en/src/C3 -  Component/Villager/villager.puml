@@ -4,33 +4,33 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-Container(registry_api, "Registry API", "DockerHub, AWS ECR, Azure ECR, GCR, Harbor", "Armazena e disponibiliza as imagens.")
-Container(villager_database, "Villager Database", "Postgres", "Armazena os dados de configuração do registry do usuário.")
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Product's interface")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Process and stores in the database the applications, general settings and user's information. It orchestrates the requests to other applications.")
+Container(registry_api, "Registry API", "DockerHub, AWS ECR, Azure ECR, GCR, Harbor", "Stores and make images available.")
+Container(villager_database, "Villager Database", "Postgres", "Stores users' registry configuration data.")
 
 Container_Boundary(charlescd_villager, "CharlesCD Villager"){
    
-    Component(docker_request_handler, "Docker Request Handler", "Request Handler", "Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry.")
-    Component(docker_registry_resource, "Docker Registry Resource", "Quarkus Resource", "Permite criação/deleção/atualização/teste de conexão de uma configuração de registry.")
-    Component(docker_registry_interactor, "Docker Registry Interactor", "Quarkus UseCase/Bean", "Realiza criação/deleção/atualização/teste de conexão de uma configuração de registry")
+    Component(docker_request_handler, "Docker Request Handler", "Request Handler", "Performs creation/deletion/update/connection test of a registry setting.")
+    Component(docker_registry_resource, "Docker Registry Resource", "Quarkus Resource", "Allows the  creation/deletion/update/connection test of a registry setting.")
+    Component(docker_registry_interactor, "Docker Registry Interactor", "Quarkus UseCase/Bean", "Performs creation/deletion/update/connection test of a registry setting.")
 
-    Component(docker_registry_client, "Docker Registry Client", "Client API", "Acesso a API do Registry.")
-    Component(villager_repository, "Villager Repository", "Database Repository", "Acesso ao banco de dados. Engloba as repositories DockerRegistryConfiguration, Module, Component, Build.")
+    Component(docker_registry_client, "Docker Registry Client", "Client API", "Access to the Registry's API.")
+    Component(villager_repository, "Villager Repository", "Database Repository", "Database access. It has the repositories: DockerRegistryConfiguration, Module, Component, Build.")
 
-    Component(build_resource, "<DEPRECATED> Build Resource", "Quarkus Resource", "Permite criação de builds (board de hipoteses)")
+    Component(build_resource, "<DEPRECATED> Build Resource", "Quarkus Resource", "Allows builds creation (hypothesis board)")
     
-    Rel(docker_request_handler, docker_registry_resource, "Usa")
-    Rel(docker_registry_resource, docker_registry_interactor, "Usa")
-    Rel(docker_registry_interactor, docker_registry_client, "Usa")
-    Rel(docker_registry_interactor, villager_repository, "Usa")
-    Rel(docker_registry_client, registry_api, "Faz requisição via HTTPS/JSON")
-    Rel(villager_repository, villager_database, "Lê e escreve em (JPA)")
+    Rel(docker_request_handler, docker_registry_resource, "It uses")
+    Rel(docker_registry_resource, docker_registry_interactor, "It uses")
+    Rel(docker_registry_interactor, docker_registry_client, "It uses") 
+    Rel(docker_registry_interactor, villager_repository, "It uses")
+    Rel(docker_registry_client, registry_api, "Makes the request via HTTPS/JSON")
+    Rel(villager_repository, villager_database, "Reads and writes in (JPA)")
 
-    Rel(build_resource, villager_repository, "Usa")
+    Rel(build_resource, villager_repository, "It uses")
    
 }
 
-Rel(moove, docker_registry_resource, "Faz requisição", "JSON/HTTPS")
-Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
+Rel(moove, docker_registry_resource, "Makes the request", "JSON/HTTPS")
+Rel(ui, moove, "Makes the request", "JSON/HTTPS")
 @enduml

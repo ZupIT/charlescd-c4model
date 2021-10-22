@@ -2,47 +2,47 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_LEFT_RIGHT()
+LAYOUT_LEFT_RIGHT() 
 
-Person(user, "Desenvolvedor/QA/PM/Gestor/Supervisor/Etc", "Qualquer pessoa que  que possui alguma aplicação que tem os deploys gerenciados pelo CharlesCD.")
+Person(user, "Developer/QA/PM/Manager/Supervisor/Etc", "Anyone who has an application with deployments managed by CharlesCD.")
 
-Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Interface do produto")
-Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Processa e armazena no banco de dados as informações dos usuários, aplicações e configurações em geral. Além de orquestrar as requisições para as outras aplicações.")
-Container(moove_database, "Moove Database", "Postgres", "Armazena Informações sobre Usuários, Grupos de Usuários, Token Sistêmicos, Permissões, Roles, Workspaces, Componentes, Modules,  Builds, Deployments, Círculos, Configurações de Métricas e Configurações de Ambiente de deploy.")
+Container(ui, "CharlesCD-UI", "ReacjJS, Typescript", "Web Application: Product's interface")
+Container(moove, "CharlesCD-Moove", "Kotlin, SpringBoot", "API Application: Process and stores information about users, applications and configurations in general in the database. It orchestrates the requests for other applications.")
+Container(moove_database, "Moove Database", "Postgres", "Stores information about Users, User Groups, Systemic Token, Permissions, Roles, Workspaces, Components, Modules, Builds, Deployments, Circles, Metrics Settings and Deploy Environment Settings.")
 Container_Ext(envoy, "Envoy", "Proxy")
 
 Container_Boundary(charlescd_gate, "CharlesCD Gate"){
    
-    Component(gate_repository, "Gate Repository", "Repository/GORM", "Acessa as informações necessárias no banco de dados. Engloba as repositories User, SystemToken, Permission, Workspace.")
+    Component(gate_repository, "Gate Repository", "Repository/GORM", "Access the necessary information in the database. It has the repositories User, SystemToken, Permission, Workspace.")
 
 
-    Component(auth_controller, "Authorization Controller", "HTTP Handler", "Solicita a autorização da requisição utilizando token ou header de autorização.")
-    Component(auth_use_case, "Authorization Use Case", "Use Case", "Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token.")
-    Component(security_filter_service, "Security Filter Service", "Service", "Solicita a autorização da requisição utilizando token ou header de autorização.")
-    Component(casbin, "Casbin", "Access Control Lib", "Autoriza a requisição realizada via token ou header de autorização. Engloba os usecases: Authorize User Token e Authorize System Token.")
+    Component(auth_controller, "Authorization Controller", "HTTP Handler", "Requests authorization of the request using token or authorization header.")
+    Component(auth_use_case, "Authorization Use Case", "Use Case", "Authorizes the request using an authorization token or header. It has the usecases: Authorize User Token and Authorize System Token.")
+    Component(security_filter_service, "Security Filter Service", "Service", "Requests authorization of the request using token or authorization header.")
+    Component(casbin, "Casbin", "Access Control Lib", Authorizes the request using an authorization token or header. It has the usecases: Authorize User Token and Authorize System Token.")
 
     
-    Component(system_token_controller, "Authorization Controller", "HTTP Handler", "Realiza o processo de controle de acesso utilizando a lib de auth.")
-    Component(system_token_use_case, "Authorization Use Case", "Use Case", "Realiza as validações de permissionamento de acordo com as regras definidas na politica de permissionamento.")
-    Component(auth_token_service, "Auth Token Service", "Service", "Faz o parse do token do header Authorization.")
+    Component(system_token_controller, "Authorization Controller", "HTTP Handler", "Performs the access control process using the auth lib.")
+    Component(system_token_use_case, "Authorization Use Case", "Use Case", "Performs the permission validations according to the rules defined in the permission policy.")
+    Component(auth_token_service, "Auth Token Service", "Service", "Parse the Authorization header token.")
    
    
-    Rel(auth_controller, auth_use_case, "Usa")
-    Rel(auth_use_case, security_filter_service, "Usa")
-    Rel(auth_use_case, gate_repository, "Usa")
-    Rel(security_filter_service, casbin, "Usa")
-    Rel(system_token_controller, system_token_use_case, "Usa")
-    Rel(system_token_use_case, auth_token_service, "Usa")
-    Rel(system_token_use_case, gate_repository, "Usa")
-    Rel(gate_repository, moove_database, "Lê e escreve em")
+    Rel(auth_controller, auth_use_case, "It uses")
+    Rel(auth_use_case, security_filter_service, "It uses")
+    Rel(auth_use_case, gate_repository, "It uses")
+    Rel(security_filter_service, casbin, "It uses")
+    Rel(system_token_controller, system_token_use_case, "It uses")
+    Rel(system_token_use_case, auth_token_service, "It uses")
+    Rel(system_token_use_case, gate_repository, "It uses")
+    Rel(gate_repository, moove_database, "Reads and writes in")
    
 }
 
 
-Rel(user, ui, "Acessa para gerenciar workspaces, aplicações, configurações, usuários, deployments, métricas e webhooks.")
-Rel(ui, moove, "Faz requisição", "JSON/HTTPS")
-Rel(envoy, ui, "Intercepta requisições", "HTTP Filter")
-Rel(envoy, auth_controller, "Faz requisição", "JSON/HTTPS")
+Rel(user, ui, "Access to manage workspaces, applications, configuration, users, deployments, metrics and webhooks.")
+Rel(ui, moove, "Makes the request", "JSON/HTTPS")
+Rel(envoy, ui, "Intercepts requests", "HTTP Filter")
+Rel(envoy, auth_controller, "Makes the request", "JSON/HTTPS")
 
 
 @enduml
