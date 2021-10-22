@@ -1,3 +1,1 @@
 Serviço backend em Golang, controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
-
-![diagram](gate.svg)
