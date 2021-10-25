@@ -11,7 +11,7 @@
 	"generateWEB": true,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"webTheme": "https://docsv2.charlescd.io/c4model/assets/css/theme.css",
+	"webTheme": "https://docs.charlescd.io/c4model/assets/css/theme.css",
 	"repoUrl": "https://github.com/ZupIT/charlescd-c4model",
 	"docsifyTemplate": "../assets/js/docsify.template.js",
 	"webPort": "3000",
