@@ -39,7 +39,7 @@ module.exports = options => {
       <meta property="og:locale:alternate" content="pt-BR" />
       <!-- OG tags-->
   
-      <link rel="icon" href="//charlescd.io/site/favicon-32x32.png?v=9709489f3b54772dfba88d6a4597ae2e" />
+      <link rel="icon" href="//charlescd.io/favicon-32x32.png?v=2099275d1f692ce3f5a8020817032771" />
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
       <link href="//docs.charlescd.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
     </head>
