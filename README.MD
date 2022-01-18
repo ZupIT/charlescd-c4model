@@ -25,13 +25,13 @@ This project was created using [**4builder**](https://adrianvlupu.github.io/C4-B
 
 - [**C4-PlantUML**](https://github.com/RicardoNiepel/C4-PlantUML) C4 syntax support for generating plantuml diagrams.
 
-- [**vscode-plantuml**](https://github.com/qjebbs/vscode-plantuml) plugin for Visual Studio Code to view diagrams from design time.
+- [**vscode-plantuml**](https://github.com/qjebbs/vscode-plantuml) plugin for Visual Studio Code to view diagrams from design team  .
 
 
 ## **Getting started**
 
 ### **Requirements**
-Check out below the requirement to edit, run and build this project:
+Check out below the requirements to edit, run and build this project:
 
 **1.** [**Node & NPM**](https://nodejs.org/en/)
   - Check installation run in your terminal `npm -v` and `node -v`
@@ -56,7 +56,7 @@ This project has two sections:
 ### **Changing configurations**
 
 If you want to modify any configuration access:
-1.  `.c4builder` file on [**en/.c4builder**](https://github.com/ZupIT/charlescd-c4model//tree/main/en/.c4builder)  or [**pt-br/.c4builder**](https://github.com/ZupIT/charlescd-c4model//tree/main/pt-br/.c4builder).
+`.c4builder` file on [**en/.c4builder**](https://github.com/ZupIT/charlescd-c4model//tree/main/en/.c4builder)  or [**pt-br/.c4builder**](https://github.com/ZupIT/charlescd-c4model//tree/main/pt-br/.c4builder).
 
 ## **Documentation**
 You can find CharlesCD's documentation on our [**website**](https://docs.charlescd.io/).
