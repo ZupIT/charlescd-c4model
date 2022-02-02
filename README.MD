@@ -8,10 +8,11 @@
 >#### 3.1. [**Structure**](#structure)
 >#### 3.2. [**Generating docs files**](#generating-docs-files)
 >#### 3.3. [**Changing configurations**](#changing-configurations)
-### 4. [**Documentation**](#documentation)       
-### 5. [**Contributing**](#contributing)
-### 6. [**License**](#license)
-### 7. [**Community**](#community)
+### 4. [**Documentation**](#documentation)  
+### 5. [**Issues**](#issues)     
+### 6. [**Contributing**](#contributing)
+### 7. [**License**](#license)
+### 8. [**Community**](#community)
 
 
 ## **About**
@@ -60,6 +61,10 @@ If you want to modify any configuration access:
 
 ## **Documentation**
 You can find CharlesCD's documentation on our [**website**](https://docs.charlescd.io/).
+
+## **Issues**
+
+To open or track an issue for this project, in order to better coordinate your discussions, we recommend that you use the [**Issues tab**](https://github.com/ZupIT/charlescd/issues) in the main [**CharlesCD**](https://github.com/ZupIT/charlescd) repository.
 
 ## **Contributing**
 
