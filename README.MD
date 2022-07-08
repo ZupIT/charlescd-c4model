@@ -1,3 +1,5 @@
+# The Charles project has been archived by Zup Innovation. It might start again eventually; however, we won't deliver support for now.
+
 # **Charlescd C4 model**
 
 ## **Table of contents**
